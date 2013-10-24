@@ -1,0 +1,2342 @@
+countrows: 17
+filename: 721244.fec
+header: {}
+rows:
+- input: "SF\x1CC00075820\x1CSF25-0.016178\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"SRCP MEDIA\"\x1C\x1C\x1C\x1C\x1C\x1C\"201
+    N UNION ST.\"\x1C\"SUITE 200\"\x1C\"ALEXANDRIA\"\x1CVA\x1C22314\x1C20101001\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00462739\x1CH0NM01163\x1C\"BARELA\"\x1C\"JON\"\x1C\x1C\x1C\x1CH\x1CNM\x1C01\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016178
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: SRCP MEDIA
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 201 N UNION ST.
+  - name: PAYEE STREET 2
+    number: '24'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '25'
+    value: ALEXANDRIA
+  - name: PAYEE STATE
+    number: '26'
+    value: VA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '22314'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101001'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00462739
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0NM01163
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: BARELA
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: JON
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: NM
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '01'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016195\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"STRATEGIC MEDIA SERVICES
+    INC\"\x1C\x1C\x1C\x1C\x1C\x1C\"3299 K ST NW\"\x1C\"STE 200\"\x1C\"WASHINGTON\"\x1CDC\x1C20007\x1C20101004\x1C85000.00\x1C170000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00474619\x1CH0ND00135\x1C\"BERG\"\x1C\"RICHARD\"\x1C\x1C\x1C\x1CH\x1CND\x1C00\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016195
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: STRATEGIC MEDIA SERVICES INC
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 3299 K ST NW
+  - name: PAYEE STREET 2
+    number: '24'
+    value: STE 200
+  - name: PAYEE CITY
+    number: '25'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '26'
+    value: DC
+  - name: PAYEE ZIP
+    number: '27'
+    value: '20007'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101004'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '170000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00474619
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0ND00135
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: BERG
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: RICHARD
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: ND
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '00'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016196\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"THE POLITICAL FIRM
+    LLC\"\x1C\x1C\x1C\x1C\x1C\x1C\"611 NORTH ST\"\x1C\x1C\"BATON ROUGE\"\x1CLA\x1C70802\x1C20101004\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00461020\x1CH0CO07026\x1C\"FRAZIER\"\x1C\"RYAN\"\x1C\"L\"\x1C\x1C\x1CH\x1CCO\x1C07\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016196
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: THE POLITICAL FIRM LLC
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 611 NORTH ST
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: BATON ROUGE
+  - name: PAYEE STATE
+    number: '26'
+    value: LA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '70802'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101004'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00461020
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0CO07026
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: FRAZIER
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: RYAN
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: L
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: CO
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '07'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016218\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"BRABENDER COX\"\x1C\x1C\x1C\x1C\x1C\x1C\"1218
+    GRANDVIEW AVE\"\x1C\x1C\"PITTSBURGH\"\x1CPA\x1C15211\x1C20101005\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00459255\x1CH0IN09070\x1C\"YOUNG\"\x1C\"TODD\"\x1C\"CHRISTOPHER\"\x1C\x1C\x1CH\x1CIN\x1C09\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016218
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: BRABENDER COX
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 1218 GRANDVIEW AVE
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: PITTSBURGH
+  - name: PAYEE STATE
+    number: '26'
+    value: PA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '15211'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101005'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00459255
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0IN09070
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: YOUNG
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: TODD
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: CHRISTOPHER
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: IN
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: 09
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016219\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"MEDIA PLUS\"\x1C\x1C\x1C\x1C\x1C\x1C\"160
+    ROY ST\"\x1C\x1C\"SEATTLE\"\x1CWA\x1C98109\x1C20101005\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00472704\x1CH0WA03187\x1C\"HERRERA\"\x1C\"JAIME\"\x1C\x1C\x1C\x1CH\x1CWA\x1C03\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016219
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: MEDIA PLUS
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 160 ROY ST
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: SEATTLE
+  - name: PAYEE STATE
+    number: '26'
+    value: WA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '98109'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101005'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00472704
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0WA03187
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: HERRERA
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: JAIME
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: WA
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '03'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016220\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"RILEY HAYES ADVERTISING
+    INC\"\x1C\x1C\x1C\x1C\x1C\x1C\"333 S FIRST ST\"\x1C\x1C\"MINNEAPOLIS\"\x1CMN\x1C55401\x1C20101005\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00433821\x1CH8MN01220\x1C\"DEMMER\"\x1C\"RANDY\"\x1C\"LEE\"\x1C\x1C\x1CH\x1CMN\x1C01\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016220
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: RILEY HAYES ADVERTISING INC
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 333 S FIRST ST
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: MINNEAPOLIS
+  - name: PAYEE STATE
+    number: '26'
+    value: MN
+  - name: PAYEE ZIP
+    number: '27'
+    value: '55401'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101005'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00433821
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H8MN01220
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: DEMMER
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: RANDY
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: LEE
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: MN
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '01'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016229\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"ORMAN COMMUNICATIONS\"\x1C\x1C\x1C\x1C\x1C\x1C\"1591
+    W PINEDALE AVE\"\x1C\x1C\"FRESNO\"\x1CCA\x1C93711\x1C20101006\x1C77495.00\x1C84831.50\x1C\x1C\"MEDIA\"\x1C\x1CC00469312\x1CH0CA20098\x1C\"VIDAK\"\x1C\"JAMES\"\x1C\"ANDREW\"\x1C\x1C\x1CH\x1CCA\x1C20\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016229
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: ORMAN COMMUNICATIONS
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 1591 W PINEDALE AVE
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: FRESNO
+  - name: PAYEE STATE
+    number: '26'
+    value: CA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '93711'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101006'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '77495.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '84831.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00469312
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0CA20098
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: VIDAK
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: JAMES
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ANDREW
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: CA
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '20'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016230\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"STRATEGIC MEDIA PLACEMENT\"\x1C\x1C\x1C\x1C\x1C\x1C\"7669
+    STAGERS LOOP\"\x1C\x1C\"DELAWARE\"\x1COH\x1C43015\x1C20101007\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00441352\x1CH8OH15076\x1C\"STIVERS\"\x1C\"STEVE\"\x1C\x1C\x1C\x1CH\x1COH\x1C15\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016230
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: STRATEGIC MEDIA PLACEMENT
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 7669 STAGERS LOOP
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: DELAWARE
+  - name: PAYEE STATE
+    number: '26'
+    value: OH
+  - name: PAYEE ZIP
+    number: '27'
+    value: '43015'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101007'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00441352
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H8OH15076
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: STIVERS
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: STEVE
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: OH
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '15'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016260\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"JAMESTOWN ASSOCIATES\"\x1C\x1C\x1C\x1C\x1C\x1C\"5
+    MAPLETON RD\"\x1C\"STE 300\"\x1C\"PRINCETON\"\x1CNJ\x1C08540\x1C20101007\x1C84939.00\x1C84939.00\x1C\x1C\"MEDIA\"\x1C\x1CC00461350\x1CH0NH01217\x1C\"GUINTA\"\x1C\"FRANK\"\x1C\x1C\x1C\x1CH\x1CNH\x1C01\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016260
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: JAMESTOWN ASSOCIATES
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 5 MAPLETON RD
+  - name: PAYEE STREET 2
+    number: '24'
+    value: STE 300
+  - name: PAYEE CITY
+    number: '25'
+    value: PRINCETON
+  - name: PAYEE STATE
+    number: '26'
+    value: NJ
+  - name: PAYEE ZIP
+    number: '27'
+    value: 08540
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101007'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '84939.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '84939.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00461350
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0NH01217
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: GUINTA
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: FRANK
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: NH
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '01'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016261\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"JAMESTOWN ASSOCIATES\"\x1C\x1C\x1C\x1C\x1C\x1C\"5
+    MAPLETON RD\"\x1C\"STE 300\"\x1C\"PRINCETON\"\x1CNJ\x1C08540\x1C20101008\x1C795.00\x1C84995.00\x1C\x1C\"MEDIA\"\x1C\x1CC00332890\x1CH8CA44034\x1C\"BONO\"\x1C\"MARY\"\x1C\x1C\x1C\x1CH\x1CCA\x1C45\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016261
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: JAMESTOWN ASSOCIATES
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 5 MAPLETON RD
+  - name: PAYEE STREET 2
+    number: '24'
+    value: STE 300
+  - name: PAYEE CITY
+    number: '25'
+    value: PRINCETON
+  - name: PAYEE STATE
+    number: '26'
+    value: NJ
+  - name: PAYEE ZIP
+    number: '27'
+    value: 08540
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101008'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '795.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '84995.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00332890
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H8CA44034
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: BONO
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: MARY
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: CA
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '45'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016264\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"WILSON GRAND COMMUNICATIONS\"\x1C\x1C\x1C\x1C\x1C\x1C\"429
+    N. ST. ASAPH ST.\"\x1C\x1C\"ALEXANDRIA\"\x1CVA\x1C22314\x1C20101008\x1C84950.00\x1C84950.00\x1C\x1C\"MEDIA\"\x1C\x1CC00458877\x1CH0IL11052\x1C\"KINZINGER\"\x1C\"ADAM\"\x1C\x1C\x1C\x1CH\x1CIL\x1C11\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016264
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: WILSON GRAND COMMUNICATIONS
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 429 N. ST. ASAPH ST.
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: ALEXANDRIA
+  - name: PAYEE STATE
+    number: '26'
+    value: VA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '22314'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101008'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '84950.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '84950.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00458877
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0IL11052
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: KINZINGER
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: ADAM
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: IL
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '11'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016290\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"POUND FEINSTEIN AND
+    ASSOCIATES\"\x1C\x1C\x1C\x1C\x1C\x1C\"5505 CONNECTICUT AVE\"\x1C\"STE 270\"\x1C\"WASHINGTON\"\x1CDC\x1C20015\x1C20101012\x1C84000.00\x1C84000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00465534\x1CH0CT04146\x1C\"DEBICELLA\"\x1C\"DAN\"\x1C\x1C\x1C\x1CH\x1CCT\x1C04\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016290
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: POUND FEINSTEIN AND ASSOCIATES
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 5505 CONNECTICUT AVE
+  - name: PAYEE STREET 2
+    number: '24'
+    value: STE 270
+  - name: PAYEE CITY
+    number: '25'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '26'
+    value: DC
+  - name: PAYEE ZIP
+    number: '27'
+    value: '20015'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '84000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '84000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00465534
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0CT04146
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: DEBICELLA
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: DAN
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: CT
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '04'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016291\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"STRATEGIC MEDIA PLACEMENT\"\x1C\x1C\x1C\x1C\x1C\x1C\"7669
+    STAGERS LOOP\"\x1C\x1C\"DELAWARE\"\x1COH\x1C43015\x1C20101012\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00477687\x1CH0WA02098\x1C\"KOSTER\"\x1C\"JOHN\"\x1C\x1C\x1C\x1CH\x1CWA\x1C02\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016291
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: STRATEGIC MEDIA PLACEMENT
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 7669 STAGERS LOOP
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: DELAWARE
+  - name: PAYEE STATE
+    number: '26'
+    value: OH
+  - name: PAYEE ZIP
+    number: '27'
+    value: '43015'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00477687
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0WA02098
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: KOSTER
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: JOHN
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: WA
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '02'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016292\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"CROSSROADS MEDIA
+    LLC\"\x1C\x1C\x1C\x1C\x1C\x1C\"66 CANAL CENTER PLAZA\"\x1C\"STE 555\"\x1C\"ALEXANDRIA\"\x1CVA\x1C22314\x1C20101012\x1C85000.00\x1C85000.00\x1C\x1C\"MEDIA\"\x1C\x1CC00459354\x1CH0IL17059\x1C\"SCHILLING\"\x1C\"ROBERT\"\x1C\"T\"\x1C\x1C\x1CH\x1CIL\x1C17\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016292
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: CROSSROADS MEDIA LLC
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 66 CANAL CENTER PLAZA
+  - name: PAYEE STREET 2
+    number: '24'
+    value: STE 555
+  - name: PAYEE CITY
+    number: '25'
+    value: ALEXANDRIA
+  - name: PAYEE STATE
+    number: '26'
+    value: VA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '22314'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '85000.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '85000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00459354
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0IL17059
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: SCHILLING
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: ROBERT
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: T
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: IL
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '17'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016293\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"ONMESSAGE INC\"\x1C\x1C\x1C\x1C\x1C\x1C\"2130
+    PRIEST BRIDGE DR # 11\"\x1C\x1C\"CROFTON\"\x1CMD\x1C21114\x1C20101012\x1C74690.00\x1C74690.00\x1C\x1C\"MEDIA\"\x1C\x1CC00394353\x1CH4TX28046\x1C\"CANSECO\"\x1C\"FRANCISCO\"\x1C\"QUICO\"\x1C\x1C\x1CH\x1CTX\x1C23\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016293
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: ONMESSAGE INC
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: '2130 PRIEST BRIDGE DR # 11'
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: CROFTON
+  - name: PAYEE STATE
+    number: '26'
+    value: MD
+  - name: PAYEE ZIP
+    number: '27'
+    value: '21114'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '74690.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '74690.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00394353
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H4TX28046
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: CANSECO
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: FRANCISCO
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: QUICO
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: TX
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '23'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "SF\x1CC00075820\x1CSF25-0.016294\x1C\x1C\x1CY\x1CC00003418\x1C\"REPUBLICAN
+    NATIONAL COMMITTEE\"\x1CC00075820\x1C\"NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE\"\x1C\"320
+    1ST ST SE\"\x1C\x1C\"WASHINGTON\"\x1CDC\x1C20003\x1CORG\x1C\"ONMESSAGE INC\"\x1C\x1C\x1C\x1C\x1C\x1C\"2130
+    PRIEST BRIDGE DR # 11\"\x1C\x1C\"CROFTON\"\x1CMD\x1C21114\x1C20101012\x1C74205.00\x1C74205.00\x1C\x1C\"MEDIA\"\x1C\x1CC00472241\x1CH0TX17104\x1C\"FLORES\"\x1C\"BILL\"\x1C\x1C\x1C\x1CH\x1CTX\x1C17\x1C\x1C\n"
+  record: fec.version.v7_0.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SF25-0.016294
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coordinated Expenditures?
+    number: 6-
+    value: Y
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: C00003418
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: C00075820
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: 320 1ST ST SE
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: DC
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: '20003'
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: ONMESSAGE INC
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: '2130 PRIEST BRIDGE DR # 11'
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: CROFTON
+  - name: PAYEE STATE
+    number: '26'
+    value: MD
+  - name: PAYEE ZIP
+    number: '27'
+    value: '21114'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '74205.00'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '74205.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '34'
+    value: C00472241
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '35'
+    value: H0TX17104
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '36'
+    value: FLORES
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '37'
+    value: BILL
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: PAYEE CANDIDATE PREFIX
+    number: '39'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '41'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '42'
+    value: TX
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '43'
+    value: '17'
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: '
+
+'
+- input: "TEXT\x1CC00075820\x1CT1\x1C\x1CF3XA\x1C\"All payments reported on Line 21b
+    are operating and administrative payments solely benefiting and on behalf of the
+    National Republican Congressional Committee. As such, they are not made on behalf
+    of any specifically identified federal candidates, nor do they constitute public
+    communications or voter drive activity containing express advocacy. Therefore,
+    these disbursements are correctly reported on Schedule B for Line 21b, and do
+    not require a Schedule B, Schedule E, or Schedule F for lines 23, 24 or 25. The
+    Committee has reviewed all reimbursements to individuals for travel and subsistence
+    and confirms that no further itemization is required under any Commission regulations
+    for these expenditures. With respect to coordinated expenditures disclosed on
+    Schedule F, the Commission's software only permits one authorizing committee to
+    be listed. However, the National Republican Congressional Committee has received
+    spending authorization from both the Republican National Committee and the respective
+    State Republican Party Committees.\"\n"
+  record: fec.version.v7_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00075820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: T1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3XA
+  - name: TEXT4000
+    number: '6'
+    value: 'All payments reported on Line 21b are operating and administrative payments
+      solely benefiting and on behalf of the National Republican Congressional Committee.
+      As such, they are not made on behalf of any specifically identified federal
+      candidates, nor do they constitute public communications or voter drive activity
+      containing express advocacy. Therefore, these disbursements are correctly reported
+      on Schedule B for Line 21b, and do not require a Schedule B, Schedule E, or
+      Schedule F for lines 23, 24 or 25. The Committee has reviewed all reimbursements
+      to individuals for travel and subsistence and confirms that no further itemization
+      is required under any Commission regulations for these expenditures. With respect
+      to coordinated expenditures disclosed on Schedule F, the Commission''s software
+      only permits one authorizing committee to be listed. However, the National Republican
+      Congressional Committee has received spending authorization from both the Republican
+      National Committee and the respective State Republican Party Committees.
+
+'
+sourceurl: !!python/unicode 20110408
+type: chunk

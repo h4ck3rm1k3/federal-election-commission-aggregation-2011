@@ -1,0 +1,294 @@
+countrows: 7
+filename: 724141.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0AZ01259\x1CGOSAR\x1CPAUL ANTHONY\x1CANTHONY\x1C\x1C\x1C\x1C7485
+    RAIN VALLEY RD\x1C\x1CFLAGSTAFF\x1CAZ\x1C86004\x1CREP\x1CH\x1CAZ\x1C01\x1C2012\x1CC00461806\x1CPAUL
+    GOSAR FOR CONGRESS\x1C2222 E. Cedar Ave.\x1C\x1CFlagstaff\x1CAZ\x1C86004\x1CC00489971\x1CGrand
+    Canyon State Leadership Fund\x1CPO Box 365\x1C\x1CMcLean\x1CVA\x1C22101\x1CGOSAR\x1CPAUL
+    ANTHONY\x1CANTHONY\x1C\x1C\x1C20110415\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0AZ01259
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: GOSAR
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: PAUL ANTHONY
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ANTHONY
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 7485 RAIN VALLEY RD
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: FLAGSTAFF
+  - name: CANDIDATE STATE
+    number: '12'
+    value: AZ
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '86004'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00461806
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: PAUL GOSAR FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: 2222 E. Cedar Ave.
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Flagstaff
+  - name: PCC STATE
+    number: '24'
+    value: AZ
+  - name: PCC ZIP
+    number: '25'
+    value: '86004'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00489971
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Grand Canyon State Leadership Fund
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO Box 365
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: McLean
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22101'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: GOSAR
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: PAUL ANTHONY
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ANTHONY
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110415
+
+'
+- input: "F2S\x1CH0AZ01259\x1CC00489971\x1CGrand Canyon State Leadership Fund\x1CPO
+    Box 365\x1C\x1CMcLean\x1CVA\x1C22101\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0AZ01259
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00489971
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Grand Canyon State Leadership Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 365
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: McLean
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22101
+
+'
+- input: "F2S\x1CH0AZ01259\x1CC00489963\x1CArizona Majority\x1CPO Box 365\x1C\x1CMcLean\x1CVA\x1C22101\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0AZ01259
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00489963
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Arizona Majority
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 365
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: McLean
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22101
+
+'
+- input: "F2S\x1CH0AZ01259\x1CC00489583\x1CGOSAR SCHWEIKERT KELLY VICTORY COMMITTEE\x1CPO
+    BOX 365\x1C\x1CMCLEAN\x1CVA\x1C22101\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0AZ01259
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00489583
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: GOSAR SCHWEIKERT KELLY VICTORY COMMITTEE
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO BOX 365
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: MCLEAN
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22101
+
+'
+- input: "F2S\x1CH0AZ01259\x1CC00488874\x1CFOUNDERS JOINT CANDIDATE COMMITTEE\x1C228
+    S WASHINGTON STREET SUITE 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0AZ01259
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00488874
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: FOUNDERS JOINT CANDIDATE COMMITTEE
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON STREET SUITE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+- input: "F2S\x1CH0AZ01259\x1CC00493577\x1CGREAT EIGHT COMMITTEE\x1C228 S WASHINGTON
+    ST STE 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0AZ01259
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493577
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: GREAT EIGHT COMMITTEE
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+sourceurl: !!python/unicode 20110415
+type: chunk

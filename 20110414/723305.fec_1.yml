@@ -1,0 +1,386 @@
+countrows: 4
+filename: 723305.fec
+header: {}
+rows:
+- 2
+- input: "F3LN\x1CC00330142\x1CLARSON FOR CONGRESS\x1C\x1C330 Main Street\x1C\x1CHartford\x1CCT\x1C06106\x1C\x1C\x1CQYS\x1C\x1C\x1C\x1C20100701\x1C20101231\x1C\x1C\x1C74820.00\x1C74820.00\x1CFeldman\x1CBarry\x1C\x1C\x1C\x1C20110414\n"
+  record: fec.version.v7_0.F3L
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3LN
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LARSON FOR CONGRESS
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 330 Main Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hartford
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06106'
+  - name: ELECTION STATE
+    number: '10'
+    value: ''
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: ''
+  - name: REPORT CODE
+    number: '12'
+    value: QYS
+  - name: DATE OF ELECTION
+    number: '13'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '14'
+    value: ''
+  - name: SEMI-ANNUAL PERIOD - Sect 5(c) or (d)
+    number: '15'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '16'
+    value: '20100701'
+  - name: COVERAGE THROUGH DATE
+    number: '17'
+    value: '20101231'
+  - name: SEMI-ANNUAL JAN-JUN - Sect 6(b)
+    number: '18'
+    value: ''
+  - name: SEMI-ANNUAL JUL-DEC - Sect 6(b)
+    number: '19'
+    value: ''
+  - name: QTR/MON/POST BUNDLED CONTRIBUTIONS
+    number: '20'
+    value: '74820.00'
+  - name: SEMI-ANNUAL BUNDLED CONTRIBS
+    number: '21'
+    value: '74820.00'
+  - name: TREASURER LAST NAME
+    number: '22'
+    value: Feldman
+  - name: TREASURER FIRST NAME
+    number: '23'
+    value: Barry
+  - name: TREASURER MIDDLE NAME
+    number: '24'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '25'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '26'
+    value: ''
+  - name: DATE SIGNED
+    number: '27'
+    value: '20110414
+
+'
+- input: "SA3L\x1CC00330142\x1CSA3L.41359\x1C\x1C\x1CPAC\x1CUNITED TECHNOLOGIES CORPORATION,
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1401 EYE STREET NW SUITE 600\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1C\x1C\x1C\x1C53625.00\x1C53625.00\x1C\x1C\x1C\x1C\x1CC00035683\x1CUNITED
+    TECHNOLOGIES CORPORATION, POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA3L
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA3L.41359
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: UNITED TECHNOLOGIES CORPORATION, POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1401 EYE STREET NW SUITE 600
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '20005'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: ''
+  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+    number: '21'
+    value: '53625.00'
+  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+    number: '22'
+    value: '53625.00'
+  - name: CONTRIBUTION PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '25'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '27'
+    value: C00035683
+  - name: DONOR COMMITTEE NAME
+    number: '28'
+    value: UNITED TECHNOLOGIES CORPORATION, POLITICAL ACTION COMMITTEE
+  - name: DONOR CANDIDATE FEC ID
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '36'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '37'
+    value: ''
+  - name: CONDUIT NAME
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '39'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '40'
+    value: ''
+  - name: CONDUIT CITY
+    number: '41'
+    value: ''
+  - name: CONDUIT STATE
+    number: '42'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '43'
+    value: ''
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '46'
+    value: '
+
+'
+- input: "SA3L\x1CC00330142\x1CSA3L.41627\x1C\x1C\x1CPAC\x1CHARTFORD FINANCIAL SERVICES
+    GROUP INC ADVOCATES FUND FKA (HARTFORD ADVOCATES FUND)\x1C\x1C\x1C\x1C\x1C\x1CHARTFORD
+    PLAZA\x1CHARTFORD PLAZA\x1CHARTFORD\x1CCT\x1C06115\x1C\x1C\x1C\x1C21195.00\x1C21195.00\x1C\x1C\x1C\x1C\x1CC00168864\x1CHARTFORD
+    FINANCIAL SERVICES GROUP INC ADVOCATES FUND FKA (HARTFORD ADVOCATES FUND)\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA3L
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA3L.41627
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: HARTFORD FINANCIAL SERVICES GROUP INC ADVOCATES FUND FKA (HARTFORD ADVOCATES
+      FUND)
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: HARTFORD PLAZA
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: HARTFORD PLAZA
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: HARTFORD
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '06115'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: ''
+  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+    number: '21'
+    value: '21195.00'
+  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+    number: '22'
+    value: '21195.00'
+  - name: CONTRIBUTION PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '25'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '27'
+    value: C00168864
+  - name: DONOR COMMITTEE NAME
+    number: '28'
+    value: HARTFORD FINANCIAL SERVICES GROUP INC ADVOCATES FUND FKA (HARTFORD ADVOCATES
+      FUND)
+  - name: DONOR CANDIDATE FEC ID
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '36'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '37'
+    value: ''
+  - name: CONDUIT NAME
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '39'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '40'
+    value: ''
+  - name: CONDUIT CITY
+    number: '41'
+    value: ''
+  - name: CONDUIT STATE
+    number: '42'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '43'
+    value: ''
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '46'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110414
+type: chunk
