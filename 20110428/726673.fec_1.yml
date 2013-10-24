@@ -1,0 +1,200 @@
+countrows: 3
+filename: 726673.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00492116\x1C48\x1CCOOPERATIVE OF AMERICAN PHYSICIANS IE COMMITTEE\x1C333
+    S HOPE ST 8TH FLOOR\x1C\x1CLOS ANGELES\x1CCA\x1C90071\x1CPessner\x1CKirk\x1CAlan\x1C\x1C\x1C20110428\n"
+  record: fec.version.v7_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00492116
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: COOPERATIVE OF AMERICAN PHYSICIANS IE COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 333 S HOPE ST 8TH FLOOR
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LOS ANGELES
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90071'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Pessner
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Kirk
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: Alan
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20110428
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00492116
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Kennedy Communications, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1730 M Street, NW, Suite 1010
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2011
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special General
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110427'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '25546.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '51092.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Mailing
+  - name: CATEGORY CODE
+    number: '25'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H8CA36097
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Hahn
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Janice
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '36'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Pessner
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kirk
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Alan
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110428
+
+'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00492116\x1CSE.000001\x1C\x1C\x1CORG\x1C\"Kennedy Communications,
+    Inc.\"\x1C\x1C\x1C\x1C\x1C\x1C\"1730 M Street, NW, Suite 1010\"\x1C\x1CWashington\x1CDC\x1C20036\x1CO2011\x1CSpecial
+    General\x1C20110427\x1C25546.00\x1C51092.00\x1C24E\x1CMailing\x1C006\x1C\x1CS\x1CH8CA36097\x1CHahn\x1CJanice\x1C\x1C\x1C\x1CH\x1CCA\x1C36\x1CPessner\x1CKirk\x1CAlan\x1C\x1C\x1C20110428\n"
+  input_count: 42
+  record: fec.version.v7_0.SE
+  result: []
+sourceurl: !!python/unicode 20110428
+type: chunk

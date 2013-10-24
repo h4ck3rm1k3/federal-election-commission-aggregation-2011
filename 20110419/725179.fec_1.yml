@@ -1,0 +1,251 @@
+countrows: 6
+filename: 725179.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0NH01217\x1CGuinta\x1CFrank\x1C\x1C\x1C\x1C\x1C221 Crestview Road\x1C\x1CManchester\x1CNH\x1C03104\x1CREP\x1CH\x1CNH\x1C01\x1C2010\x1CC00461350\x1CFriends
+    of Frank Guinta\x1CP.O. Box 877\x1C\x1CManchester\x1CNH\x1C03105\x1CC00493577\x1CGREAT
+    EIGHT COMMITTEE\x1C228 S WASHINGTON ST STE 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\x1CGuinta\x1CFrank\x1C\x1C\x1C\x1C20110419\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NH01217
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Guinta
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Frank
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 221 Crestview Road
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Manchester
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NH
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '03104'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2010'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00461350
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Friends of Frank Guinta
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. Box 877
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Manchester
+  - name: PCC STATE
+    number: '24'
+    value: NH
+  - name: PCC ZIP
+    number: '25'
+    value: '03105'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00493577
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: GREAT EIGHT COMMITTEE
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Guinta
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Frank
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110419
+
+'
+- input: "F2S\x1CH0NH01217\x1CC00489724\x1CNew England Majority Committee\x1CPO Box
+    365\x1C\x1CMcLean\x1CVA\x1C22101\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NH01217
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00489724
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: New England Majority Committee
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 365
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: McLean
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22101
+
+'
+- input: "F2S\x1CH0NH01217\x1CC00493577\x1CGREAT EIGHT COMMITTEE\x1C228 S WASHINGTON
+    ST STE 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NH01217
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493577
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: GREAT EIGHT COMMITTEE
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+- input: "F2S\x1CH0NH01217\x1CC00470492\x1CNH-01 Congressional Victory Committee\x1C264
+    N. Lumpkin St #202\x1C\x1CAthens\x1CGA\x1C30601\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NH01217
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00470492
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: NH-01 Congressional Victory Committee
+  - name: AUTH STREET 1
+    number: '5'
+    value: '264 N. Lumpkin St #202'
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Athens
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '30601
+
+'
+- input: "TEXT\x1CH0NH01217\x1C.TEXT\x1C\x1CF2A\x1C4/13/11: Amended for Great Eight
+    Committee JFT entered as Authorized Committee.\n"
+  record: fec.version.v7_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: H0NH01217
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: .TEXT
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F2A
+  - name: TEXT4000
+    number: '6'
+    value: '4/13/11: Amended for Great Eight Committee JFT entered as Authorized Committee.
+
+'
+sourceurl: !!python/unicode 20110419
+type: chunk

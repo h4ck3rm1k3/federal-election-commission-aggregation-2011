@@ -1,0 +1,55 @@
+countrows: 1
+filename: 728302.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00165688\x1CTEXT-00001\x1C\x1CF3XA\x1CThis report includes Memo
+    Schedule A entries for contributions received by the ASDC Dollars for Democrats
+    and the DNC State Party Victory Fund programs.  The Committee may not have received
+    its share of the proceeds as of the end of the reporting period.  The Committee
+    expects to receive transfers at some point in time in the near future.  The NCDP
+    has used its best efforts as defined by the FEC to disclose the full identity
+    of all individuals who contribute in excess of $200 in a calendar year.  All Payroll,
+    Payroll Taxes, AFLCA Payroll, and Health Insurance disclosed on Schedule H4 are
+    for employees who did NOT spend more than 25% of their compensated time in a given
+    month on Federal Election Activity  or activities in connection with a Federal
+    election.  No disbursement disclosed on Schedule B or H4 is allocable to any federal
+    candidate.  The transfer of funds to our non-federal accounts were for cash flow
+    purposes as noted on the report and were not used to finance activities in connection
+    with federal elections or any other allocable administrative activity.\n"
+  record: fec.version.v7_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00165688
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3XA
+  - name: TEXT4000
+    number: '6'
+    value: 'This report includes Memo Schedule A entries for contributions received
+      by the ASDC Dollars for Democrats and the DNC State Party Victory Fund programs.  The
+      Committee may not have received its share of the proceeds as of the end of the
+      reporting period.  The Committee expects to receive transfers at some point
+      in time in the near future.  The NCDP has used its best efforts as defined by
+      the FEC to disclose the full identity of all individuals who contribute in excess
+      of $200 in a calendar year.  All Payroll, Payroll Taxes, AFLCA Payroll, and
+      Health Insurance disclosed on Schedule H4 are for employees who did NOT spend
+      more than 25% of their compensated time in a given month on Federal Election
+      Activity  or activities in connection with a Federal election.  No disbursement
+      disclosed on Schedule B or H4 is allocable to any federal candidate.  The transfer
+      of funds to our non-federal accounts were for cash flow purposes as noted on
+      the report and were not used to finance activities in connection with federal
+      elections or any other allocable administrative activity.
+
+'
+sourceurl: !!python/unicode 20110516
+type: chunk

@@ -1,0 +1,149 @@
+countrows: 3
+filename: 727924.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00493676\x1CMIKE GIN FOR CONGRESS\x1C518 CLUSTER LANE\x1C\x1CREDONDO
+    BEACH\x1CCA\x1C90278\x1C\x1CGIN\x1CMIKE\x1C\x1C\x1C\x1CH\x1CCA\x1C36\x1CYIN\x1CFLORA\x1C\x1C\x1C\x1C20110511\n"
+  record: fec.version.v7_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00493676
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MIKE GIN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 518 CLUSTER LANE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: REDONDO BEACH
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90278'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: GIN
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: MIKE
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '36'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: YIN
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: FLORA
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110511
+
+'
+- input: "F65\x1CC00493676\x1CINC.F65.412\x1CCAN\x1C\x1CGIN\x1CMIKE\x1C\x1C\x1C\x1C518
+    CLUSTER LANE\x1C\x1CREDONDO BEACH\x1CCA\x1C90278\x1C\x1C20110509\x1C10000.00\x1CCITY
+    OF REDONDO BEACH\x1CMAYOR\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00493676
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.412
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: GIN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MIKE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 518 CLUSTER LANE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: REDONDO BEACH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90278'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110509'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '10000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CITY OF REDONDO BEACH
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'MAYOR
+
+'
+sourceurl: !!python/unicode 20110512
+type: chunk

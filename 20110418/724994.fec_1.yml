@@ -1,0 +1,161 @@
+countrows: 3
+filename: 724994.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH2PA11098\x1CBarletta\x1CLou\x1C\x1C\x1C\x1C\x1CP.O. Box 128\x1C\x1CHazleton\x1CPA\x1C18201\x1CREP\x1CH\x1CPA\x1C11\x1C2012\x1CC00445122\x1CLou
+    Barletta for Congress\x1CP.O. BOX 128\x1C\x1CHazleton\x1CPA\x1C18201\x1CC00493791\x1CMajority
+    Victory Fund (Meehan, Barletta, Dold, Duffy, Farenthold)\x1C25 East Main Street\x1C\x1CRichmond\x1CVA\x1C23219\x1CBarletta\x1CLou\x1C\x1C\x1C\x1C20110418\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2PA11098
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Barletta
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Lou
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: P.O. Box 128
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Hazleton
+  - name: CANDIDATE STATE
+    number: '12'
+    value: PA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '18201'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '11'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00445122
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Lou Barletta for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. BOX 128
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Hazleton
+  - name: PCC STATE
+    number: '24'
+    value: PA
+  - name: PCC ZIP
+    number: '25'
+    value: '18201'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00493791
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Majority Victory Fund (Meehan, Barletta, Dold, Duffy, Farenthold)
+  - name: AUTH STREET 1
+    number: '28'
+    value: 25 East Main Street
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Richmond
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '23219'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Barletta
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Lou
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110418
+
+'
+- input: "F2S\x1CH2PA11098\x1CC00495242\x1CPA + 5 Committee\x1C7315 Wisconsin Ave.,
+    Ste. 310 East\x1C\x1CBethesda\x1CMD\x1C20814\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2PA11098
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00495242
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: PA + 5 Committee
+  - name: AUTH STREET 1
+    number: '5'
+    value: 7315 Wisconsin Ave., Ste. 310 East
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Bethesda
+  - name: AUTH STATE
+    number: '8'
+    value: MD
+  - name: AUTH ZIP
+    number: '9'
+    value: '20814
+
+'
+sourceurl: !!python/unicode 20110418
+type: chunk

@@ -1,0 +1,162 @@
+countrows: 3
+filename: 728234.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH4AZ06045\x1CSchweikert\x1CDavid\x1C\x1C\x1C\x1CX\x1C15749 E El Lago
+    Blvd\x1C\x1CFountain Hills\x1CAZ\x1C852683901\x1CREP\x1CH\x1CAZ\x1C05\x1C2012\x1CC00492413\x1C
+    Schweikert for Congress\x1C8776 E Shea Blvd, Suite B3A-626\x1C\x1CScottsdale\x1CAZ\x1C85260\x1CC00493817\x1CTeam
+    2012\x1C228 S Washington St\x1CSuite 115\x1CAlexandria\x1CVA\x1C22314\x1CSchweikert\x1CDavid\x1C\x1C\x1C\x1C20110513\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4AZ06045
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Schweikert
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: X
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 15749 E El Lago Blvd
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Fountain Hills
+  - name: CANDIDATE STATE
+    number: '12'
+    value: AZ
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '852683901'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00492413
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: ' Schweikert for Congress'
+  - name: PCC STREET 1
+    number: '21'
+    value: 8776 E Shea Blvd, Suite B3A-626
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Scottsdale
+  - name: PCC STATE
+    number: '24'
+    value: AZ
+  - name: PCC ZIP
+    number: '25'
+    value: '85260'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00493817
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Team 2012
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S Washington St
+  - name: AUTH STREET 2
+    number: '29'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Schweikert
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: David
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110513
+
+'
+- input: "F2S\x1CH4AZ06045\x1CC00496083\x1CFreshman Majority Fund\x1C2470 Daniel's
+    Bridge Road\x1CSuite 121\x1CAthens\x1CGA\x1C30606\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4AZ06045
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00496083
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Freshman Majority Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: 2470 Daniel's Bridge Road
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 121
+  - name: AUTH CITY
+    number: '7'
+    value: Athens
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '30606
+
+'
+sourceurl: !!python/unicode 20110514
+type: chunk

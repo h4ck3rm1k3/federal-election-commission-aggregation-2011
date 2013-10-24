@@ -1,0 +1,2126 @@
+countrows: 31
+filename: 727866.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00494401\x1CJane Corwin For Congress Inc.\x1CPO Box 15385\x1C\x1CRochester\x1CNY\x1C146150385\x1CH2NY00044\x1CCorwin\x1CJane\x1CL\x1CHon.\x1C\x1CH\x1CNY\x1C26\x1CUpton\x1CRoger\x1C\x1CMr.\x1C\x1C20110511\n"
+  record: fec.version.v7_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jane Corwin For Congress Inc.
+  - name: STREET 1
+    number: '4'
+    value: PO Box 15385
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Rochester
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '146150385'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NY00044
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Corwin
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jane
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Hon.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '26'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Upton
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Roger
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110511
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '593000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Medical Association PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Kara McCullough
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 25 Massachusetta Ave NW - Ste 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00059832
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C593000\x1CCOM\x1CAmerican Medical Association PAC\x1C\x1C\x1C\x1C\x1C\x1CKara
+    McCullough\x1C25 Massachusetta Ave NW - Ste 600\x1CWashington\x1CDC\x1C20001\x1CC00059832\x1C20110510\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '588000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CAMPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Jacqueline Medema
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 5915 Eastman Ave  - Ste 100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Midland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '48640'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00350462
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C588000\x1CCOM\x1CCAMPAC\x1C\x1C\x1C\x1C\x1C\x1CJacqueline
+    Medema\x1C5915 Eastman Ave  - Ste 100\x1CMidland\x1CMI\x1C48640\x1CC00350462\x1C20110510\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '589000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Credit Union Legislative Action Council
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Karyn Knapik
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 601 Pennsylvania Ave NW - Suite 60
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200042601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00007880
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C589000\x1CCOM\x1CCredit Union Legislative Action Council\x1C\x1C\x1C\x1C\x1C\x1CKaryn
+    Knapik\x1C601 Pennsylvania Ave NW - Suite 60\x1CWashington\x1CDC\x1C200042601\x1CC00007880\x1C20110510\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '610000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Damon & Morey, LLP
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Chris Greene
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 220 Delaware Ave Ste 1200
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Buffalo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '14202'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C610000\x1CORG\x1CDamon & Morey, LLP\x1C\x1C\x1C\x1C\x1C\x1CChris
+    Greene\x1C220 Delaware Ave Ste 1200\x1CBuffalo\x1CNY\x1C14202\x1C\x1C20110510\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '599000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FMC Good Government
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Jerry Prout
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 1101 Pennsylvania Ave NW
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00033704
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C599000\x1CCOM\x1CFMC Good Government\x1C\x1C\x1C\x1C\x1C\x1CJerry
+    Prout\x1C1101 Pennsylvania Ave NW\x1CWashington\x1CDC\x1C20004\x1CC00033704\x1C20110510\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '595000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Friends of John Boehner
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: John Boehner
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '7908 Cincinnati Dayton Road - Ste '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Chester
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '45069'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00237198
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C595000\x1CCOM\x1CFriends of John Boehner\x1C\x1C\x1C\x1C\x1C\x1CJohn
+    Boehner\x1C7908 Cincinnati Dayton Road - Ste \x1CWest Chester\x1COH\x1C45069\x1CC00237198\x1C20110510\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '598000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Independent Community Bankers PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Ronald Ence
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 1615 L St NW - Ste 900
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00032698
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C598000\x1CCOM\x1CIndependent Community Bankers PAC\x1C\x1C\x1C\x1C\x1C\x1CRonald
+    Ence\x1C1615 L St NW - Ste 900\x1CWashington\x1CDC\x1C20036\x1CC00032698\x1C20110510\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '597000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Indoor Tanning Association Pac
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: John Overstreet
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 2025 M Street NW - Ste 800
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00362020
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C597000\x1CCOM\x1CIndoor Tanning Association Pac\x1C\x1C\x1C\x1C\x1C\x1CJohn
+    Overstreet\x1C2025 M Street NW - Ste 800\x1CWashington\x1CDC\x1C20036\x1CC00362020\x1C20110510\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '596000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Rural Metro PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Elaine Arena
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 9221 E. Via DeVentura
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scottsdale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85258'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00288613
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C596000\x1CCOM\x1CRural Metro PAC\x1C\x1C\x1C\x1C\x1C\x1CElaine
+    Arena\x1C9221 E. Via DeVentura\x1CScottsdale\x1CAZ\x1C85258\x1CC00288613\x1C20110510\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '594000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Seneca Nation of Indians
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Robert Odawi Porter
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: PO Box
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Salamanca
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '14779'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C594000\x1CORG\x1CSeneca Nation of Indians\x1C\x1C\x1C\x1C\x1C\x1CRobert
+    Odawi Porter\x1CPO Box\x1CSalamanca\x1CNY\x1C14779\x1C\x1C20110510\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '604000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Agostinelli
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Guy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 209 Mcnair Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Buffalo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142213717'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Zdarsky Sawicki & Agostinelli
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C604000\x1CIND\x1C\x1CAgostinelli\x1CGuy\x1C\x1C\x1CIII\x1C209
+    Mcnair Road\x1C\x1CBuffalo\x1CNY\x1C142213717\x1C\x1C20110510\x1C1000\x1CZdarsky
+    Sawicki & Agostinelli\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '592000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Buchheit
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gerald
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ', Jr.'
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Accent Stripe, Inc.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 3275 N. Benzing Rd
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Orchard Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '14127'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Accent Stripe
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C592000\x1CIND\x1C\x1CBuchheit\x1CGerald\x1C\x1CMr.\x1C,
+    Jr.\x1CAccent Stripe, Inc.\x1C3275 N. Benzing Rd\x1COrchard Park\x1CNY\x1C14127\x1C\x1C20110510\x1C1000\x1CAccent
+    Stripe\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '608000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cannon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 905 River Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Youngstown
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '141741332'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cannon Design
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Exec
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C608000\x1CIND\x1C\x1CCannon\x1CPaul\x1C\x1C\x1C\x1C905
+    River Road\x1C\x1CYoungstown\x1CNY\x1C141741332\x1C\x1C20110510\x1C1000\x1CCannon
+    Design\x1CExec\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '600000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Crane
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: J.D.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 589
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Buffalo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142260589'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Tonowanda Coke Corp
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C600000\x1CIND\x1C\x1CCrane\x1CJ.D.\x1C\x1CMr.\x1C\x1CPO
+    Box 589\x1C\x1CBuffalo\x1CNY\x1C142260589\x1C\x1C20110510\x1C2500\x1CTonowanda
+    Coke Corp\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '81010'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Greene
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4 Clarendon Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Buffalo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142091008'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Damon & Morey
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C81010\x1CIND\x1C\x1CGreene\x1CChristopher\x1C\x1CMr.\x1C\x1C4
+    Clarendon Place\x1C\x1CBuffalo\x1CNY\x1C142091008\x1C\x1C20110510\x1C1000\x1CDamon
+    & Morey\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '591000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harder
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Barbara
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: M
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6230 Old Lake Shore Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lake View
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '140859548'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C591000\x1CIND\x1C\x1CHarder\x1CBarbara\x1CM\x1C\x1C\x1C6230
+    Old Lake Shore Road\x1C\x1CLake View\x1CNY\x1C140859548\x1C\x1C20110510\x1C2500\x1Cself\x1CHomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '590000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harder
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6230 Old Lake Shore Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lake View
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '140859548'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Uniland Development
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Manager
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C590000\x1CIND\x1C\x1CHarder\x1CPaul\x1C\x1CMr\x1C\x1C6230
+    Old Lake Shore Road\x1C\x1CLake View\x1CNY\x1C140859548\x1C\x1C20110510\x1C2500\x1CUniland
+    Development\x1CManager\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '602000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Humiston
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 936 Union Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Seneca
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142243425'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Tanning Bed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C602000\x1CIND\x1C\x1CHumiston\x1CDaniel\x1C\x1C\x1C\x1C936
+    Union Road\x1C\x1CWest Seneca\x1CNY\x1C142243425\x1C\x1C20110510\x1C1500\x1CTanning
+    Bed\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '89000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Keating
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 573 Kaymar Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Amherst
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142283460'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Seevast
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C89000\x1CIND\x1C\x1CKeating\x1CKent\x1C\x1CMr.\x1C\x1C573
+    Kaymar Drive\x1C\x1CAmherst\x1CNY\x1C142283460\x1C\x1C20110510\x1C2500\x1CSeevast\x1CChairman\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '609000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McMahon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3527 Pleasant Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hamburg
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '140754601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CUBRC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Exec
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C609000\x1CIND\x1C\x1CMcMahon\x1CThomas\x1C\x1CMr.\x1C\x1C3527
+    Pleasant Avenue\x1C\x1CHamburg\x1CNY\x1C140754601\x1C\x1C20110510\x1C1000\x1CCUBRC\x1CExec\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '603000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Newman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Noco Energy Corporation
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 2440 Sheridan Dr
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tonawanda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '14150'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Noco Energy
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Manager
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C603000\x1CIND\x1C\x1CNewman\x1CMichael\x1C\x1CMr.\x1C\x1CNoco
+    Energy Corporation\x1C2440 Sheridan Dr\x1CTonawanda\x1CNY\x1C14150\x1C\x1C20110510\x1C1000\x1CNoco
+    Energy\x1CManager\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '607000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Robinson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 426 Clermont Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Brooklyn
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '112381502'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NY Staffing Services
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C607000\x1CIND\x1C\x1CRobinson\x1CMichael\x1CS\x1C\x1C\x1C426
+    Clermont Avenue\x1C\x1CBrooklyn\x1CNY\x1C112381502\x1C\x1C20110510\x1C1000\x1CNY
+    Staffing Services\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '601000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Showalter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ralph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2 Main Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '# 397'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Depew
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '140433323'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Buffalo Tungsten
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C601000\x1CIND\x1C\x1CShowalter\x1CRalph\x1C\x1CMr.\x1C\x1C2
+    Main Street\x1C# 397\x1CDepew\x1CNY\x1C140433323\x1C\x1C20110510\x1C2500\x1CBuffalo
+    Tungsten\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '605000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Williams
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 36 Audubon Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Buffalo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142264042'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ontario Specialty Contr.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C605000\x1CIND\x1C\x1CWilliams\x1CJon\x1C\x1CMr.\x1C\x1C36
+    Audubon Drive\x1C\x1CBuffalo\x1CNY\x1C142264042\x1C\x1C20110510\x1C1000\x1COntario
+    Specialty Contr.\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '606000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Zaepfel
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Laura
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4660 Greenbriar Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Buffalo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142216236'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110510'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Uniland Development
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: VP
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C606000\x1CIND\x1C\x1CZaepfel\x1CLaura\x1C\x1C\x1C\x1C4660
+    Greenbriar Road\x1C\x1CBuffalo\x1CNY\x1C142216236\x1C\x1C20110510\x1C1000\x1CUniland
+    Development\x1CVP\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '712000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Harter Secrest & Emery LLP
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Mr. Don Mazzullo
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 1600 Bausch & Lomb Place
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rochester
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '14604'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110511'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C712000\x1CORG\x1CHarter Secrest & Emery LLP\x1C\x1C\x1C\x1C\x1C\x1CMr.
+    Don Mazzullo\x1C1600 Bausch & Lomb Place\x1CRochester\x1CNY\x1C14604\x1C\x1C20110511\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '448000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Knospe
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 16 Chicory Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lancaster
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '140864404'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110511'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Greatbatch, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Public Affairs Manager
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C448000\x1CIND\x1C\x1CKnospe\x1CChristopher\x1C\x1CMr.\x1C\x1C16
+    Chicory Lane\x1C\x1CLancaster\x1CNY\x1C140864404\x1C\x1C20110511\x1C1000\x1CGreatbatch,
+    Inc.\x1CPublic Affairs Manager\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '711000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mazzullo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Theresa
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 160 Linden Oaks
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite E
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rochester
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '146252802'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110511'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Epic Advisors, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C711000\x1CIND\x1C\x1CMazzullo\x1CTheresa\x1C\x1CMrs.\x1C\x1C160
+    Linden Oaks\x1CSuite E\x1CRochester\x1CNY\x1C146252802\x1C\x1C20110511\x1C1000\x1CEpic
+    Advisors, Inc\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494401
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '472000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Terhaar
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4545 Harris Hill Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Williamsville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '142216211'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110511'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1800'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Maxim Management Services, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00494401\x1C472000\x1CIND\x1C\x1CTerhaar\x1CRichard\x1C\x1CMr.\x1C\x1C4545
+    Harris Hill Road\x1C\x1CWilliamsville\x1CNY\x1C142216211\x1C\x1C20110511\x1C1800\x1CMaxim
+    Management Services, LLC\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v7_0.F65
+  result: []
+sourceurl: !!python/unicode 20110511
+type: chunk
