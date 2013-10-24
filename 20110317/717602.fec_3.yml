@@ -1,0 +1,846 @@
+countrows: 9
+filename: 717602.fec
+header: {}
+rows:
+- input: "SC/10\x1CC00458976\x1CL571\x1C13A\x1CCAN\x1C\x1CSewell\x1CTerri\x1C\x1C\x1C\x1C2008
+    3rd Ave N\x1CApt 11D\x1CBirmingham\x1CAL\x1C35203\x1CP2010\x1C\x1C39000.00\x1C20000.00\x1C19000.00\x1C20100518\x1CNo
+    Due Date\x1C.0800\x1CY\x1CN\x1C\x1CH0AL07086\x1CSewell\x1CTerri\x1C\x1C\x1C\x1CH\x1CAL\x1C07\x1C\x1C\n"
+  record: fec.version.v6_4.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: L571
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Sewell
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Terri
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 2008 3rd Ave N
+  - name: LENDER STREET 2
+    number: '13'
+    value: Apt 11D
+  - name: LENDER CITY
+    number: '14'
+    value: Birmingham
+  - name: LENDER STATE
+    number: '15'
+    value: AL
+  - name: LENDER ZIP
+    number: '16'
+    value: '35203'
+  - name: ELECTION CODE
+    number: '17'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '39000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '20000.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '19000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20100518'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: No Due Date
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '.0800'
+  - name: Secured?
+    number: 25-
+    value: Y
+  - name: Personal Funds
+    number: 26-
+    value: N
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: H0AL07086
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: Sewell
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: Terri
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: AL
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC/10\x1CC00458976\x1CL572\x1C13A\x1CCAN\x1C\x1CSewell\x1CTerri\x1C\x1C\x1C\x1C2008
+    3rd Ave N\x1CApt 11D\x1CBirmingham\x1CAL\x1C35203\x1CR2010\x1CRunoff\x1C20000.00\x1C0.00\x1C20000.00\x1C20100709\x1C11/14/2010\x1C.0725\x1CN\x1CN\x1C\x1CH0AL07086\x1CSewell\x1CTerri\x1C\x1C\x1C\x1CH\x1CAL\x1C07\x1C\x1C\n"
+  record: fec.version.v6_4.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: L572
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Sewell
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Terri
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 2008 3rd Ave N
+  - name: LENDER STREET 2
+    number: '13'
+    value: Apt 11D
+  - name: LENDER CITY
+    number: '14'
+    value: Birmingham
+  - name: LENDER STATE
+    number: '15'
+    value: AL
+  - name: LENDER ZIP
+    number: '16'
+    value: '35203'
+  - name: ELECTION CODE
+    number: '17'
+    value: R2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: Runoff
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '20000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '20000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20100709'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 11/14/2010
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '.0725'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: N
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: H0AL07086
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: Sewell
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: Terri
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: AL
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC1/10\x1CC00458976\x1CLC9\x1CL572\x1CFirst Cahawba Bank\x1C2610 Citizens
+    Parkway\x1C\x1CSelma\x1CAL\x1C36701\x1C20000.00\x1C.0725\x1C20100709\x1C11/14/2010\x1CN\x1C\x1C20000.00\x1C24673.00\x1CN\x1CN\x1C\x1C\x1CN\x1CN\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CHosp\x1CEdward\x1CA.\x1C\x1C\x1C20101015\x1CHosp\x1CEdward\x1CA.\x1C\x1C\x1CTreasurer\x1C20101015\n"
+  record: fec.version.v6_4.SC1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC1/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LC9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: L572
+  - name: LENDER ORGANIZATION NAME
+    number: '5'
+    value: First Cahawba Bank
+  - name: LENDER STREET 1
+    number: '6'
+    value: 2610 Citizens Parkway
+  - name: LENDER STREET 2
+    number: '7'
+    value: ''
+  - name: LENDER CITY
+    number: '8'
+    value: Selma
+  - name: LENDER STATE
+    number: '9'
+    value: AL
+  - name: LENDER ZIP
+    number: '10'
+    value: '36701'
+  - name: LOAN AMOUNT
+    number: '11'
+    value: '20000.00'
+  - name: LOAN INTEREST RATE %
+    number: '12'
+    value: '.0725'
+  - name: LOAN INCURRED DATE
+    number: '13'
+    value: '20100709'
+  - name: LOAN DUE DATE
+    number: '14'
+    value: 11/14/2010
+  - name: Loan Restructured?
+    number: 15-A1.
+    value: N
+  - name: Original
+    number: '15-A2. LOAN INCCURED '
+    value: ''
+  - name: CREDIT AMOUNT THIS DRAW
+    number: 17-B.1.
+    value: '20000.00'
+  - name: TOTAL BALANCE
+    number: 18-B.2.
+    value: '24673.00'
+  - name: Others liable?
+    number: '19-C. '
+    value: N
+  - name: Collateral?
+    number: '20-D. '
+    value: N
+  - name: DESCRIPTION (IF YES, Specify)
+    number: 21-D.1
+    value: ''
+  - name: COLLATERAL VALUE/AMOUNT
+    number: 22-D.2
+    value: ''
+  - name: Perfected Interest?
+    number: '23-D.3 '
+    value: N
+  - name: Future Income?
+    number: '24-E.1 '
+    value: N
+  - name: DESCRIPTION (IF YES, Specify)
+    number: 25-E.2
+    value: ''
+  - name: ESTIMATED VALUE
+    number: 26-E.3
+    value: ''
+  - name: Depository account
+    number: '27-E.4 ESTABLISHED '
+    value: ''
+  - name: ACCOUNT LOCATION NAME
+    number: 28-E.5
+    value: ''
+  - name: STREET 1
+    number: 29-E.6
+    value: ''
+  - name: STREET 2
+    number: 30-E.7
+    value: ''
+  - name: CITY
+    number: 31-E.8
+    value: ''
+  - name: STATE
+    number: 32-E.9
+    value: ''
+  - name: ZIP
+    number: 33-E.10
+    value: ''
+  - name: Presidential
+    number: '34-E.11 DEPOSIT ACCT AUTH '
+    value: ''
+  - name: BASIS OF LOAN DESCRIPTION
+    number: 35-F.
+    value: ''
+  - name: TREASURER LAST NAME
+    number: 36-G.
+    value: Hosp
+  - name: TREASURER FIRST NAME
+    number: 37-G.
+    value: Edward
+  - name: TREASURER MIDDLE NAME
+    number: 38-G.
+    value: A.
+  - name: TREASURER PREFIX
+    number: 39-G.
+    value: ''
+  - name: TREASURER SUFFIX
+    number: 40-G.
+    value: ''
+  - name: DATE SIGNED
+    number: 41-G.
+    value: '20101015'
+  - name: AUTHORIZED LAST NAME
+    number: 42-H.
+    value: Hosp
+  - name: AUTHORIZED FIRST NAME
+    number: 43-H.
+    value: Edward
+  - name: AUTHORIZED MIDDLE NAME
+    number: 44-H.
+    value: A.
+  - name: AUTHORIZED PREFIX
+    number: 45-H.
+    value: ''
+  - name: AUTHORIZED SUFFIX
+    number: 46-H.
+    value: ''
+  - name: AUTHORIZED TITLE
+    number: 47-H.
+    value: Treasurer
+  - name: DATE SIGNED
+    number: 48-H.
+    value: '20101015
+
+'
+- input: "SC/10\x1CC00458976\x1CL576\x1C13A\x1CCAN\x1C\x1CSewell\x1CTerri\x1C\x1C\x1C\x1C2008
+    3rd Ave N\x1CApt 11D\x1CBirmingham\x1CAL\x1C35203\x1CR2010\x1CRunoff\x1C4000.00\x1C0.00\x1C4000.00\x1C20100715\x1C11/14/2010\x1C.0725\x1CN\x1CN\x1C\x1CH0AL07086\x1CSewell\x1CTerri\x1C\x1C\x1C\x1CH\x1CAL\x1C07\x1C\x1C\n"
+  record: fec.version.v6_4.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: L576
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Sewell
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Terri
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 2008 3rd Ave N
+  - name: LENDER STREET 2
+    number: '13'
+    value: Apt 11D
+  - name: LENDER CITY
+    number: '14'
+    value: Birmingham
+  - name: LENDER STATE
+    number: '15'
+    value: AL
+  - name: LENDER ZIP
+    number: '16'
+    value: '35203'
+  - name: ELECTION CODE
+    number: '17'
+    value: R2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: Runoff
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '4000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '4000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20100715'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 11/14/2010
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '.0725'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: N
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: H0AL07086
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: Sewell
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: Terri
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: AL
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '07'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC1/10\x1CC00458976\x1CLC10\x1CL576\x1CFirst Cahawba Bank\x1C2610 Citizens
+    Parkway\x1C\x1CSelma\x1CAL\x1C36701\x1C40006.00\x1C.0725\x1C20100709\x1C11/14/2010\x1CN\x1C\x1C4000.00\x1C4935.60\x1CN\x1CN\x1C\x1C\x1CN\x1CN\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CHosp\x1CEdward\x1CA.\x1C\x1C\x1C20101015\x1CHosp\x1CEdward\x1CA.\x1C\x1C\x1CTreasurer\x1C20101015\n"
+  record: fec.version.v6_4.SC1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC1/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: LC10
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: L576
+  - name: LENDER ORGANIZATION NAME
+    number: '5'
+    value: First Cahawba Bank
+  - name: LENDER STREET 1
+    number: '6'
+    value: 2610 Citizens Parkway
+  - name: LENDER STREET 2
+    number: '7'
+    value: ''
+  - name: LENDER CITY
+    number: '8'
+    value: Selma
+  - name: LENDER STATE
+    number: '9'
+    value: AL
+  - name: LENDER ZIP
+    number: '10'
+    value: '36701'
+  - name: LOAN AMOUNT
+    number: '11'
+    value: '40006.00'
+  - name: LOAN INTEREST RATE %
+    number: '12'
+    value: '.0725'
+  - name: LOAN INCURRED DATE
+    number: '13'
+    value: '20100709'
+  - name: LOAN DUE DATE
+    number: '14'
+    value: 11/14/2010
+  - name: Loan Restructured?
+    number: 15-A1.
+    value: N
+  - name: Original
+    number: '15-A2. LOAN INCCURED '
+    value: ''
+  - name: CREDIT AMOUNT THIS DRAW
+    number: 17-B.1.
+    value: '4000.00'
+  - name: TOTAL BALANCE
+    number: 18-B.2.
+    value: '4935.60'
+  - name: Others liable?
+    number: '19-C. '
+    value: N
+  - name: Collateral?
+    number: '20-D. '
+    value: N
+  - name: DESCRIPTION (IF YES, Specify)
+    number: 21-D.1
+    value: ''
+  - name: COLLATERAL VALUE/AMOUNT
+    number: 22-D.2
+    value: ''
+  - name: Perfected Interest?
+    number: '23-D.3 '
+    value: N
+  - name: Future Income?
+    number: '24-E.1 '
+    value: N
+  - name: DESCRIPTION (IF YES, Specify)
+    number: 25-E.2
+    value: ''
+  - name: ESTIMATED VALUE
+    number: 26-E.3
+    value: ''
+  - name: Depository account
+    number: '27-E.4 ESTABLISHED '
+    value: ''
+  - name: ACCOUNT LOCATION NAME
+    number: 28-E.5
+    value: ''
+  - name: STREET 1
+    number: 29-E.6
+    value: ''
+  - name: STREET 2
+    number: 30-E.7
+    value: ''
+  - name: CITY
+    number: 31-E.8
+    value: ''
+  - name: STATE
+    number: 32-E.9
+    value: ''
+  - name: ZIP
+    number: 33-E.10
+    value: ''
+  - name: Presidential
+    number: '34-E.11 DEPOSIT ACCT AUTH '
+    value: ''
+  - name: BASIS OF LOAN DESCRIPTION
+    number: 35-F.
+    value: ''
+  - name: TREASURER LAST NAME
+    number: 36-G.
+    value: Hosp
+  - name: TREASURER FIRST NAME
+    number: 37-G.
+    value: Edward
+  - name: TREASURER MIDDLE NAME
+    number: 38-G.
+    value: A.
+  - name: TREASURER PREFIX
+    number: 39-G.
+    value: ''
+  - name: TREASURER SUFFIX
+    number: 40-G.
+    value: ''
+  - name: DATE SIGNED
+    number: 41-G.
+    value: '20101015'
+  - name: AUTHORIZED LAST NAME
+    number: 42-H.
+    value: Hosp
+  - name: AUTHORIZED FIRST NAME
+    number: 43-H.
+    value: Edward
+  - name: AUTHORIZED MIDDLE NAME
+    number: 44-H.
+    value: A.
+  - name: AUTHORIZED PREFIX
+    number: 45-H.
+    value: ''
+  - name: AUTHORIZED SUFFIX
+    number: 46-H.
+    value: ''
+  - name: AUTHORIZED TITLE
+    number: 47-H.
+    value: Treasurer
+  - name: DATE SIGNED
+    number: 48-H.
+    value: '20101015
+
+'
+- input: "SD10\x1CC00458976\x1CD381170\x1CORG\x1C4C Partners, LLC\x1C\x1C\x1C\x1C\x1C\x1C1415
+    Rhode Island Ave NW\x1CApt 316\x1CWashington\x1CDC\x1C200055404\x1CBonus\x1C0.00\x1C15000.00\x1C0.00\x1C15000.00\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D381170
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: 4C Partners, LLC
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 1415 Rhode Island Ave NW
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: Apt 316
+  - name: CREDITOR CITY
+    number: '13'
+    value: Washington
+  - name: CREDITOR STATE
+    number: '14'
+    value: DC
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '200055404'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Bonus
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '15000.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '15000.00
+
+'
+- input: "SD10\x1CC00458976\x1CD381169\x1CORG\x1CV&L Consulting\x1C\x1C\x1C\x1C\x1C\x1C3900
+    Center Place Rd\x1C\x1CBirmingham\x1CAL\x1C35207\x1CDoor-to-Door Get-Out-the-Vote\x1C0.00\x1C25000.00\x1C5000.00\x1C20000.00\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D381169
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: V&L Consulting
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 3900 Center Place Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Birmingham
+  - name: CREDITOR STATE
+    number: '14'
+    value: AL
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '35207'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Door-to-Door Get-Out-the-Vote
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '25000.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '5000.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '20000.00
+
+'
+- input: "TEXT\x1CC00458976\x1CX1\x1CD315357\x1CSB17\x1CNo payments in excess of $200.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D315357
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB17
+  - name: TEXT4000
+    number: '6'
+    value: 'No payments in excess of $200.
+
+'
+- input: "TEXT\x1CC00458976\x1CX2\x1CD315450\x1CSB17\x1CAll payments to vendors in
+    excess of $200 itemized.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00458976
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D315450
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB17
+  - name: TEXT4000
+    number: '6'
+    value: 'All payments to vendors in excess of $200 itemized.
+
+'
+sourceurl: !!python/unicode 20110317
+type: chunk

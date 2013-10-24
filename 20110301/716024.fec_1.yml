@@ -1,0 +1,193 @@
+countrows: 4
+filename: 716024.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0NY19139\x1CHayworth\x1CNan\x1C\x1C\x1C\x1CX\x1CP. O. Box 188\x1C\x1CCarmel\x1CNY\x1C10512\x1CREP\x1CH\x1CNY\x1C19\x1C2012\x1CC00466490\x1CFriends
+    of Nan Hayworth\x1CP. O. Box 188\x1C\x1CCarmel\x1CNY\x1C10512\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CHayworth\x1CNan\x1C\x1C\x1C\x1C20110301\n"
+  record: fec.version.v6_4.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY19139
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Hayworth
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Nan
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: X
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: P. O. Box 188
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Carmel
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NY
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '10512'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '19'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00466490
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Friends of Nan Hayworth
+  - name: PCC STREET 1
+    number: '21'
+    value: P. O. Box 188
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Carmel
+  - name: PCC STATE
+    number: '24'
+    value: NY
+  - name: PCC ZIP
+    number: '25'
+    value: '10512'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Hayworth
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Nan
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110301
+
+'
+- input: "F2S\x1CH0NY19139\x1CC00470526\x1CNY-19 Congressional Victory Committee\x1C264
+    N. Lumpkin Street, #202\x1C\x1CAthens\x1CGA\x1C30601\n"
+  record: fec.version.v6_4.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY19139
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00470526
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: NY-19 Congressional Victory Committee
+  - name: AUTH STREET 1
+    number: '5'
+    value: '264 N. Lumpkin Street, #202'
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Athens
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '30601
+
+'
+- input: "F2S\x1CH0NY19139\x1CC00487637\x1CNew York House Victory Fund\x1C228 S. Washington
+    Street, #115\x1C\x1CAlexandria\x1CVA\x1C22314\n"
+  record: fec.version.v6_4.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY19139
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00487637
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: New York House Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: '228 S. Washington Street, #115'
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+sourceurl: !!python/unicode 20110301
+type: chunk

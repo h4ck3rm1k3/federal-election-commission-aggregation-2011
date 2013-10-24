@@ -1,0 +1,128 @@
+countrows: 2
+filename: 719102.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH6MN06074\x1CBachmann\x1CMichele\x1C\x1C\x1C\x1C\x1CPO Box 25950\x1C\x1CWoodbury\x1CMN\x1C551250950\x1CREP\x1CH\x1CMN\x1C06\x1C2012\x1CC00410118\x1CBachmann
+    for Congress\x1CPO Box 25950\x1C\x1CWoodbury\x1CMN\x1C551250950\x1C\x1CBachmann-Arizona
+    Committee\x1CPO Box 4182\x1C\x1CSaint Paul\x1CMN\x1C551040182\x1CBachmann\x1CMichele\x1C\x1C\x1C\x1C20110329\n"
+  record: fec.version.v6_4.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H6MN06074
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Bachmann
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Michele
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 25950
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Woodbury
+  - name: CANDIDATE STATE
+    number: '12'
+    value: MN
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '551250950'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '06'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00410118
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Bachmann for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 25950
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Woodbury
+  - name: PCC STATE
+    number: '24'
+    value: MN
+  - name: PCC ZIP
+    number: '25'
+    value: '551250950'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Bachmann-Arizona Committee
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO Box 4182
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Saint Paul
+  - name: AUTH STATE
+    number: '31'
+    value: MN
+  - name: AUTH ZIP
+    number: '32'
+    value: '551040182'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Bachmann
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Michele
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110329
+
+'
+sourceurl: !!python/unicode 20110329
+type: chunk

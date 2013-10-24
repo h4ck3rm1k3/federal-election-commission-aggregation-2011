@@ -1,0 +1,194 @@
+countrows: 4
+filename: 716551.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0TX27061\x1CFarenthold\x1CRandolph\x1CBlake\x1C\x1C\x1C\x1C5601
+    Ocean Drive\x1C\x1CCorpus Christi\x1CTX\x1C78412\x1CREP\x1CH\x1CTX\x1C27\x1C2012\x1CC00473736\x1CElect
+    Blake Farenthold Committee\x1CP.O. Box 3369\x1C\x1CCorpus Christi\x1CTX\x1C78463\x1C\x1CMAJORITY
+    VICTORY FUND\x1C25 E. MAIN STREET\x1C\x1CRICHMOND\x1CVA\x1C23219\x1CFarenthold\x1CRandolph\x1CBlake\x1C\x1C\x1C20110309\n"
+  record: fec.version.v6_4.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0TX27061
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Farenthold
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Randolph
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Blake
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 5601 Ocean Drive
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Corpus Christi
+  - name: CANDIDATE STATE
+    number: '12'
+    value: TX
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '78412'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '27'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00473736
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Elect Blake Farenthold Committee
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. Box 3369
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Corpus Christi
+  - name: PCC STATE
+    number: '24'
+    value: TX
+  - name: PCC ZIP
+    number: '25'
+    value: '78463'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: MAJORITY VICTORY FUND
+  - name: AUTH STREET 1
+    number: '28'
+    value: 25 E. MAIN STREET
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: RICHMOND
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '23219'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Farenthold
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Randolph
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: Blake
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110309
+
+'
+- input: "F2S\x1CH0TX27061\x1C\x1CMAJORITY VICTORY FUND\x1C25 E. MAIN STREET\x1C\x1CRICHMOND\x1CVA\x1C23219\n"
+  record: fec.version.v6_4.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0TX27061
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: MAJORITY VICTORY FUND
+  - name: AUTH STREET 1
+    number: '5'
+    value: 25 E. MAIN STREET
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: RICHMOND
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '23219
+
+'
+- input: "F2S\x1CH0TX27061\x1C\x1CTHE GREAT EIGHT COMMITTEE\x1C228 S. WASHINGTON STREET\x1CSUITE
+    115\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v6_4.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0TX27061
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: THE GREAT EIGHT COMMITTEE
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S. WASHINGTON STREET
+  - name: AUTH STREET 2
+    number: '6'
+    value: SUITE 115
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+sourceurl: !!python/unicode 20110309
+type: chunk

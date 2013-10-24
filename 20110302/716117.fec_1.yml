@@ -1,0 +1,522 @@
+countrows: 8
+filename: 716117.fec
+header: {}
+rows:
+- 2
+- input: "F9A\x1CC30000368\x1C\x1COCEAN CHAMPIONS VOTER FUND\x1C\x1C\x1C\x1C\x1C\x1C\x1C202
+    SAN JOSE AVENUE\x1C\x1CCAPITOLA\x1CCA\x1C95010\x1C\x1C\x1C20100928\x1C20100930\x1C20100930\x1CSAY
+    WHAT?\x1CUNO\x1C\x1CY\x1CWILMOT\x1CDAVID\x1C\x1C\x1C\x1C202 SAN JOSE AVENUE\x1C\x1CCAPITOLA\x1CCA\x1C95010\x1COCEAN
+    CHAMPIONS\x1CPRESIDENT\x1C150000.00\x1C49867.00\x1CDUNMYER\x1CMIKE\x1C\x1C\x1C\x1C20110302\n"
+  record: fec.version.v6_4.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: OCEAN CHAMPIONS VOTER FUND
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 202 SAN JOSE AVENUE
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: CAPITOLA
+  - name: STATE
+    number: '14'
+    value: CA
+  - name: ZIP
+    number: '15'
+    value: '95010'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20100928'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20100930'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20100930'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: SAY WHAT?
+  - name: FILER CODE
+    number: '22'
+    value: UNO
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: Y
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: WILMOT
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: DAVID
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 202 SAN JOSE AVENUE
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: ''
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: CAPITOLA
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: CA
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '95010'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: OCEAN CHAMPIONS
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: PRESIDENT
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '150000.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '49867.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: DUNMYER
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: MIKE
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20110302
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000368
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: WILMOT
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: DAVID
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 202 SAN JOSE AVENUE
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: CAPITOLA
+  - name: CONTROLLER STATE
+    number: '12'
+    value: CA
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '95010'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: OCEAN CHAMPIONS
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: PRESIDENT
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30000368\x1CF91.000001\x1CWILMOT\x1CDAVID\x1C\x1C\x1C\x1C202 SAN
+    JOSE AVENUE\x1C\x1CCAPITOLA\x1CCA\x1C95010\x1COCEAN CHAMPIONS\x1CPRESIDENT\x1C\n"
+  input_count: 16
+  record: fec.version.v6_4.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000368
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000002
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: DUNMYER
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: MIKE
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: '140 LITTLE FALLS STREET #212'
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: FALLS CHURCH
+  - name: CONTROLLER STATE
+    number: '12'
+    value: VA
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '22046'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: OCEAN CHAMPIONS
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: EXECUTIVE DIRECTOR
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30000368\x1CF91.000002\x1CDUNMYER\x1CMIKE\x1C\x1C\x1C\x1C140 LITTLE
+    FALLS STREET #212\x1C\x1CFALLS CHURCH\x1CVA\x1C22046\x1COCEAN CHAMPIONS\x1CEXECUTIVE
+    DIRECTOR\x1C\n"
+  input_count: 16
+  record: fec.version.v6_4.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000368
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000003
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: HADDOW
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: KIM
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 7700 SYCAMORE STREET
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: NEW ORLEANS
+  - name: CONTROLLER STATE
+    number: '12'
+    value: LA
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '70118'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: SELF-EMPLOYED
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: CONSULTANT
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30000368\x1CF91.000003\x1CHADDOW\x1CKIM\x1C\x1C\x1C\x1C7700 SYCAMORE
+    STREET\x1C\x1CNEW ORLEANS\x1CLA\x1C70118\x1CSELF-EMPLOYED\x1CCONSULTANT\x1C\n"
+  input_count: 16
+  record: fec.version.v6_4.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000368
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: EARHART
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: ANNE
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: '105 CRESCENT BAY DRIVE #M'
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: LAGUNA BEACH
+  - name: DONOR STATE
+    number: '16'
+    value: CA
+  - name: DONOR ZIP
+    number: '17'
+    value: '92651'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20100430'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '150000.00'
+  - value: '
+
+'
+  expected_count: 19
+  input: "F92\x1CC30000368\x1CF92.000001\x1C\x1C\x1CIND\x1C\x1CEARHART\x1CANNE\x1C\x1C\x1C\x1C105
+    CRESCENT BAY DRIVE #M\x1C\x1CLAGUNA BEACH\x1CCA\x1C92651\x1C20100430\x1C150000.00\x1C\n"
+  input_count: 20
+  record: fec.version.v6_4.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000368
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WATERFRONT STRATEGIES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '101 WISCONSIN AVENUE NW #800'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20100928'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '49867.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA-SAY WHAT?
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20100930'
+  - value: '
+
+'
+  expected_count: 26
+  input: "F93\x1CC30000368\x1CF93.000001\x1C\x1C\x1CORG\x1CWATERFRONT STRATEGIES\x1C\x1C\x1C\x1C\x1C\x1C101
+    WISCONSIN AVENUE NW #800\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2010\x1C\x1C20100928\x1C49867.00\x1C\x1CMEDIA-SAY
+    WHAT?\x1C\x1C\x1C20100930\x1C\n"
+  input_count: 27
+  record: fec.version.v6_4.F93
+  result: []
+- input: "F94\x1CC30000368\x1CF94.000002\x1CF93.000001\x1CF93\x1CH8MD01094\x1CHARRIS\x1CANDREW\x1CP\x1C\x1C\x1CH\x1CMD\x1C01\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000368
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: H8MD01094
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: HARRIS
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: ANDREW
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: P
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: MD
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '01'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110302
+type: chunk
