@@ -1,0 +1,30 @@
+countrows: 1
+filename: 712053.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00461657\x1CT3-3/31/2010\x1C\x1CF3A\x1CAmendment to correct column
+    B totals.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461657
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: T3-3/31/2010
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3A
+  - name: TEXT4000
+    number: '6'
+    value: 'Amendment to correct column B totals.
+
+'
+sourceurl: !!python/unicode 20110131
+type: chunk

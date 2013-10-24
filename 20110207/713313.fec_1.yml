@@ -1,0 +1,130 @@
+countrows: 2
+filename: 713313.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH2NY17071\x1CNadler\x1CJerrold\x1CL.\x1CMr.\x1C\x1C\x1C315 West 70th
+    Street\x1C\x1CNew York\x1CNY\x1C10023\x1CDEM\x1CH\x1CNY\x1C08\x1C2012\x1CC00290825\x1CNadler
+    for Congress, Inc.\x1CVillage Station\x1CPO Box 40\x1CNew York\x1CNY\x1C10014\x1CC00363317\x1CJerry's
+    Political Action Committee (Jerry's PAC)\x1CVillage Station\x1CPO Box 19\x1CNew
+    York\x1CNY\x1C10014\x1CNadler\x1CJerrold\x1CL.\x1C\x1C\x1C20110207\n"
+  record: fec.version.v6_4.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2NY17071
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Nadler
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Jerrold
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: L.
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 315 West 70th Street
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: New York
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NY
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '10023'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 08
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00290825
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Nadler for Congress, Inc.
+  - name: PCC STREET 1
+    number: '21'
+    value: Village Station
+  - name: PCC STREET 2
+    number: '22'
+    value: PO Box 40
+  - name: PCC CITY
+    number: '23'
+    value: New York
+  - name: PCC STATE
+    number: '24'
+    value: NY
+  - name: PCC ZIP
+    number: '25'
+    value: '10014'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00363317
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Jerry's Political Action Committee (Jerry's PAC)
+  - name: AUTH STREET 1
+    number: '28'
+    value: Village Station
+  - name: AUTH STREET 2
+    number: '29'
+    value: PO Box 19
+  - name: AUTH CITY
+    number: '30'
+    value: New York
+  - name: AUTH STATE
+    number: '31'
+    value: NY
+  - name: AUTH ZIP
+    number: '32'
+    value: '10014'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Nadler
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Jerrold
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: L.
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110207
+
+'
+sourceurl: !!python/unicode 20110207
+type: chunk

@@ -1,0 +1,666 @@
+countrows: 10
+filename: 711535.fec
+header: {}
+rows:
+- input: "SD12\x1CC00430975\x1CD95495\x1CORG\x1CSuburban Press Inc\x1C\x1C\x1C\x1C\x1C\x1C3818
+    Lorain Ave\x1C\x1CCleveland\x1COH\x1C441133711\x1CPrinting\x1C0.00\x1C49026.25\x1C0.00\x1C49026.25\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95495
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Suburban Press Inc
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 3818 Lorain Ave
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Cleveland
+  - name: CREDITOR STATE
+    number: '14'
+    value: OH
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '441133711'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Printing
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '49026.25'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '49026.25
+
+'
+- input: "SD12\x1CC00430975\x1CD95496\x1CORG\x1CSuburban Press Inc\x1C\x1C\x1C\x1C\x1C\x1C3818
+    Lorain Ave\x1C\x1CCleveland\x1COH\x1C441133711\x1CPrinting\x1C0.00\x1C5387.50\x1C0.00\x1C5387.50\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95496
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Suburban Press Inc
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 3818 Lorain Ave
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Cleveland
+  - name: CREDITOR STATE
+    number: '14'
+    value: OH
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '441133711'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Printing
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '5387.50'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '5387.50
+
+'
+- input: "SD12\x1CC00430975\x1CD95573\x1CORG\x1CThe Hook\x1C\x1C\x1C\x1C\x1C\x1C100
+    2nd St NW\x1C\x1CCharlottesville\x1CVA\x1C229025193\x1CPress Services\x1C0.00\x1C1200.00\x1C0.00\x1C1200.00\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95573
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: The Hook
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 100 2nd St NW
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Charlottesville
+  - name: CREDITOR STATE
+    number: '14'
+    value: VA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '229025193'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Press Services
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '1200.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1200.00
+
+'
+- input: "SD12\x1CC00430975\x1CD124687\x1CORG\x1CThe Illuminating Company\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 3638\x1C\x1CAkron\x1COH\x1C443093638\x1CUtilities\x1C0.00\x1C25.76\x1C0.00\x1C25.76\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D124687
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: The Illuminating Company
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO Box 3638
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Akron
+  - name: CREDITOR STATE
+    number: '14'
+    value: OH
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '443093638'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Utilities
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '25.76'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '25.76
+
+'
+- input: "SD12\x1CC00430975\x1CD95502\x1CORG\x1CUPS\x1C\x1C\x1C\x1C\x1C\x1CPO Box
+    7247\x1C\x1CPhiladelphia\x1CPA\x1C191700001\x1CDelivery Service\x1C0.00\x1C30120.00\x1C0.00\x1C30120.00\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95502
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: UPS
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO Box 7247
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Philadelphia
+  - name: CREDITOR STATE
+    number: '14'
+    value: PA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '191700001'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Delivery Service
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '30120.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '30120.00
+
+'
+- input: "SD12\x1CC00430975\x1CD95504\x1CORG\x1CUPS\x1C\x1C\x1C\x1C\x1C\x1CPO Box
+    7247\x1C\x1CPhiladelphia\x1CPA\x1C191700001\x1CDelivery Serice\x1C0.00\x1C102.17\x1C102.17\x1C0.00\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95504
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: UPS
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO Box 7247
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Philadelphia
+  - name: CREDITOR STATE
+    number: '14'
+    value: PA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '191700001'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Delivery Serice
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '102.17'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '102.17'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+- input: "SD12\x1CC00430975\x1CD95469\x1CORG\x1CUrban Consulting Group\x1C\x1C\x1C\x1C\x1C\x1C7700
+    2nd Ave\x1CSte 608\x1CDetroit\x1CMI\x1C482022411\x1CField Consulting\x1C0.00\x1C18435.18\x1C0.00\x1C18435.18\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95469
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Urban Consulting Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 7700 2nd Ave
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: Ste 608
+  - name: CREDITOR CITY
+    number: '13'
+    value: Detroit
+  - name: CREDITOR STATE
+    number: '14'
+    value: MI
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '482022411'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Field Consulting
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '18435.18'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '18435.18
+
+'
+- input: "SD12\x1CC00430975\x1CD95575\x1CIND\x1C\x1CWashburn\x1CCharmian\x1C\x1C\x1C\x1C211
+    Tanager Ln NW\x1C\x1CFloyd\x1CVA\x1C240912534\x1COperations Consulting\x1C0.00\x1C517.82\x1C0.00\x1C517.82\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95575
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Washburn
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Charmian
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 211 Tanager Ln NW
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Floyd
+  - name: CREDITOR STATE
+    number: '14'
+    value: VA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '240912534'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Operations Consulting
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '517.82'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '517.82
+
+'
+- input: "SD12\x1CC00430975\x1CD95474\x1CIND\x1C\x1CWedge\x1CChristopher\x1C\x1C\x1C\x1C1641
+    Ashworth Ct\x1C\x1CReno\x1CNV\x1C895216123\x1CField Consulting\x1C0.00\x1C5000.00\x1C0.00\x1C5000.00\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D95474
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Wedge
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 1641 Ashworth Ct
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Reno
+  - name: CREDITOR STATE
+    number: '14'
+    value: NV
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '895216123'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Field Consulting
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '5000.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '5000.00
+
+'
+- input: "SD12\x1CC00430975\x1CD124668\x1CORG\x1CWilliams C Velasquez Institute\x1C\x1C\x1C\x1C\x1C\x1C206
+    Lombard Dr\x1CSte 1\x1CSan Antonio\x1CTX\x1C782261871\x1CFacility Rental\x1C1000.00\x1C0.00\x1C0.00\x1C1000.00\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00430975
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D124668
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Williams C Velasquez Institute
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 206 Lombard Dr
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: Ste 1
+  - name: CREDITOR CITY
+    number: '13'
+    value: San Antonio
+  - name: CREDITOR STATE
+    number: '14'
+    value: TX
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '782261871'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Facility Rental
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '1000.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1000.00
+
+'
+sourceurl: !!python/unicode 20110131
+type: chunk

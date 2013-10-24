@@ -1,0 +1,1048 @@
+countrows: 8
+filename: 711640.fec
+header: {}
+rows:
+- input: "SB17\x1CC00332890\x1CB-E-26807\x1C\x1C\x1CORG\x1CJanet Bain Company\x1C\x1C\x1C\x1C\x1C\x1C1333
+    New Hampshire Avenue, NW\x1CSuite 424\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101122\x1C32158.83\x1C\x1C\x1CSEE
+    MEMO ITEMS\x1C003\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1COriginal
+    vendors exceeding reporting threshold itemized as memo transactions.\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B-E-26807
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Janet Bain Company
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1333 New Hampshire Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 424
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101122'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '32158.83'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: SEE MEMO ITEMS
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: Original vendors exceeding reporting threshold itemized as memo transactions.
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB17\x1CC00332890\x1CB-S-1739\x1C\x1C\x1CORG\x1CJanet Bain Company\x1C\x1C\x1C\x1C\x1C\x1C1333
+    New Hampshire Avenue, NW\x1CSuite 424\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101122\x1C31946\x1C\x1C\x1CFundraising
+    Consulting\x1C003\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CJanet Bain Company\x1C1333
+    New Hampshire Avenue, NW\x1CSuite 424\x1CWashington\x1CDC\x1C20036\x1CX\x1CSubitemization
+    of Janet Bain Company(11/22/10)\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B-S-1739
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Janet Bain Company
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1333 New Hampshire Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 424
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101122'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '31946'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Fundraising Consulting
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: Janet Bain Company
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: 1333 New Hampshire Avenue, NW
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: Suite 424
+  - name: CONDUIT CITY
+    number: '40'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '41'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '42'
+    value: '20036'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: Subitemization of Janet Bain Company(11/22/10)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB17\x1CC00332890\x1CB-S-1740\x1C\x1C\x1CORG\x1CJanet Bain Company\x1C\x1C\x1C\x1C\x1C\x1C1333
+    New Hampshire Avenue, NW\x1CSuite 424\x1CWashington\x1CDC\x1C20036\x1CG2010\x1C\x1C20101122\x1C212.83\x1C\x1C\x1CBlast
+    Fax/Email Service\x1C003\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CJanet
+    Bain Company\x1C1333 New Hampshire Avenue, NW\x1CSuite 424\x1CWashington\x1CDC\x1C20036\x1CX\x1CSubitemization
+    of Janet Bain Company(11/22/10)\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B-S-1740
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Janet Bain Company
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1333 New Hampshire Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 424
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101122'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '212.83'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Blast Fax/Email Service
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: Janet Bain Company
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: 1333 New Hampshire Avenue, NW
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: Suite 424
+  - name: CONDUIT CITY
+    number: '40'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '41'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '42'
+    value: '20036'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: Subitemization of Janet Bain Company(11/22/10)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB17\x1CC00332890\x1CB-E-26806\x1C\x1C\x1CORG\x1CPaychex\x1C\x1C\x1C\x1C\x1C\x1C3060
+    Williams Drive\x1CSuite 200\x1CFairfax\x1CVA\x1C22031\x1CG2010\x1C\x1C20101122\x1C4735.77\x1C\x1C\x1CPayroll
+    Taxes\x1C001\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B-E-26806
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Paychex
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3060 Williams Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 200
+  - name: PAYEE CITY
+    number: '15'
+    value: Fairfax
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22031'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101122'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '4735.77'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Payroll Taxes
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB20a\x1CC00332890\x1CB-E-26615\x1C\x1C\x1CIND\x1C\x1CRiordan\x1CEugenia\x1CA.\x1C\x1C\x1C411
+    Gordon Terrace\x1CApartment 1\x1CPasadena\x1CCA\x1C911051854\x1CG2010\x1C\x1C20101102\x1C700\x1C\x1C\x1CContribution
+    Refund\x1C010\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB20a
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B-E-26615
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Riordan
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Eugenia
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: A.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 411 Gordon Terrace
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apartment 1
+  - name: PAYEE CITY
+    number: '15'
+    value: Pasadena
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '911051854'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101102'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '700'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Contribution Refund
+  - name: CATEGORY CODE
+    number: '25'
+    value: '010'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB21\x1CC00332890\x1CB-E-26747\x1C\x1C\x1CCOM\x1CFriends of David Harmer
+    Recount Fund\x1C\x1C\x1C\x1C\x1C\x1C6920 Koll Center Parkway\x1CSuite 219\x1CPleasanton\x1CCA\x1C94566\x1CR2010\x1CRecount
+    2010\x1C20101105\x1C1000\x1C\x1C\x1CRecount Contribution\x1C011\x1CC00461657\x1CFriends
+    of David Harmer Recount Fund\x1CH0CA10123\x1CHarmer\x1CDavid\x1CJ.\x1C\x1C\x1CH\x1CCA\x1C10\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B-E-26747
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: COM
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Friends of David Harmer Recount Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6920 Koll Center Parkway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 219
+  - name: PAYEE CITY
+    number: '15'
+    value: Pleasanton
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94566'
+  - name: ELECTION CODE
+    number: '18'
+    value: R2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Recount 2010
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101105'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '1000'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Recount Contribution
+  - name: CATEGORY CODE
+    number: '25'
+    value: '011'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: C00461657
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: Friends of David Harmer Recount Fund
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: H0CA10123
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: Harmer
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: J.
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB21\x1CC00332890\x1CB-E-26748\x1C\x1C\x1CCOM\x1CVidak for Congress Recount
+    Account\x1C\x1C\x1C\x1C\x1C\x1CPO Box 1867\x1C\x1CHanford\x1CCA\x1C93232\x1CR2010\x1CRecount
+    2010\x1C20101105\x1C1000\x1C\x1C\x1CRecount Contribution\x1C011\x1CC00469312\x1CVidak
+    for Congress Recount Account\x1CH0CA20098\x1CVidak\x1CJames Andrew\x1C\x1C\x1C\x1CH\x1CCA\x1C20\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B-E-26748
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: COM
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Vidak for Congress Recount Account
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 1867
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hanford
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '93232'
+  - name: ELECTION CODE
+    number: '18'
+    value: R2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Recount 2010
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101105'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '1000'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Recount Contribution
+  - name: CATEGORY CODE
+    number: '25'
+    value: '011'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '26'
+    value: C00469312
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '27'
+    value: Vidak for Congress Recount Account
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '28'
+    value: H0CA20098
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '29'
+    value: Vidak
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '30'
+    value: James Andrew
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '36'
+    value: '20'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "TEXT\x1CC00332890\x1CT3-11/22/2010\x1C\x1CF3A\x1CPlease Note: The FEC Form
+    6 (49-hr Notification Report) does not support memo items. During the 48-hr reporting
+    period, the Committee received earmarked contributions and transfers from authorized
+    committees. In these situations, the giving entity was reported for 48-hr Notifications,
+    rather than teh earmarking organization or joint fundraising representative. Additionally,
+    the 10/15/2010 $2500 contribution from McDonalds Political Action Committee reported
+    on the 10/16/2010 48-hr Notification is now listed as McDonalds Corporation PAC
+    in this report. Not all earmarks from the Environmental Defense Action Fund PAC
+    and the League of Conservation Voters Action Fund reached itemization thresholds
+    in this report.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: T3-11/22/2010
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3A
+  - name: TEXT4000
+    number: '6'
+    value: 'Please Note: The FEC Form 6 (49-hr Notification Report) does not support
+      memo items. During the 48-hr reporting period, the Committee received earmarked
+      contributions and transfers from authorized committees. In these situations,
+      the giving entity was reported for 48-hr Notifications, rather than teh earmarking
+      organization or joint fundraising representative. Additionally, the 10/15/2010
+      $2500 contribution from McDonalds Political Action Committee reported on the
+      10/16/2010 48-hr Notification is now listed as McDonalds Corporation PAC in
+      this report. Not all earmarks from the Environmental Defense Action Fund PAC
+      and the League of Conservation Voters Action Fund reached itemization thresholds
+      in this report.
+
+'
+sourceurl: !!python/unicode 20110131
+type: chunk

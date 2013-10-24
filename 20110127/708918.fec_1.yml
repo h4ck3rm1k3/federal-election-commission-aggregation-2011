@@ -1,0 +1,1011 @@
+countrows: 10
+filename: 708918.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER'S FEC ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: AMERICAN FEDERATION OF STATE COUNTY AND MUNICIPAL EMPLOYEES AFL-CIO
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 1625 L STREET NW
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: WASHINGTON
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20036'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: ''
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: YE
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: '20101001'
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: '20101231'
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '1850523.80'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: GRAHAM
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: STEPHEN
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20110127'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90011172\x1C\x1CAMERICAN FEDERATION OF STATE COUNTY AND MUNICIPAL
+    EMPLOYEES AFL-CIO\x1C\x1C\x1C\x1C\x1C\x1C\x1C1625 L STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1C\x1C\x1C\x1CYE\x1C\x1C20101001\x1C20101231\x1C.00\x1C1850523.80\x1CGRAHAM\x1CSTEPHEN\x1C\x1C\x1C\x1C20110127\x1C\n"
+  input_count: 31
+  record: fec.version.v6_4.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: MUNDY KATOWITZ MEDIA INC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1322 G STREET SE
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20003'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101027'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '149998.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '149998.80'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: RADIO AD WONDER
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H0CA10123
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: HARMER
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: DAVID
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '11'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000001\x1CORG\x1CMUNDY KATOWITZ MEDIA INC\x1C\x1C\x1C\x1C\x1C\x1C1322
+    G STREET SE\x1C\x1CWASHINGTON\x1CDC\x1C20003\x1CG2010\x1C\x1C20101027\x1C149998.80\x1C149998.80\x1C\x1CRADIO
+    AD WONDER\x1C004\x1C\x1CO\x1CH0CA10123\x1CHARMER\x1CDAVID\x1C\x1C\x1C\x1CH\x1CCA\x1C11\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: MEDIA STRATEGIES & RESEARCH
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1580 LINCOLN STREET
+  - name: PAYEE STREET 2
+    number: '12'
+    value: SUITE 510
+  - name: PAYEE CITY
+    number: '13'
+    value: DENVER
+  - name: PAYEE STATE
+    number: '14'
+    value: CO
+  - name: PAYEE ZIP
+    number: '15'
+    value: '80203'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101019'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '300000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '304500.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: TV AD REAL PEOPLE
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: SHARRON
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: E
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000002\x1CORG\x1CMEDIA STRATEGIES & RESEARCH\x1C\x1C\x1C\x1C\x1C\x1C1580
+    LINCOLN STREET\x1CSUITE 510\x1CDENVER\x1CCO\x1C80203\x1CG2010\x1C\x1C20101019\x1C300000.00\x1C304500.00\x1C\x1CTV
+    AD REAL PEOPLE\x1C004\x1C\x1CO\x1CS0NV00138\x1CANGLE\x1CSHARRON\x1CE\x1C\x1C\x1CS\x1CNV\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: SHORR JOHNSON MAGNUS
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1831 CHESTNUT STREET
+  - name: PAYEE STREET 2
+    number: '12'
+    value: SUITE 602
+  - name: PAYEE CITY
+    number: '13'
+    value: PHILADELPHIA
+  - name: PAYEE STATE
+    number: '14'
+    value: PA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '19103'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101001'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '200000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '200000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: TV AD RUNNING AGAIN
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0WA00357
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: ROSSI
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: DINO
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: WA
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000003\x1CORG\x1CSHORR JOHNSON MAGNUS\x1C\x1C\x1C\x1C\x1C\x1C1831
+    CHESTNUT STREET\x1CSUITE 602\x1CPHILADELPHIA\x1CPA\x1C19103\x1CG2010\x1C\x1C20101001\x1C200000.00\x1C200000.00\x1C\x1CTV
+    AD RUNNING AGAIN\x1C004\x1C\x1CO\x1CS0WA00357\x1CROSSI\x1CDINO\x1C\x1C\x1C\x1CS\x1CWA\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ADELSTEIN/LISTON
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 222 WEST ONTARIO STREET
+  - name: PAYEE STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: PAYEE CITY
+    number: '13'
+    value: CHICAGO
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60610'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101019'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '4500.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '304500.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: TV AD REAL PEOPLE
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: SHARRON
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: E
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000004\x1CORG\x1CADELSTEIN/LISTON\x1C\x1C\x1C\x1C\x1C\x1C222
+    WEST ONTARIO STREET\x1CSUITE 600\x1CCHICAGO\x1CIL\x1C60610\x1CG2010\x1C\x1C20101019\x1C4500.00\x1C304500.00\x1C\x1CTV
+    AD REAL PEOPLE\x1C004\x1C\x1CO\x1CS0NV00138\x1CANGLE\x1CSHARRON\x1CE\x1C\x1C\x1CS\x1CNV\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ADELSTEIN/LISTON
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 222 WEST ONTARIO STREET
+  - name: PAYEE STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: PAYEE CITY
+    number: '13'
+    value: CHICAGO
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60610'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101026'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '109000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '109000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: RADIO AD KNOCK OUT
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H0CO07026
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: FRAZIER
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: RYAN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000005\x1CORG\x1CADELSTEIN/LISTON\x1C\x1C\x1C\x1C\x1C\x1C222
+    WEST ONTARIO STREET\x1CSUITE 600\x1CCHICAGO\x1CIL\x1C60610\x1CG2010\x1C\x1C20101026\x1C109000.00\x1C109000.00\x1C\x1CRADIO
+    AD KNOCK OUT\x1C004\x1C\x1CO\x1CH0CO07026\x1CFRAZIER\x1CRYAN\x1CL\x1C\x1C\x1CH\x1CCO\x1C07\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ADELSTEIN/LISTON
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 222 WEST ONTARIO STREET
+  - name: PAYEE STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: PAYEE CITY
+    number: '13'
+    value: CHICAGO
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60610'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101026'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '201075.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '951075.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: RADIO AD KEYS
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: WALBERG
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: TIMOTHY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000006\x1CORG\x1CADELSTEIN/LISTON\x1C\x1C\x1C\x1C\x1C\x1C222
+    WEST ONTARIO STREET\x1CSUITE 600\x1CCHICAGO\x1CIL\x1C60610\x1CG2010\x1C\x1C20101026\x1C201075.00\x1C951075.00\x1C\x1CRADIO
+    AD KEYS\x1C004\x1C\x1CO\x1CH4MI07103\x1CWALBERG\x1CTIMOTHY\x1CL\x1C\x1C\x1CH\x1CMI\x1C07\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000007
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ADELSTEIN/LISTON
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 222 WEST ONTARIO STREET
+  - name: PAYEE STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: PAYEE CITY
+    number: '13'
+    value: CHICAGO
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60610'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101006'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '750000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '750000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: TV ADS WRONG FOR WISCONSIN, WRONG AGAIN
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H0WI08075
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: RIBBLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: REID
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: 08
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000007\x1CORG\x1CADELSTEIN/LISTON\x1C\x1C\x1C\x1C\x1C\x1C222
+    WEST ONTARIO STREET\x1CSUITE 600\x1CCHICAGO\x1CIL\x1C60610\x1CG2010\x1C\x1C20101006\x1C750000.00\x1C750000.00\x1C\x1C\"TV
+    ADS WRONG FOR WISCONSIN, WRONG AGAIN\"\x1C004\x1C\x1CO\x1CH0WI08075\x1CRIBBLE\x1CREID\x1C\x1C\x1C\x1CH\x1CWI\x1C08\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011172
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000008
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ADELSTEIN/LISTON
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 222 WEST ONTARIO STREET
+  - name: PAYEE STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: PAYEE CITY
+    number: '13'
+    value: CHICAGO
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60610'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101026'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '135950.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '135950.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: RADIO AD DEVASTATING
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H0WI07051
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: DUFFY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: SEAN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011172\x1CF57.000008\x1CORG\x1CADELSTEIN/LISTON\x1C\x1C\x1C\x1C\x1C\x1C222
+    WEST ONTARIO STREET\x1CSUITE 600\x1CCHICAGO\x1CIL\x1C60610\x1CG2010\x1C\x1C20101026\x1C135950.00\x1C135950.00\x1C\x1CRADIO
+    AD DEVASTATING\x1C004\x1C\x1CO\x1CH0WI07051\x1CDUFFY\x1CSEAN\x1C\x1C\x1C\x1CH\x1CWI\x1C07\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+sourceurl: !!python/unicode 20110127
+type: chunk

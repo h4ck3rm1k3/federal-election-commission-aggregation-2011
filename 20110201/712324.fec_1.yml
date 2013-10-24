@@ -1,0 +1,430 @@
+countrows: 3
+filename: 712324.fec
+header: {}
+rows:
+- 2
+- input: "F1A\x1CC00461657\x1C\x1CFriends of David Harmer\x1C\x1C9321 Silverbend Lane\x1C\x1CElk
+    Grove\x1CCA\x1C956243985\x1C\x1Cvona@onemain.com\x1C\x1C\x1C20110131\x1CCopp\x1CVona\x1CL\x1C\x1C\x1C20110131\x1CA\x1CH0CA10123\x1CHarmer\x1CDavid\x1C\x1C\x1C\x1CH\x1CCA\x1C11\x1CREP\x1C\x1C\x1C\x1C\x1C\x1CC00491217\x1CHarmer
+    Victory Fund\x1C\x1C\x1C\x1C\x1C\x1C\x1CPO Box 365\x1C\x1CMclean\x1CVA\x1C221010365\x1CJFR\x1CCopp\x1CVona\x1CL\x1C\x1C\x1C9321
+    Silverbend Lane\x1C\x1CElk Grove\x1CCA\x1C956243985\x1CTreasurer\x1C9166861815\x1CCopp\x1CVona\x1CL\x1C\x1C\x1C9321
+    Silverbend Lane\x1C\x1CElk Grove\x1CCA\x1C956243985\x1CTreasurer\x1C9166861815\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CWells
+    Fargo Bank\x1C400 Capitol Mall\x1C\x1CSacramento\x1CCA\x1C958144407\x1CBB&T\x1C1909
+    K Street NW\x1C\x1CWashington\x1CDC\x1C200061152\n"
+  record: fec.version.v6_4.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461657
+  - name: CHANGE OF COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of David Harmer
+  - name: CHANGE OF ADDRESS
+    number: '5'
+    value: ''
+  - name: STREET 1
+    number: '6'
+    value: 9321 Silverbend Lane
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Elk Grove
+  - name: STATE
+    number: '9'
+    value: CA
+  - name: ZIP
+    number: '10'
+    value: '956243985'
+  - name: CHANGE OF COMMITTEE EMAIL
+    number: '11'
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '12'
+    value: vona@onemain.com
+  - name: CHANGE OF COMMITTEE WEB URL
+    number: '13'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '14'
+    value: ''
+  - name: SUBMISSION DATE
+    number: '15'
+    value: '20110131'
+  - name: SIGNATURE LAST NAME
+    number: '16'
+    value: Copp
+  - name: SIGNATURE FIRST NAME
+    number: '17'
+    value: Vona
+  - name: SIGNATURE MIDDLE NAME
+    number: '18'
+    value: L
+  - name: SIGNATURE PREFIX
+    number: '19'
+    value: ''
+  - name: SIGNATURE SUFFIX
+    number: '20'
+    value: ''
+  - name: DATE SIGNED
+    number: '21'
+    value: '20110131'
+  - name: COMMITTEE TYPE
+    number: 22-5.
+    value: A
+  - name: CANDIDATE ID NUMBER
+    number: 23-5.
+    value: H0CA10123
+  - name: CANDIDATE LAST NAME
+    number: 24-5.
+    value: Harmer
+  - name: CANDIDATE FIRST NAME
+    number: 25-5.
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: 26-5.
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: 27-5.
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: 28-5.
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 29-5.
+    value: H
+  - name: CANDIDATE STATE
+    number: 30-5.
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: 31-5.
+    value: '11'
+  - name: PARTY CODE
+    number: 32-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 33-5.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 34-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 35-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 36-5 (f).
+    value: ''
+  - name: LEADERSHIP PAC
+    number: 37-5 (f).
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 38-6.
+    value: C00491217
+  - name: AFFILIATED Committee NAME
+    number: 39-6.
+    value: Harmer Victory Fund
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 40-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 41-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 42-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 43-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 44-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 45-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 46-6.
+    value: PO Box 365
+  - name: AFFILIATED STREET 2
+    number: 47-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 48-6.
+    value: Mclean
+  - name: AFFILIATED STATE
+    number: 49-6.
+    value: VA
+  - name: AFFILIATED ZIP
+    number: 50-6.
+    value: '221010365'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 51-6.
+    value: JFR
+  - name: CUSTODIAN LAST NAME
+    number: 52-7.
+    value: Copp
+  - name: CUSTODIAN FIRST NAME
+    number: 53-7.
+    value: Vona
+  - name: CUSTODIAN MIDDLE NAME
+    number: 54-7.
+    value: L
+  - name: CUSTODIAN PREFIX
+    number: 55-7.
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: 56-7.
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: 57-7.
+    value: 9321 Silverbend Lane
+  - name: CUSTODIAN STREET 2
+    number: 58-7.
+    value: ''
+  - name: CUSTODIAN CITY
+    number: 59-7.
+    value: Elk Grove
+  - name: CUSTODIAN STATE
+    number: 60-7.
+    value: CA
+  - name: CUSTODIAN ZIP
+    number: 61-7.
+    value: '956243985'
+  - name: CUSTODIAN TITLE
+    number: 62-7.
+    value: Treasurer
+  - name: CUSTODIAN TELEPHONE
+    number: 63-7.
+    value: '9166861815'
+  - name: TREASURER LAST NAME
+    number: 64-8.
+    value: Copp
+  - name: TREASURER FIRST NAME
+    number: 65-8.
+    value: Vona
+  - name: TREASURER MIDDLE NAME
+    number: 66-8.
+    value: L
+  - name: TREASURER PREFIX
+    number: 67-8.
+    value: ''
+  - name: TREASURER SUFFIX
+    number: 68-8.
+    value: ''
+  - name: TREASURER STREET 1
+    number: 69-8.
+    value: 9321 Silverbend Lane
+  - name: TREASURER STREET 2
+    number: 70-8.
+    value: ''
+  - name: TREASURER CITY
+    number: 71-8.
+    value: Elk Grove
+  - name: TREASURER STATE
+    number: 72-8.
+    value: CA
+  - name: TREASURER ZIP
+    number: 73-8.
+    value: '956243985'
+  - name: TREASURER TITLE
+    number: 74-8.
+    value: Treasurer
+  - name: TREASURER TELEPHONE
+    number: 75-8.
+    value: '9166861815'
+  - name: AGENT LAST NAME
+    number: 76-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 77-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 78-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 79-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 80-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 81-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 82-8.
+    value: ''
+  - name: AGENT CITY
+    number: 83-8.
+    value: ''
+  - name: AGENT STATE
+    number: 84-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 85-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 86-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 87-8.
+    value: ''
+  - name: BANK NAME
+    number: 88-9. a)
+    value: Wells Fargo Bank
+  - name: BANK STREET 1
+    number: 89-9. a)
+    value: 400 Capitol Mall
+  - name: BANK STREET 2
+    number: 90-9. a)
+    value: ''
+  - name: BANK CITY
+    number: 91-9. a)
+    value: Sacramento
+  - name: BANK STATE
+    number: 92-9. a)
+    value: CA
+  - name: BANK ZIP
+    number: 93-9. a)
+    value: '958144407'
+  - name: BANK NAME
+    number: 94-9. b)
+    value: BB&T
+  - name: BANK STREET 1
+    number: 95-9. b)
+    value: 1909 K Street NW
+  - name: BANK STREET 2
+    number: 96-9. b)
+    value: ''
+  - name: BANK CITY
+    number: 97-9. b)
+    value: Washington
+  - name: BANK STATE
+    number: 98-9. b)
+    value: DC
+  - name: BANK ZIP
+    number: 99-9. b)
+    value: '200061152
+
+'
+- input: "F1S\x1CC00461657\x1C\x1C\x1CC00488874\x1CThe Founders Joint Candidate Committee\x1C\x1C\x1C\x1C\x1C\x1C\x1C228
+    S Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\x1CJFR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CBBT\x1C300
+    S Washington Street\x1C\x1CAlexandria\x1CVA\x1C223145403\n"
+  record: fec.version.v6_4.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461657
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: C00488874
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: The Founders Joint Candidate Committee
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: 228 S Washington Street
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: Suite 115
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: Alexandria
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: VA
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: '223145404'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: JFR
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: BBT
+  - name: BANK STREET 1
+    number: 32-9.
+    value: 300 S Washington Street
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: Alexandria
+  - name: BANK STATE
+    number: 35-9.
+    value: VA
+  - name: BANK ZIP
+    number: 36-9.
+    value: '223145403
+
+'
+sourceurl: !!python/unicode 20110201
+type: chunk

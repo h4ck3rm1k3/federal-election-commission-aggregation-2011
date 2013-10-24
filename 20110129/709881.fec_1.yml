@@ -1,0 +1,4870 @@
+countrows: 50
+filename: 709881.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER'S FEC ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: THE ADVOCACY FUND
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 1012 TORNEY AVE
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: SAN FRANCISCO
+  - name: STATE
+    number: '14'
+    value: CA
+  - name: ZIP
+    number: '15'
+    value: '94129'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: ''
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: YE
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: '20101001'
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: '20101231'
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '9781.70'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '37289.74'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Remy
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Danica
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20110128'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90011750\x1C\x1CTHE ADVOCACY FUND\x1C\x1C\x1C\x1C\x1C\x1C\x1C1012
+    TORNEY AVE\x1C\x1CSAN FRANCISCO\x1CCA\x1C94129\x1C\x1C\x1C\x1CYE\x1C\x1C20101001\x1C20101231\x1C9781.70\x1C37289.74\x1CRemy\x1CDanica\x1C\x1C\x1C\x1C20110128\x1C\n"
+  input_count: 31
+  record: fec.version.v6_4.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101001'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1096.19'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000002\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101001\x1C1096.19\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101004'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1111.18'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000003\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101004\x1C1111.18\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101005'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1033.34'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000004\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101005\x1C1033.34\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101006'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1138.03'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000005\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101006\x1C1138.03\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101007'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1174.93'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000006\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101007\x1C1174.93\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000007
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101008'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1164.65'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000007\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101008\x1C1164.65\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000008
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '284.68'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000008\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101020\x1C284.68\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000009
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '531.30'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000009\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101021\x1C531.30\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000010
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '146.48'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000010\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101022\x1C146.48\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000011
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '261.15'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000011\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101025\x1C261.15\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000012
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '156.79'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000012\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101026\x1C156.79\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000013
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '210.87'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000013\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101029\x1C210.87\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000014
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '201.44'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000014\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101030\x1C201.44\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000015
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101031'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '215.89'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000015\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101031\x1C215.89\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000016
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101101'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '324.48'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000016\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101101\x1C324.48\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000017
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Campaign for Community Change
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1536 U Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20101102'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '730.30'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A - This is an in-kind donation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: voter list, staff and consultant time
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90011750\x1CF56.000017\x1CORG\x1CCampaign for Community Change\x1C\x1C\x1C\x1C\x1C\x1C1536
+    U Street NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20101102\x1C730.30\x1CN/A
+    - This is an in-kind donation\x1C\"voter list, staff and consultant time\"\x1C\n"
+  input_count: 21
+  record: fec.version.v6_4.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101001'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2175.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '15100.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000001\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101001\x1C2175.00\x1C15100.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101001'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1600.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '15100.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000002\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101001\x1C1600.00\x1C15100.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101004'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2175.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '18875.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000003\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101004\x1C2175.00\x1C18875.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101004'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1600.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '18875.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000004\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101004\x1C1600.00\x1C18875.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101005'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2175.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '22650.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000005\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101005\x1C2175.00\x1C22650.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101005'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1600.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '22650.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000006\x1CORG\x1CIllinois immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101005\x1C1600.00\x1C22650.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000007
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101006'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2175.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '26425.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000007\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101006\x1C2175.00\x1C26425.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000008
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101006'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1600.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '26425.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000008\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101006\x1C1600.00\x1C26425.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000009
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101007'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2175.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '28600.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000009\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101007\x1C2175.00\x1C28600.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000010
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101007'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1600.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '30200.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000010\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101007\x1C1600.00\x1C30200.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000011
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101008'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2175.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '33975.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000011\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101008\x1C2175.00\x1C33975.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000012
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101008'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1600.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '33975.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000012\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101008\x1C1600.00\x1C33975.00\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000013
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1232.28'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '35207.58'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000013\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101029\x1C1232.28\x1C35207.58\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000014
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101030'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '958.33'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '36165.61'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000014\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101030\x1C958.33\x1C36165.61\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000015
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101031'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '958.33'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '37123.94'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000015\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101031\x1C958.33\x1C37123.94\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000016
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101101'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '554.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '39086.42'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000016\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101101\x1C554.15\x1C39086.42\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000017
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101101'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1408.33'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '39086.42'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000017\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101101\x1C1408.33\x1C39086.42\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000018
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101102'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2216.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '43011.41'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000018\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101102\x1C2216.66\x1C43011.41\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000019
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101102'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1708.33'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '43011.11'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0IL00204
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Giannoulias
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Alexi
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000019\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101102\x1C1708.33\x1C43011.11\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0IL00204\x1CGiannoulias\x1CAlexi\x1C\x1C\x1C\x1CS\x1CIL\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000020
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101020'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '719.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1071.12'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000020\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101020\x1C719.04\x1C1071.12\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000021
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101020'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '352.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1071.12'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000021\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101020\x1C352.08\x1C1071.12\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000022
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1078.56'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3029.88'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000022\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101021\x1C1078.56\x1C3029.88\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000023
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '880.20'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3029.88'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000023\x1CORG\x1CIllinois immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101021\x1C880.20\x1C3029.88\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000024
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101022'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '352.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3381.96'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000024\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101022\x1C352.08\x1C3381.96\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000025
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '719.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '4453.08'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000025\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101025\x1C719.04\x1C4453.08\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000026
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '352.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '4453.08'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000026\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101025\x1C352.08\x1C4453.08\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000027
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: California for Human Immigrant Rights Leadership Action Fund
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2533 W. 3rd Street, Suite 101H
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101026'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '359.52'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '4988.64'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000027\x1CORG\x1CCalifornia for Human Immigrant
+    Rights Leadership Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\"2533 W. 3rd Street, Suite
+    101H\"\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2010\x1C\x1C20101026\x1C359.52\x1C4988.64\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000028
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Illinois Immigrant Action
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 55 E Jackson Blvd, Suite 2075
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '14'
+    value: IL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '60604'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101026'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '176.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '4988.64'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: phone banking
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: S0CO00211
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Bennet
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Michael
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000028\x1CORG\x1CIllinois Immigrant Action\x1C\x1C\x1C\x1C\x1C\x1C\"55
+    E Jackson Blvd, Suite 2075\"\x1C\x1CChicago\x1CIL\x1C60604\x1CG2010\x1C\x1C20101026\x1C176.04\x1C4988.64\x1C\x1Cphone
+    banking\x1C\x1C\x1CS\x1CS0CO00211\x1CBennet\x1CMichael\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000029
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Fenton Communications
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1000 Vermont Avenue, NW, Suite 200
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20005'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '262.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '614.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: press release
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H2AZ07070
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Grijalva
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Raul
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000029\x1CORG\x1CFenton Communications\x1C\x1C\x1C\x1C\x1C\x1C\"1000
+    Vermont Avenue, NW, Suite 200\"\x1C\x1CWashington\x1CDC\x1C20005\x1CG2010\x1C\x1C20101029\x1C262.50\x1C614.69\x1C\x1Cpress
+    release\x1C\x1C\x1CS\x1CH2AZ07070\x1CGrijalva\x1CRaul\x1C\x1C\x1C\x1CH\x1CAZ\x1C07\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000030
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Clemente
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Frank
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: The Advocacy Fund
+  - name: PAYEE STREET 2
+    number: '12'
+    value: PO Box 29229
+  - name: PAYEE CITY
+    number: '13'
+    value: San Francisco
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '94129'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '233.16'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '614.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: press release
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H2AZ07070
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Grijalva
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Raul
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000030\x1CIND\x1C\x1CClemente\x1CFrank\x1C\x1C\x1C\x1CThe
+    Advocacy Fund\x1CPO Box 29229\x1CSan Francisco\x1CCA\x1C94129\x1CG2010\x1C\x1C20101029\x1C233.16\x1C614.69\x1C\x1Cpress
+    release\x1C\x1C\x1CS\x1CH2AZ07070\x1CGrijalva\x1CRaul\x1C\x1C\x1C\x1CH\x1CAZ\x1C07\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000031
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Rosenblum
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Josh
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: The Advocacy Fund
+  - name: PAYEE STREET 2
+    number: '12'
+    value: PO Box 29229
+  - name: PAYEE CITY
+    number: '13'
+    value: San Francisco
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '94129'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '74.60'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '614.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: press release
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H2AZ07070
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Grijalva
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Raul
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000031\x1CIND\x1C\x1CRosenblum\x1CJosh\x1C\x1C\x1C\x1CThe
+    Advocacy Fund\x1CPO Box 29229\x1CSan Francisco\x1CCA\x1C94129\x1CG2010\x1C\x1C20101029\x1C74.60\x1C614.69\x1C\x1Cpress
+    release\x1C\x1C\x1CS\x1CH2AZ07070\x1CGrijalva\x1CRaul\x1C\x1C\x1C\x1CH\x1CAZ\x1C07\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011750
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000032
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Altman
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Nancy
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: The Advocacy Fund
+  - name: PAYEE STREET 2
+    number: '12'
+    value: PO Box 29229
+  - name: PAYEE CITY
+    number: '13'
+    value: San francisco
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '94129'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '44.43'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '614.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: press release
+  - name: CATEGORY CODE
+    number: '23'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H2AZ07070
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Grijalva
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Raul
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 34
+  input: "F57\x1CC90011750\x1CF57.000032\x1CIND\x1C\x1CAltman\x1CNancy\x1C\x1C\x1C\x1CThe
+    Advocacy Fund\x1CPO Box 29229\x1CSan francisco\x1CCA\x1C94129\x1CG2010\x1C\x1C20101029\x1C44.43\x1C614.69\x1C\x1Cpress
+    release\x1C\x1C\x1CS\x1CH2AZ07070\x1CGrijalva\x1CRaul\x1C\x1C\x1C\x1CH\x1CCO\x1C07\x1C\n"
+  input_count: 35
+  record: fec.version.v6_4.F57
+  result: []
+sourceurl: !!python/unicode 20110129
+type: chunk

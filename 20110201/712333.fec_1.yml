@@ -1,0 +1,161 @@
+countrows: 3
+filename: 712333.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0CA10123\x1CHarmer\x1CDavid\x1C\x1C\x1C\x1C\x1C127 Macedon Court\x1C\x1CSan
+    Ramon\x1CCA\x1C945822574\x1CREP\x1CH\x1CCA\x1C11\x1C2010\x1CC00461657\x1CFriends
+    of David Harmer\x1C9321 Silverbend Lane\x1C\x1CElk Grove\x1CCA\x1C956243985\x1CC00488874\x1CThe
+    Founders Joint Candidate Committee\x1C228 S Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\x1CHarmer\x1CDavid\x1C\x1C\x1C\x1C20110131\n"
+  record: fec.version.v6_4.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0CA10123
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Harmer
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 127 Macedon Court
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: San Ramon
+  - name: CANDIDATE STATE
+    number: '12'
+    value: CA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '945822574'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '11'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2010'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00461657
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Friends of David Harmer
+  - name: PCC STREET 1
+    number: '21'
+    value: 9321 Silverbend Lane
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Elk Grove
+  - name: PCC STATE
+    number: '24'
+    value: CA
+  - name: PCC ZIP
+    number: '25'
+    value: '956243985'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00488874
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: The Founders Joint Candidate Committee
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S Washington Street
+  - name: AUTH STREET 2
+    number: '29'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '223145404'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Harmer
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: David
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110131
+
+'
+- input: "F2S\x1CH0CA10123\x1CC00491217\x1CHarmer Victory Fund\x1CPO Box 365\x1C\x1CMclean\x1CVA\x1C221010365\n"
+  record: fec.version.v6_4.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0CA10123
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00491217
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Harmer Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 365
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Mclean
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '221010365
+
+'
+sourceurl: !!python/unicode 20110201
+type: chunk

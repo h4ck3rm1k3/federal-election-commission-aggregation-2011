@@ -1,0 +1,640 @@
+countrows: 7
+filename: 709118.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00461772\x1C48\x1CWESTERN REPRESENTATION PAC\x1C5549 KNOLL VIEW
+    WAY\x1C\x1CSPARKS\x1CNV\x1C89436\x1CStockton\x1CRoger\x1C\x1C\x1C\x1C20100127\n"
+  record: fec.version.v6_4.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461772
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: WESTERN REPRESENTATION PAC
+  - name: STREET 1
+    number: '5'
+    value: 5549 KNOLL VIEW WAY
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SPARKS
+  - name: STATE
+    number: '8'
+    value: NV
+  - name: ZIP
+    number: '9'
+    value: '89436'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Stockton
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Roger
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20100127
+
+'
+- input: "TEXT\x1CC00461772\x1C.TEXT\x1C\x1CF24\x1CAmmends FEC-498806 filed 10/13/2010
+    to correct date on Newsmax transaction for $11,000 originally listed as 9/13/2010.
+    Actual date of expenditure was 10/13/2010\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461772
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: .TEXT
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F24
+  - name: TEXT4000
+    number: '6'
+    value: 'Ammends FEC-498806 filed 10/13/2010 to correct date on Newsmax transaction
+      for $11,000 originally listed as 9/13/2010. Actual date of expenditure was 10/13/2010
+
+'
+- input: "SE\x1CC00461772\x1CSE.21782\x1C\x1C\x1CORG\x1CCBS Radio - NEWSRADIO 840
+    KXNT\x1C\x1C\x1C\x1C\x1C\x1C6655 W. Sahara Ave. Suite D-110\x1C\x1CLas Vegas\x1CNV\x1C89146\x1CG2010\x1C\x1C20101012\x1C1800.00\x1C94225.60\x1C\x1Cradio
+    ad\x1C004\x1CC00461772\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON E\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CStockton\x1CRoger\x1C\x1C\x1C\x1C20100127\x1C\x1C\n"
+  record: fec.version.v6_4.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461772
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.21782
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CBS Radio - NEWSRADIO 840 KXNT
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6655 W. Sahara Ave. Suite D-110
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89146'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101012'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1800.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '94225.60'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: radio ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00461772
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON E
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Stockton
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Roger
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20100127'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00461772\x1CSE.21784\x1C\x1C\x1CORG\x1CNewsmax Media Inc\x1C\x1C\x1C\x1C\x1C\x1C560
+    Billage Blvd #120\x1C\x1CWest Palm Beach\x1CFL\x1C33409\x1CG2010\x1C\x1C20101013\x1C9075.00\x1C104200.60\x1C\x1CSupport
+    email\x1C003\x1CC00461772\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON E\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CStockton\x1CRoger\x1C\x1C\x1C\x1C20100127\x1C\x1C\n"
+  record: fec.version.v6_4.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461772
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.21784
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Newsmax Media Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '560 Billage Blvd #120'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: West Palm Beach
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '33409'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101013'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '9075.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '104200.60'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Support email
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00461772
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON E
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Stockton
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Roger
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20100127'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00461772\x1CSE.21786\x1C\x1C\x1CORG\x1CNewsmax Media Inc\x1C\x1C\x1C\x1C\x1C\x1C560
+    Billage Blvd #120\x1C\x1CWest Palm Beach\x1CFL\x1C33409\x1CG2010\x1C\x1C20101013\x1C11000.00\x1C104200.60\x1C\x1Csupport
+    email\x1C003\x1CC00461772\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON E\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CStockton\x1CRoger\x1C\x1C\x1C\x1C20100127\x1C\x1C\n"
+  record: fec.version.v6_4.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461772
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.21786
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Newsmax Media Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '560 Billage Blvd #120'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: West Palm Beach
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '33409'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101013'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '11000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '104200.60'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: support email
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00461772
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON E
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Stockton
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Roger
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20100127'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00461772\x1CSE.21785\x1C\x1C\x1CORG\x1CSierra Sage Magazine\x1C\x1C\x1C\x1C\x1C\x1C333
+    W. Proctor St\x1C\x1CCarson City\x1CNV\x1C\x1CG2010\x1C\x1C20101013\x1C900.00\x1C104200.60\x1C\x1CPrint
+    ad\x1C004\x1CC00461772\x1CS\x1CS0NV00138\x1CANGLE\x1CSHARRON E\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CStockton\x1CRoger\x1C\x1C\x1C\x1C20100127\x1C\x1C\n"
+  record: fec.version.v6_4.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461772
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.21785
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Sierra Sage Magazine
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 333 W. Proctor St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Carson City
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: ''
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101013'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '900.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '104200.60'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Print ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00461772
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NV00138
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: ANGLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: SHARRON E
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Stockton
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Roger
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20100127'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110127
+type: chunk

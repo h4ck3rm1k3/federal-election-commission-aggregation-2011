@@ -1,0 +1,194 @@
+countrows: 4
+filename: 713207.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH8FL22038\x1CWest\x1CAllen\x1CB\x1C\x1C\x1C\x1C1641 NW  107th Lane\x1C\x1CPlantation\x1CFL\x1C333226439\x1CREP\x1CH\x1CFL\x1C22\x1C2012\x1CC00435628\x1CAllen
+    West for Congress\x1CPO Box 1028\x1C\x1CDeerfield Beach\x1CFL\x1C334431028\x1C\x1CYoung
+    Guns Joint Fundraising Committee I\x1C4703 Woodway Lane NW\x1C\x1CWashington\x1CDC\x1C200163240\x1CWest\x1CAllen\x1CB\x1C\x1C\x1C20110203\n"
+  record: fec.version.v6_4.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8FL22038
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: West
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Allen
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: B
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 1641 NW  107th Lane
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Plantation
+  - name: CANDIDATE STATE
+    number: '12'
+    value: FL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '333226439'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '22'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00435628
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Allen West for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 1028
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Deerfield Beach
+  - name: PCC STATE
+    number: '24'
+    value: FL
+  - name: PCC ZIP
+    number: '25'
+    value: '334431028'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Young Guns Joint Fundraising Committee I
+  - name: AUTH STREET 1
+    number: '28'
+    value: 4703 Woodway Lane NW
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '200163240'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: West
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Allen
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: B
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110203
+
+'
+- input: "F2S\x1CH8FL22038\x1CC00489401\x1CSurge Victory Committee\x1C228 S Washington
+    Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\n"
+  record: fec.version.v6_4.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8FL22038
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00489401
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Surge Victory Committee
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S Washington Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '223145404
+
+'
+- input: "F2S\x1CH8FL22038\x1C\x1CLucky 13 Joint Fundraising Committee\x1C228 S Washington
+    Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\n"
+  record: fec.version.v6_4.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8FL22038
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Lucky 13 Joint Fundraising Committee
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S Washington Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '223145404
+
+'
+sourceurl: !!python/unicode 20110203
+type: chunk

@@ -1,0 +1,289 @@
+countrows: 4
+filename: 712905.fec
+header: {}
+rows:
+- 2
+- input: "F9A\x1CC30001770\x1C\x1CCARE MEMBERSHIP ORGANIZATION\x1C\x1C\x1C\x1C\x1C\x1C\x1C5400
+    N. WASHINGTON\x1C\x1CDENVER\x1CCO\x1C80216\x1C\x1C\x1C20101015\x1C20101018\x1C20101018\x1CCory
+    Can\x1CCLQ\x1C\x1CN\x1CHier\x1CGeoffrey\x1C\x1C\x1C\x1C5400 Washington\x1C\x1CDenver\x1CCO\x1C80216\x1CCREA\x1CDirector
+    of Government Relations\x1C.00\x1C11870.00\x1CHier\x1CGeoffrey\x1C\x1C\x1C\x1C20110203\n"
+  record: fec.version.v6_4.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001770
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: CARE MEMBERSHIP ORGANIZATION
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 5400 N. WASHINGTON
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: DENVER
+  - name: STATE
+    number: '14'
+    value: CO
+  - name: ZIP
+    number: '15'
+    value: '80216'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20101015'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20101018'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20101018'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: Cory Can
+  - name: FILER CODE
+    number: '22'
+    value: CLQ
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: N
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Hier
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Geoffrey
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 5400 Washington
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: ''
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: Denver
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: CO
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '80216'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: CREA
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Director of Government Relations
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '11870.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Hier
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Geoffrey
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20110203
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001770
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Colorado Winning Edge
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 8074 Grove St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Westminster
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '80031'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20101015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '11870.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Cory Can Radio Spot
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20101018'
+  - value: '
+
+'
+  expected_count: 26
+  input: "F93\x1CC30001770\x1CF93.000001\x1C\x1C\x1CORG\x1CColorado Winning Edge\x1C\x1C\x1C\x1C\x1C\x1C8074
+    Grove St\x1C\x1CWestminster\x1CCO\x1C80031\x1CG2010\x1C\x1C20101015\x1C11870.00\x1C\x1CCory
+    Can Radio Spot\x1C\x1C\x1C20101018\x1C\n"
+  input_count: 27
+  record: fec.version.v6_4.F93
+  result: []
+- input: "F94\x1CC30001770\x1CF94.000002\x1CF93.000001\x1CF93\x1C\x1CGardner\x1CCory\x1C\x1C\x1C\x1CH\x1CCO\x1C04\x1CG2010\x1C\n"
+  record: fec.version.v6_4.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001770
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Gardner
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Cory
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: H
+  - name: CANDIDATE STATE
+    number: '13'
+    value: CO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '04'
+  - name: ELECTION CODE
+    number: '15'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110203
+type: chunk
