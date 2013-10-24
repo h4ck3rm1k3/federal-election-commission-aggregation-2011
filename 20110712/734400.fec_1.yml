@@ -1,0 +1,212 @@
+countrows: 3
+filename: 734400.fec
+header: {}
+rows:
+- 2
+- input: "F5N\x1CC90011057\x1CORG\x1CNATIONAL ORGANIZATION FOR MARRIAGE\x1C\x1C\x1C\x1C\x1C\x1C\x1C2029
+    K St., NW\x1CSte. 300\x1CWASHINGTON\x1CDC\x1C20006\x1CY\x1C\x1C\x1C\x1C24\x1C\x1C\x1C0.00\x1C0.00\x1CBrown\x1CBrian\x1C\x1C\x1C\x1C20110712\n"
+  record: fec.version.v7_0.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER'S FEC ID NUMBER
+    number: '2'
+    value: C90011057
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: NATIONAL ORGANIZATION FOR MARRIAGE
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 2029 K St., NW
+  - name: STREET 2
+    number: '12'
+    value: Ste. 300
+  - name: CITY
+    number: '13'
+    value: WASHINGTON
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20006'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: Y
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '24'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: ''
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '0.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '0.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Brown
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Brian
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20110712
+
+'
+- input: "F57\x1CC90011057\x1CF57.4149\x1CORG\x1CccAdvertising-CA\x1C\x1C\x1C\x1C\x1C\x1C13800
+    Coppermine Rd.\x1C\x1CHerndon\x1CVA\x1C20171\x1CR2011\x1CRunoff\x1C20110711\x1C3628.89\x1C3628.89\x1C\x1CIE-Huey-Robocalls-Special
+    Run off\x1C004\x1C\x1CS\x1CH2CA36314\x1CHUEY\x1CCRAIG\x1C\x1C\x1C\x1CH\x1CCA\x1C36\n"
+  record: fec.version.v7_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011057
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4149
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ccAdvertising-CA
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 13800 Coppermine Rd.
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Herndon
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20171'
+  - name: ELECTION CODE
+    number: '16'
+    value: R2011
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: Runoff
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20110711'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '3628.89'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3628.89'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: IE-Huey-Robocalls-Special Run off
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H2CA36314
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: HUEY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: CRAIG
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '36
+
+'
+sourceurl: !!python/unicode 20110712
+type: chunk

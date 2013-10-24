@@ -1,0 +1,128 @@
+countrows: 2
+filename: 733484.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH0MO07113\x1CLONG\x1CBILLY\x1C\x1C\x1C\x1C\x1C3246 E. Ridgeview Street\x1C\x1CSPRINGFIELD\x1CMO\x1C65804\x1CRep\x1CH\x1CMO\x1C07\x1C2012\x1CC00460063\x1CBilly
+    Long for Congress\x1C3246 E. Ridgeview Street\x1C\x1CSpringfield\x1CMO\x1C65804\x1C\x1CSecurity
+    for America Fund\x1C4703 Woodway Lane NW\x1C\x1CWashington\x1CDC\x1C20016\x1CLONG\x1CBILLY\x1C\x1C\x1C\x1C20110707\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0MO07113
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: LONG
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: BILLY
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 3246 E. Ridgeview Street
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: SPRINGFIELD
+  - name: CANDIDATE STATE
+    number: '12'
+    value: MO
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '65804'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: Rep
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MO
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00460063
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Billy Long for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: 3246 E. Ridgeview Street
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Springfield
+  - name: PCC STATE
+    number: '24'
+    value: MO
+  - name: PCC ZIP
+    number: '25'
+    value: '65804'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Security for America Fund
+  - name: AUTH STREET 1
+    number: '28'
+    value: 4703 Woodway Lane NW
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20016'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: LONG
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: BILLY
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110707
+
+'
+sourceurl: !!python/unicode 20110707
+type: chunk

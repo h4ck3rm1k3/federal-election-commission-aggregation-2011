@@ -1,0 +1,1413 @@
+countrows: 18
+filename: 733820.fec
+header: {}
+rows:
+- 2
+- input: "F3N\x1CC00461665\x1CDANIEL ARNETT 2010\x1C\x1CPO BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1COK\x1C02\x1CQ2\x1C\x1C\x1C\x1C20110401\x1C20110630\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1C20110709\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C680.08\x1C0.00\x1C13843.42\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C680.08\x1C0.00\x1C680.08\x1C0.00\x1C680.08\x1C9811.33\x1C0.00\x1C9811.33\x1C9631.25\x1C0.00\x1C9631.25\x1C7423.90\x1C2176.60\x1C9600.50\x1C0.00\x1C100.00\x1C110.83\x1C9811.33\x1C0.00\x1C1488.00\x1C0.00\x1C1488.00\x1C0.00\x1C0.00\x1C11299.33\x1C9631.25\x1C0.00\x1C988.00\x1C0.00\x1C988.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C10619.25\n"
+  record: fec.version.v7_0.F3
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DANIEL ARNETT 2010
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 82
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HENRYETTA
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74437'
+  - name: ELECTION STATE
+    number: '10'
+    value: OK
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: '02'
+  - name: REPORT CODE
+    number: '12'
+    value: Q2
+  - name: ELECTION CODE
+    number: '13'
+    value: ''
+  - name: DATE OF ELECTION
+    number: '14'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '15'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '16'
+    value: '20110401'
+  - name: COVERAGE THROUGH DATE
+    number: '17'
+    value: '20110630'
+  - name: TREASURER LAST NAME
+    number: '18'
+    value: Arnett
+  - name: TREASURER FIRST NAME
+    number: '19'
+    value: Daniel
+  - name: TREASURER MIDDLE NAME
+    number: '20'
+    value: Allen
+  - name: TREASURER PREFIX
+    number: '21'
+    value: Mr.
+  - name: TREASURER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110709'
+  - name: Total Contributions (NO Loans)
+    number: 24-(6a)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 25-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 26-(6c)
+    value: '0.00'
+  - name: Total Operating Expenditures
+    number: 27-(7a)
+    value: '0.00'
+  - name: Total Offset to Operating Expenditures
+    number: 28-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 29-(7c)
+    value: '0.00'
+  - name: CASH ON HAND AT CLOSE ...
+    number: 30-8.
+    value: '680.08'
+  - name: DEBTS TO ( Totals from SCH C and/or D)
+    number: 31-9.
+    value: '0.00'
+  - name: DEBTS BY (Totals from SCH C and/or D)
+    number: 32-10.
+    value: '13843.42'
+  - name: Individuals Itemized
+    number: 33-11(a i.)
+    value: '0.00'
+  - name: Individuals Unitemized
+    number: 34-11(a.ii)
+    value: '0.00'
+  - name: Individual Contribution Total
+    number: 35-11(a.iii)
+    value: '0.00'
+  - name: Political Party Committees
+    number: 36-11(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 37-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 38-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 39-11(e)
+    value: '0.00'
+  - name: Transfers From Other Authorized Committees
+    number: 40-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 41-13(a)
+    value: '0.00'
+  - name: All Other Loans
+    number: 42-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 43-13(c)
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 44-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 45-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 46-16.
+    value: '0.00'
+  - name: Operating Expenditures
+    number: 47-17.
+    value: '0.00'
+  - name: Transfers to Other Authorized Committees
+    number: 48-18.
+    value: '0.00'
+  - name: Of Loans made or guar. by the Cand.
+    number: 49-19(a)
+    value: '0.00'
+  - name: Loan Repayments, All Other Loans
+    number: 50-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 51-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Political Committees
+    number: 52-20(a)
+    value: '0.00'
+  - name: Refund/Political Party Committees
+    number: 53-20(b)
+    value: '0.00'
+  - name: Refund/Other Political Committees
+    number: 54-20(c)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 55-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 56-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 57-22.
+    value: '0.00'
+  - name: Cash Beginning Reporting Period
+    number: 58-23.
+    value: '680.08'
+  - name: Total Receipts this Period
+    number: 59-24.
+    value: '0.00'
+  - name: Subtotals
+    number: 60-25.
+    value: '680.08'
+  - name: Total Disbursements this Period
+    number: 61-26.
+    value: '0.00'
+  - name: Cash on hand at Close Period
+    number: 62-27.
+    value: '680.08'
+  - name: Total Contributions (No Loans)
+    number: 63-(6a)
+    value: '9811.33'
+  - name: Total Contribution Refunds
+    number: 64-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 65-(6c)
+    value: '9811.33'
+  - name: Total Operating Expenditures
+    number: 66-(7a)
+    value: '9631.25'
+  - name: Total Offsets to Operating Expenditures
+    number: 67-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 68-(7c)
+    value: '9631.25'
+  - name: Individuals Itemized
+    number: 69-11(a i.)
+    value: '7423.90'
+  - name: Individuals Unitemized
+    number: 70-11(a.ii)
+    value: '2176.60'
+  - name: Individuals Total
+    number: 71-11(a.iii)
+    value: '9600.50'
+  - name: Political Party Committees
+    number: 72-11(b)
+    value: '0.00'
+  - name: All Other Political Committees (PACS)
+    number: 73-11(c)
+    value: '100.00'
+  - name: The Candidate
+    number: 74-11(d)
+    value: '110.83'
+  - name: Total Contributions
+    number: 75-11(e)
+    value: '9811.33'
+  - name: Transfers From Other AUTH Committees
+    number: 76-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 77-13(a)
+    value: '1488.00'
+  - name: All Other Loans
+    number: 78-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 79-13(c)
+    value: '1488.00'
+  - name: Offsets to Operating Expenditures
+    number: 80-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 81-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 82-16.
+    value: '11299.33'
+  - name: Operating Expenditures
+    number: 83-17
+    value: '9631.25'
+  - name: Transfers To Other AUTH Committees
+    number: 84-18.
+    value: '0.00'
+  - name: Loan Repayment By Candidate
+    number: 85-19(a)
+    value: '988.00'
+  - name: Loan Repayments, ALL Other Loans
+    number: 86-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 87-19(c)
+    value: '988.00'
+  - name: Refund/Individuals Other than Political Committees
+    number: 88-20(a)
+    value: '0.00'
+  - name: Refund, Political Party Committees
+    number: 89-20(b)
+    value: '0.00'
+  - name: Refund, Other Political Committees
+    number: 90-20(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 91-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 92-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 93-22.
+    value: '10619.25
+
+'
+- input: "SC/10\x1CC00461665\x1CSC/10.4499\x1C13A\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CP2010\x1C\x1C500.00\x1C0.00\x1C500.00\x1C20100426\x1COn
+    Demand\x1C0.0500\x1CN\x1CY\x1C\x1CH0OK02145\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CH\x1COK\x1C02\x1C\x1C\n"
+  record: fec.version.v7_0.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.4499
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Arnett
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Daniel
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: Allen
+  - name: LENDER PREFIX
+    number: '10'
+    value: Mr.
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: PO BOX 82
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: HENRYETTA
+  - name: LENDER STATE
+    number: '15'
+    value: OK
+  - name: LENDER ZIP
+    number: '16'
+    value: '74437'
+  - name: ELECTION CODE
+    number: '17'
+    value: P2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '500.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '500.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20100426'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: On Demand
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0500'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: H0OK02145
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: Arnett
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: Daniel
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: Allen
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: OK
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4293\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CPOV 55 cent/mile to Dist 2 Republican
+    Party meetings\x1C2566.30\x1C0.00\x1C0.00\x1C2566.30\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4293
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: POV 55 cent/mile to Dist 2 Republican Party meetings
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '2566.30'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '2566.30
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4294\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CAirline travel to state convention and
+    Dist 2 Rep mtgs\x1C728.21\x1C0.00\x1C0.00\x1C728.21\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4294
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Airline travel to state convention and Dist 2 Rep mtgs
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '728.21'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '728.21
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4326\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CAirline travel to Conservative Political
+    Action Conference\x1C219.00\x1C0.00\x1C0.00\x1C219.00\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4326
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Airline travel to Conservative Political Action Conference
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '219.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '219.00
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4325\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CPOV 55 cent/mile to Dist 2 Republican
+    Party meetings\x1C953.70\x1C0.00\x1C0.00\x1C953.70\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4325
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: POV 55 cent/mile to Dist 2 Republican Party meetings
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '953.70'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '953.70
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4449\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CPOV 50 cent/mile mostly to Dist 2 Republican
+    Party meetings\x1C1943.60\x1C0.00\x1C0.00\x1C1943.60\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4449
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: POV 50 cent/mile mostly to Dist 2 Republican Party meetings
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '1943.60'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1943.60
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4520\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CRegister with Oklahoma Election Board\x1C757.00\x1C0.00\x1C0.00\x1C757.00\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4520
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Register with Oklahoma Election Board
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '757.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '757.00
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4521\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CCandidate advanced personal funds to
+    purchase yard signs\x1C970.00\x1C0.00\x1C0.00\x1C970.00\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4521
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Candidate advanced personal funds to purchase yard signs
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '970.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '970.00
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4555\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CPersonal funds for Best Western Atoka
+    Inn check-in 6/24, check-out 6/25\x1C68.69\x1C0.00\x1C0.00\x1C68.69\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4555
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Personal funds for Best Western Atoka Inn check-in 6/24, check-out 6/25
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '68.69'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '68.69
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4537\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CPurchase sign posts for yard signs\x1C116.27\x1C0.00\x1C0.00\x1C116.27\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4537
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Purchase sign posts for yard signs
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '116.27'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '116.27
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4552\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CStakes, rope, and pots to set up sign\x1C21.30\x1C0.00\x1C0.00\x1C21.30\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4552
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Stakes, rope, and pots to set up sign
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '21.30'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '21.30
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4549\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CPay Claremore Daily Progress newspaper
+    for advertising\x1C248.00\x1C0.00\x1C0.00\x1C248.00\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4549
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Pay Claremore Daily Progress newspaper for advertising
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '248.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '248.00
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4482\x1CCAN\x1C\x1CArnett\x1CDaniel\x1CAllen\x1CMr.\x1C\x1CPO
+    BOX 82\x1C\x1CHENRYETTA\x1COK\x1C74437\x1CPOV 50 cemts/mile mostly to Dist 2 Republican
+    Party meetings\x1C3536.60\x1C0.00\x1C0.00\x1C3536.60\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4482
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Daniel
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Allen
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO BOX 82
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: HENRYETTA
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '74437'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: POV 50 cemts/mile mostly to Dist 2 Republican Party meetings
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '3536.60'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '3536.60
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4271\x1CIND\x1C\x1CArnett\x1CJames W.\x1CWilliam\x1C\x1C\x1C2513
+    Jeannes Trail\x1C\x1CEdmond\x1COK\x1C73003\x1CWebsite cost $4,400.  James Arnett
+    did $2,400 in-kind and deems the remaining $2,000. to be a debt.\x1C500.00\x1C0.00\x1C0.00\x1C500.00\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4271
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Arnett
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: James W.
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: William
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 2513 Jeannes Trail
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Edmond
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '73003'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Website cost $4,400.  James Arnett did $2,400 in-kind and deems the remaining
+      $2,000. to be a debt.
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '500.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '500.00
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4446\x1CIND\x1C\x1CMansur\x1CMinnis\x1CVance\x1C\x1C\x1C421
+    Nantucket Blvd\x1C\x1CNorman\x1COK\x1C73071\x1CBook keeping services\x1C393.50\x1C0.00\x1C0.00\x1C393.50\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4446
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Mansur
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Minnis
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Vance
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 421 Nantucket Blvd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Norman
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '73071'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Book keeping services
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '393.50'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '393.50
+
+'
+- input: "SD10\x1CC00461665\x1CSD10.4481\x1CIND\x1C\x1CMansur\x1CMinnis\x1CVance\x1C\x1C\x1C421
+    Nantucket Blvd\x1C\x1CNorman\x1COK\x1C73071\x1CBookkeeping services\x1C321.25\x1C0.00\x1C0.00\x1C321.25\n"
+  record: fec.version.v7_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00461665
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4481
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Mansur
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Minnis
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: Vance
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 421 Nantucket Blvd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Norman
+  - name: CREDITOR STATE
+    number: '14'
+    value: OK
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '73071'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Bookkeeping services
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '321.25'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '321.25
+
+'
+sourceurl: !!python/unicode 20110709
+type: chunk

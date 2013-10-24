@@ -1,0 +1,162 @@
+countrows: 3
+filename: 734418.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0NH02017\x1CBass\x1CCharles\x1CF.\x1C\x1C\x1C\x1CPO Box 210\x1C\x1CPeterborough\x1CNH\x1C03458
+    \  \x1CREP\x1CH\x1CNH\x1C02\x1C2012\x1CC00302570\x1CBass Victory Committee\x1CPO
+    Box 3451\x1C\x1CConcord\x1CNH\x1C03302   \x1CC00497156\x1CPatriot Day 2011\x1C228
+    S. Washington St, Ste 115\x1C\x1CAlexandria\x1CVA\x1C22314   \x1CBass\x1CCharles\x1CF.\x1C\x1C\x1C20110712\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NH02017
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Bass
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Charles
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: F.
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 210
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Peterborough
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NH
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '03458   '
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00302570
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Bass Victory Committee
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 3451
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Concord
+  - name: PCC STATE
+    number: '24'
+    value: NH
+  - name: PCC ZIP
+    number: '25'
+    value: '03302   '
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00497156
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Patriot Day 2011
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S. Washington St, Ste 115
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314   '
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Bass
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Charles
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: F.
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110712
+
+'
+- input: "F2S\x1CH0NH02017\x1CC00497156\x1CPatriot Day 2011\x1C228 S. Washington St,
+    Ste 115\x1C\x1CAlexandria\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NH02017
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00497156
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Patriot Day 2011
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S. Washington St, Ste 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+sourceurl: !!python/unicode 20110712
+type: chunk

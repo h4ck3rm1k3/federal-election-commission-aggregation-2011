@@ -1,0 +1,228 @@
+countrows: 5
+filename: 735883.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH4TX28046\x1CCANSECO\x1CFRANCISCO RAUL QUICO\x1CR.\x1C\x1C\x1C\x1C10004
+    Wurzbach Road #366\x1C\x1CSan Antonio\x1CTX\x1C78230\x1CREP\x1CH\x1CTX\x1C23\x1C2012\x1CC00394353\x1CCANSECO
+    FOR CONGRESS\x1C10004 Wurzbach Road #366\x1C\x1CSan Antonio\x1CTX\x1C78230\x1CC00496083\x1CFRESHMAN
+    MAJORITY FUND\x1C2470 DANIEL'S BRIDGE RD STE 121\x1C\x1CATHENS\x1CGA\x1C30606\x1CCANSECO\x1CFRANCISCO
+    RAUL QUICO\x1CR.\x1C\x1C\x1C20110715\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4TX28046
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: CANSECO
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: FRANCISCO RAUL QUICO
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: R.
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: '10004 Wurzbach Road #366'
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: San Antonio
+  - name: CANDIDATE STATE
+    number: '12'
+    value: TX
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '78230'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '23'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00394353
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: CANSECO FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: '10004 Wurzbach Road #366'
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: San Antonio
+  - name: PCC STATE
+    number: '24'
+    value: TX
+  - name: PCC ZIP
+    number: '25'
+    value: '78230'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00496083
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: FRESHMAN MAJORITY FUND
+  - name: AUTH STREET 1
+    number: '28'
+    value: 2470 DANIEL'S BRIDGE RD STE 121
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ATHENS
+  - name: AUTH STATE
+    number: '31'
+    value: GA
+  - name: AUTH ZIP
+    number: '32'
+    value: '30606'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: CANSECO
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: FRANCISCO RAUL QUICO
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: R.
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110715
+
+'
+- input: "F2S\x1CH4TX28046\x1CC00493791\x1CMajority Victory Fund (Adams, Canseco,
+    Crawford, Guinta, Ribble)\x1C25 EAST MAIN STREET\x1C\x1CRICHMOND\x1CVA\x1C23219\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4TX28046
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493791
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Majority Victory Fund (Adams, Canseco, Crawford, Guinta, Ribble)
+  - name: AUTH STREET 1
+    number: '5'
+    value: 25 EAST MAIN STREET
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: RICHMOND
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '23219
+
+'
+- input: "F2S\x1CH4TX28046\x1CC00497156\x1CPATRIOT DAY 2011\x1C228 S WASHINGTON ST
+    STE 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4TX28046
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00497156
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: PATRIOT DAY 2011
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+- input: "F2S\x1CH4TX28046\x1CC00493817\x1CTEAM 2012\x1C228 S WASHINGTON ST STE 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4TX28046
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493817
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: TEAM 2012
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+sourceurl: !!python/unicode 20110715
+type: chunk
