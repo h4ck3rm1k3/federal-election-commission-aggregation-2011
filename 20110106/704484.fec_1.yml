@@ -1,0 +1,129 @@
+countrows: 2
+filename: 704484.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0SD00054\x1CNoem\x1CKristi\x1CLynn\x1C\x1C\x1C\x1CPO Box 852\x1C\x1CSioux
+    Falls\x1CSD\x1C571010852\x1CREP\x1CH\x1CSD\x1C00\x1C2012\x1CC00476853\x1CKristi
+    for Congress\x1CPO Box 852\x1C\x1CSioux Falls\x1CSD\x1C571017101\x1CC00488874\x1CFounders
+    Joint Candidate Committee\x1C228 S Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\x1CNoem\x1CKristi\x1CLynn\x1C\x1C\x1C20110106\n"
+  record: fec.version.v6_4.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0SD00054
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Noem
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Kristi
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Lynn
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 852
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Sioux Falls
+  - name: CANDIDATE STATE
+    number: '12'
+    value: SD
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '571010852'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SD
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '00'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00476853
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Kristi for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 852
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Sioux Falls
+  - name: PCC STATE
+    number: '24'
+    value: SD
+  - name: PCC ZIP
+    number: '25'
+    value: '571017101'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00488874
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Founders Joint Candidate Committee
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S Washington Street
+  - name: AUTH STREET 2
+    number: '29'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '223145404'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Noem
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Kristi
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: Lynn
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110106
+
+'
+sourceurl: !!python/unicode 20110106
+type: chunk

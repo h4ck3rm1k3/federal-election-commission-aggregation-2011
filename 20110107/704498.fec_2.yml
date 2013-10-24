@@ -1,0 +1,2106 @@
+countrows: 24
+filename: 704498.fec
+header: {}
+rows:
+- input: "H6\x1CC00167346\x1C30a-14-02453-03109\x1C\x1C\x1CIND\x1C\x1CHurst\x1CAmber\x1C\x1C\x1C\x1C6133
+    NE 25th Avenue\x1C\x1CPortland\x1COR\x1C97211\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C11320.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02453-03109
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Hurst
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Amber
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6133 NE 25th Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Portland
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97211'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11320.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02454-03110\x1C\x1C\x1CIND\x1C\x1CJohnson\x1CKayla\x1C\x1C\x1C\x1C2860A
+    N. 11th Street\x1C\x1CHilwawkee\x1CWI\x1C53206\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C11440.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02454-03110
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Johnson
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Kayla
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2860A N. 11th Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hilwawkee
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53206'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11440.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02455-03111\x1C\x1C\x1CIND\x1C\x1CKenney\x1CBriana\x1C\x1C\x1C\x1C1372
+    William Suiters Lane\x1C\x1CClarksville\x1CTN\x1C37042\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C11560.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02455-03111
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Kenney
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Briana
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1372 William Suiters Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Clarksville
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '37042'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11560.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02456-03112\x1C\x1C\x1CIND\x1C\x1CLowery\x1CKierra\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CGOTV
+    2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C11680.00\x1C\x1CGOTV Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02456-03112
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Lowery
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Kierra
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: ''
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: ''
+  - name: PAYEE STATE
+    number: '16'
+    value: ''
+  - name: PAYEE ZIP
+    number: '17'
+    value: ''
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11680.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02458-03114\x1C\x1C\x1CIND\x1C\x1CLyles\x1CNicholas\x1C\x1C\x1C\x1C1210
+    Briarcliff Drive\x1C\x1CUrbouna\x1CIL\x1C61801\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C11800.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02458-03114
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Lyles
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Nicholas
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1210 Briarcliff Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Urbouna
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '61801'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11800.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02459-03115\x1C\x1C\x1CIND\x1C\x1CMcCrary\x1CAimeer\x1C\x1C\x1C\x1C200
+    N. Hays Avenue\x1C\x1CJackson\x1CTN\x1C38301\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C11920.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02459-03115
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: McCrary
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Aimeer
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 200 N. Hays Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Jackson
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38301'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11920.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02460-03116\x1C\x1C\x1CIND\x1C\x1CMcLin\x1CJerome\x1C\x1C\x1C\x1C545
+    Lane Avenue\x1C\x1CJackson\x1CTN\x1C38301\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C12040.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02460-03116
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: McLin
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Jerome
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 545 Lane Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Jackson
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38301'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '12040.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02463-03119\x1C\x1C\x1CIND\x1C\x1CMoore\x1CBilly\x1C\x1C\x1C\x1C104
+    Dempster Street\x1C\x1CJackson\x1CTN\x1C38301\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C12160.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02463-03119
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Moore
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Billy
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 104 Dempster Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Jackson
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38301'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '12160.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02464-03120\x1C\x1C\x1CIND\x1C\x1CPowell\x1CGene\x1C\x1C\x1C\x1C11
+    Tanglewood Lane\x1C\x1CJackson\x1CTN\x1C38301\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C12280.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02464-03120
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Powell
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Gene
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 11 Tanglewood Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Jackson
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38301'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '12280.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02466-03122\x1C\x1C\x1CIND\x1C\x1CSmith\x1CContrell\x1C\x1C\x1C\x1C84
+    Church of Christ ROad\x1C\x1CRed Banks\x1CMS\x1C38661\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C12400.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02466-03122
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Smith
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Contrell
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 84 Church of Christ ROad
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Red Banks
+  - name: PAYEE STATE
+    number: '16'
+    value: MS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38661'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '12400.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02467-03123\x1C\x1C\x1CIND\x1C\x1CSmith\x1CLee\x1C\x1C\x1CIII\x1C12131
+    Wesmeade Drive\x1C\x1CMayland Heights\x1CMO\x1C63043\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C12520.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02467-03123
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Smith
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Lee
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: III
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 12131 Wesmeade Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mayland Heights
+  - name: PAYEE STATE
+    number: '16'
+    value: MO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '63043'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '12520.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02471-03127\x1C\x1C\x1CIND\x1C\x1CTerynce\x1CMcDonald\x1C\x1C\x1C\x1C545
+    Lane Avenue\x1C\x1CJackson\x1CTN\x1C38301\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C12640.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02471-03127
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Terynce
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: McDonald
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 545 Lane Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Jackson
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38301'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '12640.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02472-03128\x1C\x1C\x1CIND\x1C\x1CTimms\x1CJessica\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CGOTV
+    2010\x1C20100924\x1C250.00\x1C37.50\x1C212.50\x1C12890.00\x1C\x1CGOTV Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02472-03128
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Timms
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Jessica
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: ''
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: ''
+  - name: PAYEE STATE
+    number: '16'
+    value: ''
+  - name: PAYEE ZIP
+    number: '17'
+    value: ''
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '250.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '37.50'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '212.50'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '12890.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02473-03129\x1C\x1C\x1CIND\x1C\x1CWarren\x1CBrittany\x1C\x1C\x1C\x1C4610
+    Harvest Valley Drive\x1C\x1CMemphis\x1CTN\x1C30128\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C13010.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02473-03129
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Warren
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Brittany
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 4610 Harvest Valley Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Memphis
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30128'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '13010.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02474-03130\x1C\x1C\x1CIND\x1C\x1CWatson\x1CSchanaque\x1C\x1C\x1C\x1C4610
+    Tulip Tree Drive\x1C\x1CMemphis\x1CTN\x1C38115\x1CGOTV 2010\x1C20100924\x1C120.00\x1C18.00\x1C102.00\x1C13130.00\x1C\x1CGOTV
+    Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02474-03130
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Watson
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Schanaque
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 4610 Tulip Tree Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Memphis
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38115'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100924'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '13130.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02476-03132\x1C\x1C\x1CIND\x1C\x1CSwanson\x1CRyan\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CGOTV
+    2010\x1C20100927\x1C120.00\x1C18.00\x1C102.00\x1C13250.00\x1C\x1CGOTV Canvasser\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02476-03132
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Swanson
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Ryan
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: ''
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: ''
+  - name: PAYEE STATE
+    number: '16'
+    value: ''
+  - name: PAYEE ZIP
+    number: '17'
+    value: ''
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100927'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '120.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '18.00'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '102.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '13250.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Canvasser
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02477-03133\x1C\x1C\x1CORG\x1CElegant Events\x1C\x1C\x1C\x1C\x1C\x1C415
+    E. Lafayette Street\x1C\x1CJackson\x1CTN\x1C38301\x1CGOTV 2010\x1C20100927\x1C849.03\x1C127.35\x1C721.68\x1C14099.03\x1C\x1CGOTV
+    Event Catering\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02477-03133
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Elegant Events
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 415 E. Lafayette Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Jackson
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '38301'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: GOTV 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100927'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '849.03'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '127.35'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '721.68'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '14099.03'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: GOTV Event Catering
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: X
+  - name: Activity Is Voter ID
+    number: 29-
+    value: ''
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02432-0014\x1C\x1C\x1CIND\x1C\x1CBrady\x1CDevin\x1C\x1C\x1C\x1C215
+    Summit Ridge Drive\x1C\x1CNashville\x1CTN\x1C37215\x1CVoter ID 2010\x1C20100902\x1C389.40\x1C58.41\x1C330.99\x1C389.40\x1C\x1CReimbursement
+    - See Memos\x1C\x1C\x1C\x1CX\x1C\x1C\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02432-0014
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Brady
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Devin
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 215 Summit Ridge Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Nashville
+  - name: PAYEE STATE
+    number: '16'
+    value: TN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '37215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Voter ID 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100902'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '389.40'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '58.41'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '330.99'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '389.40'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Reimbursement - See Memos
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: ''
+  - name: Activity Is Voter ID
+    number: 29-
+    value: X
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "H6\x1CC00167346\x1C30a-14-02432-03088\x1C30a-14-02432-0014\x1CH6\x1CORG\x1CBottom
+    Line Telecommunications\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CVoter ID 2010\x1C20100902\x1C389.40\x1C58.41\x1C330.99\x1C0.00\x1C\x1CBar
+    Code Scanners\x1C\x1C\x1C\x1CX\x1C\x1CX\x1C\n"
+  record: fec.version.v6_4.SH6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 30a-14-02432-03088
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 30a-14-02432-0014
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H6
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Bottom Line Telecommunications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: ''
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: ''
+  - name: PAYEE STATE
+    number: '16'
+    value: ''
+  - name: PAYEE ZIP
+    number: '17'
+    value: ''
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Voter ID 2010
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100902'
+  - name: TOTAL FED-LEVIN AMOUNT
+    number: '20'
+    value: '389.40'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '58.41'
+  - name: LEVIN SHARE
+    number: '22'
+    value: '330.99'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '0.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Bar Code Scanners
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity Is Voter Registration
+    number: 27-
+    value: ''
+  - name: Activity GOTV
+    number: 28-
+    value: ''
+  - name: Activity Is Voter ID
+    number: 29-
+    value: X
+  - name: Activity is Generic Campaign
+    number: 30-
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '32'
+    value: '
+
+'
+- input: "TEXT\x1CC00167346\x1CTEXT-00001\x1C\x1CF3XA\x1CThis amendment is in response
+    to the Commission's request, dated December 2, 2010.    1.  The excess contribution
+    from Olan Mills II has been transfered to the Committee's non federal account.
+    \   2.  All expenses on this report have a purpose listed.    3.  All Communications
+    and Managment Consulants were true consultants and where not employee's of the
+    Committee.  Furthermore, had these individuals been employees, they did not spend
+    over 25% of thier compensated time on Federal activity.    4.  The Voter File
+    Purchase has been moved to Schedule B, Supporting Line 30b, as is correct.  Although
+    this transaction was reported on Schedule H4, no transfer was made from the non
+    federal account in relation to this transaction.  The payroll related items on
+    Schedule H4 of this report were for employees that spent 25% or less of their
+    compensated time on Federal activity.      Any Other Reciepts or Offsets disclosed
+    on this report were accessed at the usual and normal charge, as previously established.
+    \ Any fundraising or meeting expenses reported on Schedule B were for the benefit
+    of the Committee and did not support a federal candidate.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3XA
+  - name: TEXT4000
+    number: '6'
+    value: 'This amendment is in response to the Commission''s request, dated December
+      2, 2010.    1.  The excess contribution from Olan Mills II has been transfered
+      to the Committee''s non federal account.    2.  All expenses on this report
+      have a purpose listed.    3.  All Communications and Managment Consulants were
+      true consultants and where not employee''s of the Committee.  Furthermore, had
+      these individuals been employees, they did not spend over 25% of thier compensated
+      time on Federal activity.    4.  The Voter File Purchase has been moved to Schedule
+      B, Supporting Line 30b, as is correct.  Although this transaction was reported
+      on Schedule H4, no transfer was made from the non federal account in relation
+      to this transaction.  The payroll related items on Schedule H4 of this report
+      were for employees that spent 25% or less of their compensated time on Federal
+      activity.      Any Other Reciepts or Offsets disclosed on this report were accessed
+      at the usual and normal charge, as previously established.  Any fundraising
+      or meeting expenses reported on Schedule B were for the benefit of the Committee
+      and did not support a federal candidate.
+
+'
+- input: "TEXT\x1CC00167346\x1CTEXT-00002\x1C30b-08-03658-06423\x1CSB30b\x1CDid not
+    mention a Federal Candidate.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 30b-08-03658-06423
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB30b
+  - name: TEXT4000
+    number: '6'
+    value: 'Did not mention a Federal Candidate.
+
+'
+- input: "TEXT\x1CC00167346\x1CTEXT-00003\x1C17-08-03767-06717\x1CSA17\x1CTransfered
+    to State Account on the Same Day.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00003
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 17-08-03767-06717
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA17
+  - name: TEXT4000
+    number: '6'
+    value: 'Transfered to State Account on the Same Day.
+
+'
+- input: "TEXT\x1CC00167346\x1CTEXT-00004\x1C29-08-03770-06724\x1CSB29\x1CTed LaRoche\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00004
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 29-08-03770-06724
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB29
+  - name: TEXT4000
+    number: '6'
+    value: 'Ted LaRoche
+
+'
+- input: "TEXT\x1CC00167346\x1CTEXT-00005\x1C30a-14-02477-03133\x1CH6\x1CDid notfeature
+    a federal candidate.\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00167346
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00005
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 30a-14-02477-03133
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: H6
+  - name: TEXT4000
+    number: '6'
+    value: 'Did notfeature a federal candidate.
+
+'
+sourceurl: !!python/unicode 20110107
+type: chunk

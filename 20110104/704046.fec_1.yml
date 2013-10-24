@@ -1,0 +1,674 @@
+countrows: 3
+filename: 704046.fec
+header: {}
+rows:
+- 2
+- input: "F3N\x1CC00485441\x1CCOONEY FOR CONGRESS\x1C\x1C1221 Vassar Drive\x1C\x1CKALAMAZOO\x1CMI\x1C49001\x1CMI\x1C06\x1CYE\x1C\x1C\x1C\x1C20101123\x1C20101231\x1CKildea\x1CRobert\x1C\x1CMr.\x1C\x1C20110104\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C1872.41\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C1872.41\x1C0.00\x1C1872.41\x1C0.00\x1C1872.41\x1C60819.63\x1C0.00\x1C60819.63\x1C56629.61\x1C0.00\x1C56629.61\x1C24205.00\x1C30364.63\x1C54569.63\x1C1750.00\x1C4500.00\x1C0.00\x1C60819.63\x1C951.92\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C220.00\x1C61991.55\x1C56629.61\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C56629.61\n"
+  record: fec.version.v6_4.F3
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00485441
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COONEY FOR CONGRESS
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 1221 Vassar Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: KALAMAZOO
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '49001'
+  - name: ELECTION STATE
+    number: '10'
+    value: MI
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: '06'
+  - name: REPORT CODE
+    number: '12'
+    value: YE
+  - name: ELECTION CODE
+    number: '13'
+    value: ''
+  - name: DATE OF ELECTION
+    number: '14'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '15'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '16'
+    value: '20101123'
+  - name: COVERAGE THROUGH DATE
+    number: '17'
+    value: '20101231'
+  - name: TREASURER LAST NAME
+    number: '18'
+    value: Kildea
+  - name: TREASURER FIRST NAME
+    number: '19'
+    value: Robert
+  - name: TREASURER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '21'
+    value: Mr.
+  - name: TREASURER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110104'
+  - name: Total Contributions (NO Loans)
+    number: 24-(6a)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 25-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 26-(6c)
+    value: '0.00'
+  - name: Total Operating Expenditures
+    number: 27-(7a)
+    value: '0.00'
+  - name: Total Offset to Operating Expenditures
+    number: 28-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 29-(7c)
+    value: '0.00'
+  - name: CASH ON HAND AT CLOSE ...
+    number: 30-8.
+    value: '1872.41'
+  - name: DEBTS TO ( Totals from SCH C and/or D)
+    number: 31-9.
+    value: '0.00'
+  - name: DEBTS BY (Totals from SCH C and/or D)
+    number: 32-10.
+    value: '0.00'
+  - name: Individuals Itemized
+    number: 33-11(a i.)
+    value: '0.00'
+  - name: Individuals Unitemized
+    number: 34-11(a.ii)
+    value: '0.00'
+  - name: Individual Contribution Total
+    number: 35-11(a.iii)
+    value: '0.00'
+  - name: Political Party Committees
+    number: 36-11(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 37-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 38-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 39-11(e)
+    value: '0.00'
+  - name: Transfers From Other Authorized Committees
+    number: 40-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 41-13(a)
+    value: '0.00'
+  - name: All Other Loans
+    number: 42-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 43-13(c)
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 44-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 45-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 46-16.
+    value: '0.00'
+  - name: Operating Expenditures
+    number: 47-17.
+    value: '0.00'
+  - name: Transfers to Other Authorized Committees
+    number: 48-18.
+    value: '0.00'
+  - name: Of Loans made or guar. by the Cand.
+    number: 49-19(a)
+    value: '0.00'
+  - name: Loan Repayments, All Other Loans
+    number: 50-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 51-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Political Committees
+    number: 52-20(a)
+    value: '0.00'
+  - name: Refund/Political Party Committees
+    number: 53-20(b)
+    value: '0.00'
+  - name: Refund/Other Political Committees
+    number: 54-20(c)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 55-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 56-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 57-22.
+    value: '0.00'
+  - name: Cash Beginning Reporting Period
+    number: 58-23.
+    value: '1872.41'
+  - name: Total Receipts this Period
+    number: 59-24.
+    value: '0.00'
+  - name: Subtotals
+    number: 60-25.
+    value: '1872.41'
+  - name: Total Disbursements this Period
+    number: 61-26.
+    value: '0.00'
+  - name: Cash on hand at Close Period
+    number: 62-27.
+    value: '1872.41'
+  - name: Total Contributions (No Loans)
+    number: 63-(6a)
+    value: '60819.63'
+  - name: Total Contribution Refunds
+    number: 64-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 65-(6c)
+    value: '60819.63'
+  - name: Total Operating Expenditures
+    number: 66-(7a)
+    value: '56629.61'
+  - name: Total Offsets to Operating Expenditures
+    number: 67-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 68-(7c)
+    value: '56629.61'
+  - name: Individuals Itemized
+    number: 69-11(a i.)
+    value: '24205.00'
+  - name: Individuals Unitemized
+    number: 70-11(a.ii)
+    value: '30364.63'
+  - name: Individuals Total
+    number: 71-11(a.iii)
+    value: '54569.63'
+  - name: Political Party Committees
+    number: 72-11(b)
+    value: '1750.00'
+  - name: All Other Political Committees (PACS)
+    number: 73-11(c)
+    value: '4500.00'
+  - name: The Candidate
+    number: 74-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 75-11(e)
+    value: '60819.63'
+  - name: Transfers From Other AUTH Committees
+    number: 76-12.
+    value: '951.92'
+  - name: Loans made or guarn. by the Candidate
+    number: 77-13(a)
+    value: '0.00'
+  - name: All Other Loans
+    number: 78-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 79-13(c)
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 80-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 81-15.
+    value: '220.00'
+  - name: Total Receipts
+    number: 82-16.
+    value: '61991.55'
+  - name: Operating Expenditures
+    number: 83-17
+    value: '56629.61'
+  - name: Transfers To Other AUTH Committees
+    number: 84-18.
+    value: '0.00'
+  - name: Loan Repayment By Candidate
+    number: 85-19(a)
+    value: '0.00'
+  - name: Loan Repayments, ALL Other Loans
+    number: 86-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 87-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Political Committees
+    number: 88-20(a)
+    value: '0.00'
+  - name: Refund, Political Party Committees
+    number: 89-20(b)
+    value: '0.00'
+  - name: Refund, Other Political Committees
+    number: 90-20(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 91-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 92-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 93-22.
+    value: '56629.61
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F3S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00485441
+  - name: Date - General Election
+    number: '3'
+    value: '20101102'
+  - name: Date - Day after General Election
+    number: '4'
+    value: '20101103'
+  - name: Total Contributions (No Loans)
+    number: 5-(6a)
+    value: '55.00'
+  - name: Total Contribution Refunds
+    number: 6-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 7-(6c)
+    value: '55.00'
+  - name: Total Operating Expenditures
+    number: 8-(7a)
+    value: '3544.53'
+  - name: Total Offsets to Operating Expenditures
+    number: 9-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 10-(7c)
+    value: '3544.53'
+  - name: Individuals Itemized
+    number: 11-11(a i.)
+    value: '0.00'
+  - name: Individuals Unitemized
+    number: 12-11(a.ii)
+    value: '55.00'
+  - name: Individuals Total
+    number: 13-11(a.iii)
+    value: '55.00'
+  - name: Political Party Committees
+    number: 14-11(b)
+    value: '0.00'
+  - name: All Other Political Committees (PACS)
+    number: 15-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 16-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 17-11(e)
+    value: '55.00'
+  - name: Transfers From Other AUTH Committees
+    number: 18-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 19-13(a)
+    value: '0.00'
+  - name: All Other Loans
+    number: 20-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 21-13(c)
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 22-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 23-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 24-16.
+    value: '55.00'
+  - name: Operating Expenditures
+    number: 25-17
+    value: '3544.53'
+  - name: Transfers To Other AUTH Committees
+    number: 26-18.
+    value: '0.00'
+  - name: Loan Repayment By Candidate
+    number: 27-19(a)
+    value: '0.00'
+  - name: Loan Repayments, ALL Other Loans
+    number: 28-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 29-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Political Committees
+    number: 30-20(a)
+    value: '0.00'
+  - name: Refund, Political Party Committees
+    number: 31-20(b)
+    value: '0.00'
+  - name: Refund, Other Political Committees
+    number: 32-20(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 33-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 34-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 35-22.
+    value: '3544.53
+
+'
+  - name: FORM TYPE
+    number: '1'
+    value: NO VALUE!
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: NO VALUE!
+  - name: Date - General Election
+    number: '3'
+    value: NO VALUE!
+  - name: Date - Day after General Election
+    number: '4'
+    value: NO VALUE!
+  - name: Net Contributions
+    number: 5-14.
+    value: NO VALUE!
+  - name: Net Expenditures
+    number: 6-15.
+    value: NO VALUE!
+  - name: Federal Funds
+    number: 7-16.
+    value: NO VALUE!
+  - name: Individuals
+    number: 8-17(a)
+    value: NO VALUE!
+  - name: Political Party Committees
+    number: 9-17(b)
+    value: NO VALUE!
+  - name: Other Political Committees (PACs)
+    number: 10-17(c)
+    value: NO VALUE!
+  - name: The Candidate
+    number: 11-17(d)
+    value: NO VALUE!
+  - name: Total contributions (Other than Loans)
+    number: 12-17(e)
+    value: NO VALUE!
+  - name: Transfers From Aff/Other Party Committees
+    number: 13-18.
+    value: NO VALUE!
+  - name: Received from or Guaranteed by Candidate
+    number: 14-19(a)
+    value: NO VALUE!
+  - name: Other Loans
+    number: 15-19(b)
+    value: NO VALUE!
+  - name: Total Loans
+    number: 16-19(c)
+    value: NO VALUE!
+  - name: Operating
+    number: 17-20(a)
+    value: NO VALUE!
+  - name: Fundraising
+    number: 18-20(b)
+    value: NO VALUE!
+  - name: Legal and Accounting
+    number: 19-20(c)
+    value: NO VALUE!
+  - name: Total Offsets to Operating Expenditures
+    number: 20-20(d)
+    value: NO VALUE!
+  - name: Other Receipts
+    number: 21-21.
+    value: NO VALUE!
+  - name: Total Receipts
+    number: 22-22.
+    value: NO VALUE!
+  - name: Operating Expenditures
+    number: 23-23.
+    value: NO VALUE!
+  - name: Transfers to Other Authorized Committees
+    number: 24-24.
+    value: NO VALUE!
+  - name: Fundraising Disbursements
+    number: 25-25.
+    value: NO VALUE!
+  - name: Exempt Legal and Accounting Disbursements
+    number: 26-26.
+    value: NO VALUE!
+  - name: Made or Guaranteed by the Candidate
+    number: 27-27(a)
+    value: NO VALUE!
+  - name: Other Repayments
+    number: 28-27(b)
+    value: NO VALUE!
+  - name: Total Loan Repayments Made
+    number: 29-27(c)
+    value: NO VALUE!
+  - name: Individuals
+    number: 30-28(a)
+    value: NO VALUE!
+  - name: Political Party Committees
+    number: 31-28(b)
+    value: NO VALUE!
+  - name: Other Political Committees
+    number: 32-28(c)
+    value: NO VALUE!
+  - name: Total Contributions Refunds
+    number: 33-28(d)
+    value: NO VALUE!
+  - name: Other Disbursements
+    number: 34-29.
+    value: NO VALUE!
+  - name: Total Disbursements
+    number: 35-30.
+    value: NO VALUE!
+  - name: ALABAMA
+    number: '36'
+    value: NO VALUE!
+  - name: ALASKA
+    number: '37'
+    value: NO VALUE!
+  - name: ARIZONA
+    number: '38'
+    value: NO VALUE!
+  - name: ARKANSAS
+    number: '39'
+    value: NO VALUE!
+  - name: CALIFORNIA
+    number: '40'
+    value: NO VALUE!
+  - name: COLORADO
+    number: '41'
+    value: NO VALUE!
+  - name: CONNECTICUT
+    number: '42'
+    value: NO VALUE!
+  - name: DELAWARE
+    number: '43'
+    value: NO VALUE!
+  - name: DIST OF COLUMBIA
+    number: '44'
+    value: NO VALUE!
+  - name: FLORIDA
+    number: '45'
+    value: NO VALUE!
+  - name: GEORGIA
+    number: '46'
+    value: NO VALUE!
+  - name: HAWAII
+    number: '47'
+    value: NO VALUE!
+  - name: IDAHO
+    number: '48'
+    value: NO VALUE!
+  - name: ILLINOIS
+    number: '49'
+    value: NO VALUE!
+  - name: INDIANA
+    number: '50'
+    value: NO VALUE!
+  - name: IOWA
+    number: '51'
+    value: NO VALUE!
+  - name: KANSAS
+    number: '52'
+    value: NO VALUE!
+  - name: KENTUCKY
+    number: '53'
+    value: NO VALUE!
+  - name: LOUISIANA
+    number: '54'
+    value: NO VALUE!
+  - name: MAINE
+    number: '55'
+    value: NO VALUE!
+  - name: MARYLAND
+    number: '56'
+    value: NO VALUE!
+  - name: MASSACHUSETTS
+    number: '57'
+    value: NO VALUE!
+  - name: MICHIGAN
+    number: '58'
+    value: NO VALUE!
+  - name: MINNESOTA
+    number: '59'
+    value: NO VALUE!
+  - name: MISSISSIPPI
+    number: '60'
+    value: NO VALUE!
+  - name: MISSOURI
+    number: '61'
+    value: NO VALUE!
+  - name: MONTANA
+    number: '62'
+    value: NO VALUE!
+  - name: NEBRASKA
+    number: '63'
+    value: NO VALUE!
+  - name: NEVADA
+    number: '64'
+    value: NO VALUE!
+  - name: NEW HAMPSHIRE
+    number: '65'
+    value: NO VALUE!
+  - name: NEW JERSEY
+    number: '66'
+    value: NO VALUE!
+  - name: NEW MEXICO
+    number: '67'
+    value: NO VALUE!
+  - name: NEW YORK
+    number: '68'
+    value: NO VALUE!
+  - name: NORTH CAROLINA
+    number: '69'
+    value: NO VALUE!
+  - name: NORTH DAKOTA
+    number: '70'
+    value: NO VALUE!
+  - name: OHIO
+    number: '71'
+    value: NO VALUE!
+  - name: OKLAHOMA
+    number: '72'
+    value: NO VALUE!
+  - name: OREGON
+    number: '73'
+    value: NO VALUE!
+  - name: PENNSYLVANIA
+    number: '74'
+    value: NO VALUE!
+  - name: RHODE ISLAND
+    number: '75'
+    value: NO VALUE!
+  - name: SOUTH CAROLINA
+    number: '76'
+    value: NO VALUE!
+  - name: SOUTH DAKOTA
+    number: '77'
+    value: NO VALUE!
+  - name: TENNESSEE
+    number: '78'
+    value: NO VALUE!
+  - name: TEXAS
+    number: '79'
+    value: NO VALUE!
+  - name: UTAH
+    number: '80'
+    value: NO VALUE!
+  - name: VERMONT
+    number: '81'
+    value: NO VALUE!
+  - name: VIRGINIA
+    number: '82'
+    value: NO VALUE!
+  - name: WASHINGTON
+    number: '83'
+    value: NO VALUE!
+  - name: WEST VIRGINIA
+    number: '84'
+    value: NO VALUE!
+  - name: WISCONSIN
+    number: '85'
+    value: NO VALUE!
+  - name: WYOMING
+    number: '86'
+    value: NO VALUE!
+  - name: PUERTO RICO
+    number: '87'
+    value: NO VALUE!
+  - name: GUAM
+    number: '88'
+    value: NO VALUE!
+  - name: VIRGIN ISLANDS
+    number: '89'
+    value: NO VALUE!
+  - name: TOTALS
+    number: '90'
+    value: NO VALUE!
+  expected_count: 125
+  input: "F3S\x1CC00485441\x1C20101102\x1C20101103\x1C55.00\x1C0.00\x1C55.00\x1C3544.53\x1C0.00\x1C3544.53\x1C0.00\x1C55.00\x1C55.00\x1C0.00\x1C0.00\x1C0.00\x1C55.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C55.00\x1C3544.53\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C3544.53\n"
+  input_count: 35
+  record: fec.version.v6_4.F3S
+  result: []
+sourceurl: !!python/unicode 20110104
+type: chunk

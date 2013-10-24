@@ -1,0 +1,180 @@
+countrows: 3
+filename: 708421.fec
+header: {}
+rows:
+- input: "SD10\x1CC00473751\x1CSD10-DEBT3385\x1CORG\x1COnondaga County\x1C\x1C\x1C\x1C\x1C\x1C421
+    Montgomery Street\x1C\x1CSyracuse\x1CNY\x1C132022923\x1COther: Copies of absentee
+    ballots\x1C0\x1C7274.5\x1C0\x1C7274.5\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473751
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10-DEBT3385
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Onondaga County
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 421 Montgomery Street
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Syracuse
+  - name: CREDITOR STATE
+    number: '14'
+    value: NY
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '132022923'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: 'Other: Copies of absentee ballots'
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '7274.5'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '7274.5
+
+'
+- input: "SD10\x1CC00473751\x1CSD10-DEBT2117\x1CORG\x1CMcLaughlin & Associates\x1C\x1C\x1C\x1C\x1C\x1C566
+    Route 303\x1C\x1CBlauvelt\x1CNY\x1C109131916\x1CPolling: NY CD 25 Survey on July
+    26, 2010\x1C8008\x1C0\x1C8008\x1C0\n"
+  record: fec.version.v6_4.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473751
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10-DEBT2117
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: McLaughlin & Associates
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 566 Route 303
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Blauvelt
+  - name: CREDITOR STATE
+    number: '14'
+    value: NY
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '109131916'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: 'Polling: NY CD 25 Survey on July 26, 2010'
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '8008'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '8008'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0
+
+'
+- input: "TEXT\x1CC00473751\x1CT3-11/22/2010\x1C\x1CF3A\x1CQuestion 1 All Column B
+    changes made with assistance of Back Office support staff. Question 2. The beginning
+    cash balances of this report equals the endind balance of the Amended 12 Day Pre-General
+    report. Question 3. The filed duplicate 48-Hour notice was a duplicate, please
+    disregard no way of canceling the duplicate. back Office report stated the 48
+    Hour Notice had faied to be submitted, so a second one was sent, however the FEC
+    did in fact receive the failed 48 Hour Notice.  NOTE: A prior question regarding
+    Stutson Bridge Plaza LLC, CEO/Owner Anthony Comparato 2465 Ridge Road West Rochester,
+    NY 14626 and is a partnership LLC per Tom Hartwig, Manager of Stutson Bridge Plaza
+    LLC\n"
+  record: fec.version.v6_4.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473751
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: T3-11/22/2010
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3A
+  - name: TEXT4000
+    number: '6'
+    value: 'Question 1 All Column B changes made with assistance of Back Office support
+      staff. Question 2. The beginning cash balances of this report equals the endind
+      balance of the Amended 12 Day Pre-General report. Question 3. The filed duplicate
+      48-Hour notice was a duplicate, please disregard no way of canceling the duplicate.
+      back Office report stated the 48 Hour Notice had faied to be submitted, so a
+      second one was sent, however the FEC did in fact receive the failed 48 Hour
+      Notice.  NOTE: A prior question regarding Stutson Bridge Plaza LLC, CEO/Owner
+      Anthony Comparato 2465 Ridge Road West Rochester, NY 14626 and is a partnership
+      LLC per Tom Hartwig, Manager of Stutson Bridge Plaza LLC
+
+'
+sourceurl: !!python/unicode 20110125
+type: chunk

@@ -1,0 +1,658 @@
+countrows: 5
+filename: 706017.fec
+header: {}
+rows:
+- 2
+- input: "F1A\x1CC00303305\x1C\x1CPete Sessions For Congress\x1C\x1CPO Box 823047\x1C\x1CDallas\x1CTX\x1C753823047\x1C\x1Cjillmell@sbcglobal.net\x1CX\x1Cwww.petesessions.com\x1C20110117\x1CHargrove\x1CSteve\x1C\x1CMr.\x1C\x1C20110117\x1CA\x1CH2TX03126\x1CSessions\x1CPete\x1C\x1CMr.\x1C\x1CH\x1CTX\x1C32\x1CREP\x1C\x1C\x1C\x1C\x1C\x1CC00462002\x1CPete
+    Sessions Victory Committee\x1C\x1C\x1C\x1C\x1C\x1C\x1C320    1st Street SE\x1CFloor
+    2\x1CWashington\x1CDC\x1C200031838\x1CJFR\x1CHargrove\x1CSteve\x1C\x1CMr.\x1C\x1C7576
+    Benedict Drive\x1C\x1CDallas\x1CTX\x1C752141903\x1CTreasurer\x1C2147428665\x1CHargrove\x1CSteve\x1C\x1CMr.\x1C\x1C7576
+    Benedict Drive\x1C\x1CDallas\x1CTX\x1C752141903\x1CTreasurer\x1C2147428665\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CInwood
+    National Bank\x1CPO Box 7813\x1C\x1CDallas\x1CTX\x1C752090813\x1CAmerican National
+    Bank\x1C2703 Oak Lawn Avenue\x1C\x1CDallas\x1CTX\x1C752194108\n"
+  record: fec.version.v6_4.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: CHANGE OF COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Pete Sessions For Congress
+  - name: CHANGE OF ADDRESS
+    number: '5'
+    value: ''
+  - name: STREET 1
+    number: '6'
+    value: PO Box 823047
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Dallas
+  - name: STATE
+    number: '9'
+    value: TX
+  - name: ZIP
+    number: '10'
+    value: '753823047'
+  - name: CHANGE OF COMMITTEE EMAIL
+    number: '11'
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '12'
+    value: jillmell@sbcglobal.net
+  - name: CHANGE OF COMMITTEE WEB URL
+    number: '13'
+    value: X
+  - name: COMMITTEE WEB URL
+    number: '14'
+    value: www.petesessions.com
+  - name: SUBMISSION DATE
+    number: '15'
+    value: '20110117'
+  - name: SIGNATURE LAST NAME
+    number: '16'
+    value: Hargrove
+  - name: SIGNATURE FIRST NAME
+    number: '17'
+    value: Steve
+  - name: SIGNATURE MIDDLE NAME
+    number: '18'
+    value: ''
+  - name: SIGNATURE PREFIX
+    number: '19'
+    value: Mr.
+  - name: SIGNATURE SUFFIX
+    number: '20'
+    value: ''
+  - name: DATE SIGNED
+    number: '21'
+    value: '20110117'
+  - name: COMMITTEE TYPE
+    number: 22-5.
+    value: A
+  - name: CANDIDATE ID NUMBER
+    number: 23-5.
+    value: H2TX03126
+  - name: CANDIDATE LAST NAME
+    number: 24-5.
+    value: Sessions
+  - name: CANDIDATE FIRST NAME
+    number: 25-5.
+    value: Pete
+  - name: CANDIDATE MIDDLE NAME
+    number: 26-5.
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: 27-5.
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: 28-5.
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 29-5.
+    value: H
+  - name: CANDIDATE STATE
+    number: 30-5.
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: 31-5.
+    value: '32'
+  - name: PARTY CODE
+    number: 32-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 33-5.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 34-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 35-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 36-5 (f).
+    value: ''
+  - name: LEADERSHIP PAC
+    number: 37-5 (f).
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 38-6.
+    value: C00462002
+  - name: AFFILIATED Committee NAME
+    number: 39-6.
+    value: Pete Sessions Victory Committee
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 40-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 41-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 42-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 43-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 44-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 45-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 46-6.
+    value: 320    1st Street SE
+  - name: AFFILIATED STREET 2
+    number: 47-6.
+    value: Floor 2
+  - name: AFFILIATED CITY
+    number: 48-6.
+    value: Washington
+  - name: AFFILIATED STATE
+    number: 49-6.
+    value: DC
+  - name: AFFILIATED ZIP
+    number: 50-6.
+    value: '200031838'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 51-6.
+    value: JFR
+  - name: CUSTODIAN LAST NAME
+    number: 52-7.
+    value: Hargrove
+  - name: CUSTODIAN FIRST NAME
+    number: 53-7.
+    value: Steve
+  - name: CUSTODIAN MIDDLE NAME
+    number: 54-7.
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: 55-7.
+    value: Mr.
+  - name: CUSTODIAN SUFFIX
+    number: 56-7.
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: 57-7.
+    value: 7576 Benedict Drive
+  - name: CUSTODIAN STREET 2
+    number: 58-7.
+    value: ''
+  - name: CUSTODIAN CITY
+    number: 59-7.
+    value: Dallas
+  - name: CUSTODIAN STATE
+    number: 60-7.
+    value: TX
+  - name: CUSTODIAN ZIP
+    number: 61-7.
+    value: '752141903'
+  - name: CUSTODIAN TITLE
+    number: 62-7.
+    value: Treasurer
+  - name: CUSTODIAN TELEPHONE
+    number: 63-7.
+    value: '2147428665'
+  - name: TREASURER LAST NAME
+    number: 64-8.
+    value: Hargrove
+  - name: TREASURER FIRST NAME
+    number: 65-8.
+    value: Steve
+  - name: TREASURER MIDDLE NAME
+    number: 66-8.
+    value: ''
+  - name: TREASURER PREFIX
+    number: 67-8.
+    value: Mr.
+  - name: TREASURER SUFFIX
+    number: 68-8.
+    value: ''
+  - name: TREASURER STREET 1
+    number: 69-8.
+    value: 7576 Benedict Drive
+  - name: TREASURER STREET 2
+    number: 70-8.
+    value: ''
+  - name: TREASURER CITY
+    number: 71-8.
+    value: Dallas
+  - name: TREASURER STATE
+    number: 72-8.
+    value: TX
+  - name: TREASURER ZIP
+    number: 73-8.
+    value: '752141903'
+  - name: TREASURER TITLE
+    number: 74-8.
+    value: Treasurer
+  - name: TREASURER TELEPHONE
+    number: 75-8.
+    value: '2147428665'
+  - name: AGENT LAST NAME
+    number: 76-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 77-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 78-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 79-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 80-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 81-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 82-8.
+    value: ''
+  - name: AGENT CITY
+    number: 83-8.
+    value: ''
+  - name: AGENT STATE
+    number: 84-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 85-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 86-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 87-8.
+    value: ''
+  - name: BANK NAME
+    number: 88-9. a)
+    value: Inwood National Bank
+  - name: BANK STREET 1
+    number: 89-9. a)
+    value: PO Box 7813
+  - name: BANK STREET 2
+    number: 90-9. a)
+    value: ''
+  - name: BANK CITY
+    number: 91-9. a)
+    value: Dallas
+  - name: BANK STATE
+    number: 92-9. a)
+    value: TX
+  - name: BANK ZIP
+    number: 93-9. a)
+    value: '752090813'
+  - name: BANK NAME
+    number: 94-9. b)
+    value: American National Bank
+  - name: BANK STREET 1
+    number: 95-9. b)
+    value: 2703 Oak Lawn Avenue
+  - name: BANK STREET 2
+    number: 96-9. b)
+    value: ''
+  - name: BANK CITY
+    number: 97-9. b)
+    value: Dallas
+  - name: BANK STATE
+    number: 98-9. b)
+    value: TX
+  - name: BANK ZIP
+    number: 99-9. b)
+    value: '752194108
+
+'
+- input: "F1S\x1CC00303305\x1C\x1C\x1CC00454686\x1CMarchant-Sessions Joint Committee\x1C\x1C\x1C\x1C\x1C\x1C\x1C1251
+    Dartmouth Court\x1C\x1CAlexandria\x1CVA\x1C223144784\x1CJFR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CProfessional
+    Bank N/A\x1C2101 Abrams Road\x1C\x1CDallas\x1CTX\x1C752143919\n"
+  record: fec.version.v6_4.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: C00454686
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: Marchant-Sessions Joint Committee
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: 1251 Dartmouth Court
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: Alexandria
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: VA
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: '223144784'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: JFR
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: Professional Bank N/A
+  - name: BANK STREET 1
+    number: 32-9.
+    value: 2101 Abrams Road
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: Dallas
+  - name: BANK STATE
+    number: 35-9.
+    value: TX
+  - name: BANK ZIP
+    number: 36-9.
+    value: '752143919
+
+'
+- input: "F1S\x1CC00303305\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CChain
+    Bridge Bank\x1C1445A Laughlin Avenue\x1C\x1CMclean\x1CVA\x1C221015709\n"
+  record: fec.version.v6_4.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: ''
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: ''
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: ''
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: ''
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: ''
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: ''
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: ''
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: Chain Bridge Bank
+  - name: BANK STREET 1
+    number: 32-9.
+    value: 1445A Laughlin Avenue
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: Mclean
+  - name: BANK STATE
+    number: 35-9.
+    value: VA
+  - name: BANK ZIP
+    number: 36-9.
+    value: '221015709
+
+'
+- input: "F1S\x1CC00303305\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CWachovia
+    Bank\x1C1970 Chain Bridge Road\x1C\x1CMcLean\x1CVA\x1C22102\n"
+  record: fec.version.v6_4.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00303305
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: ''
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: ''
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: ''
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: ''
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: ''
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: ''
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: ''
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: Wachovia Bank
+  - name: BANK STREET 1
+    number: 32-9.
+    value: 1970 Chain Bridge Road
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: McLean
+  - name: BANK STATE
+    number: 35-9.
+    value: VA
+  - name: BANK ZIP
+    number: 36-9.
+    value: '22102
+
+'
+sourceurl: !!python/unicode 20110117
+type: chunk
