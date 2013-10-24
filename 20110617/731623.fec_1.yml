@@ -1,0 +1,129 @@
+countrows: 2
+filename: 731623.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH0GA09030\x1CGraves\x1CJohn\x1CThomas\x1CMr.\x1CJr.\x1C\x1C475 Craig
+    Road\x1C\x1CRanger\x1CGA\x1C307349703\x1CREP\x1CH\x1CGA\x1C09\x1C2012\x1CC00462556\x1CGraves
+    for Congress\x1CPO Box 701\x1C\x1CGainesville\x1CGA\x1C30503\x1CC00495663\x1CGeorgia
+    Young Guns Victory Fund\x1C25 East Main Street\x1C\x1CRichmond\x1CVA\x1C23219\x1CGraves\x1CJohn\x1CThomas\x1CMr.\x1CJr.\x1C20110617\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0GA09030
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Graves
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Thomas
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: Jr.
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 475 Craig Road
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Ranger
+  - name: CANDIDATE STATE
+    number: '12'
+    value: GA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '307349703'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00462556
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Graves for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 701
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Gainesville
+  - name: PCC STATE
+    number: '24'
+    value: GA
+  - name: PCC ZIP
+    number: '25'
+    value: '30503'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00495663
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Georgia Young Guns Victory Fund
+  - name: AUTH STREET 1
+    number: '28'
+    value: 25 East Main Street
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Richmond
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '23219'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Graves
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: John
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: Thomas
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Mr.
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: Jr.
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110617
+
+'
+sourceurl: !!python/unicode 20110617
+type: chunk

@@ -1,0 +1,282 @@
+countrows: 5
+filename: 732859.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00494468\x1CFRIENDS OF CRAIG HUEY FOR CONGRESS\x1C21171 S. WESTERN
+    AVE. #260\x1C\x1CTORRANCE\x1CCA\x1C90501\x1C\x1CHUEY\x1CCRAIG\x1C\x1C\x1C\x1CH\x1CCA\x1C36\x1CBAUER\x1CDAVID\x1C\x1C\x1C\x1C20110630\n"
+  record: fec.version.v7_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494468
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF CRAIG HUEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: '21171 S. WESTERN AVE. #260'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: TORRANCE
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90501'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HUEY
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: CRAIG
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '36'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: BAUER
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: DAVID
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110630
+
+'
+- input: "F65\x1CC00494468\x1CINC.F65.1783\x1CPTY\x1CCALIF. REPUBLICAN PARTY\x1C\x1C\x1C\x1C\x1C\x1C1903
+    W. MAGNOLIA BLVD.\x1C\x1CBURBANK\x1CCA\x1C91506\x1CC00140590\x1C20110629\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494468
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.1783
+  - name: ENTITY TYPE
+    number: '4'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CALIF. REPUBLICAN PARTY
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1903 W. MAGNOLIA BLVD.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BURBANK
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '91506'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00140590
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110629'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00494468\x1CINC.F65.1809\x1CIND\x1C\x1CDAVID\x1CWILLIAM\x1C\x1C\x1C\x1C4924
+    BALBOA BLVD. #489\x1C\x1CENCINO\x1CCA\x1C91316\x1C\x1C20110629\x1C2500.00\x1CSELF\x1CREAL
+    ESTATE INVESTOR\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494468
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.1809
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DAVID
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: WILLIAM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '4924 BALBOA BLVD. #489'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ENCINO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '91316'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110629'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'REAL ESTATE INVESTOR
+
+'
+- input: "F65\x1CC00494468\x1CINC.F65.1808\x1CIND\x1C\x1CSEABERG\x1CRICHARD\x1C\x1C\x1C\x1C1424
+    VIA ZUMAYA\x1C\x1CPALOS VERDES ESTAT\x1CCA\x1C90274\x1C\x1C20110629\x1C1000.00\x1CN/A\x1CNOT
+    EMPLOYED\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00494468
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.1808
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SEABERG
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: RICHARD
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1424 VIA ZUMAYA
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PALOS VERDES ESTAT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90274'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110629'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'NOT EMPLOYED
+
+'
+sourceurl: !!python/unicode 20110630
+type: chunk

@@ -1,0 +1,195 @@
+countrows: 4
+filename: 729951.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0IL10302\x1C\"Dold\"\x1C\"Robert\"\x1C\"James\"\x1C\"Mr\"\x1C\"Jr\"\x1C\x1C\"500
+    Park Dr\"\x1C\x1C\"Kenilworth\"\x1CIL\x1C600431005\x1CREP\x1CH\x1CIL\x1C10\x1C2012\x1CC00465971\x1C\"Dold
+    for Congress\"\x1C\"PO Box 8145\"\x1C\x1C\"Northfield\"\x1CVA\x1C600938145\x1CC00483347\x1C\"Illinois
+    Majority Fund\"\x1C\"PO Box 365\"\x1C\x1C\"McLean\"\x1CVA\x1C22101\x1C\"Dold\"\x1C\"Robert\"\x1C\"James\"\x1C\"Mr\"\x1C\"Jr\"\x1C20110525\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0IL10302
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Dold
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Robert
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: James
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: Jr
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 500 Park Dr
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Kenilworth
+  - name: CANDIDATE STATE
+    number: '12'
+    value: IL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '600431005'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00465971
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Dold for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 8145
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Northfield
+  - name: PCC STATE
+    number: '24'
+    value: VA
+  - name: PCC ZIP
+    number: '25'
+    value: '600938145'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00483347
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Illinois Majority Fund
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO Box 365
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: McLean
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22101'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Dold
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Robert
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: James
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Mr
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: Jr
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110525
+
+'
+- input: "F2S\x1CH0IL10302\x1CC00491332\x1C\"America's New Majority\"\x1C\"228 S Washington
+    St\"\x1C\"Suite 115\"\x1C\"Alexandria\"\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0IL10302
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00491332
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: America's New Majority
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S Washington St
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+- input: "F2S\x1CH0IL10302\x1CC00491597\x1C\"Illinois House Republican Freshmen\"\x1C\"PO
+    Box 2719\"\x1C\x1C\"Washington\"\x1CDC\x1C200132719\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0IL10302
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00491597
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Illinois House Republican Freshmen
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 2719
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Washington
+  - name: AUTH STATE
+    number: '8'
+    value: DC
+  - name: AUTH ZIP
+    number: '9'
+    value: '200132719
+
+'
+sourceurl: !!python/unicode 20110525
+type: chunk

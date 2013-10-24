@@ -1,0 +1,987 @@
+countrows: 9
+filename: 730760.fec
+header: {}
+rows:
+- input: "H4\x1CC00162339\x1CH4.165367\x1C\x1C\x1CIND\x1C\x1CMcClelland\x1CJohn\x1C\x1CMr\x1C\x1C%
+    Ohio Republican Party\x1C211 S. Fifth Street\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C3364.06\x1C706.45\x1C2657.61\x1C783457.78\x1C\x1CPayroll
+    & taxes,  not 25%\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165367
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: McClelland
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: John
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Ohio Republican Party'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 211 S. Fifth Street
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '3364.06'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '706.45'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '2657.61'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '783457.78'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Payroll & taxes,  not 25%
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165368\x1C\x1C\x1CIND\x1C\x1CMetzbower\x1CBrian\x1C\x1CMr.\x1C\x1C%
+    Ohio Republican Party\x1C211 S. Fifth Street\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C2242.72\x1C470.97\x1C1771.75\x1C785700.50\x1C\x1Cpayroll
+    & taxes, not 25%\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165368
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Metzbower
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Brian
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Ohio Republican Party'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 211 S. Fifth Street
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '2242.72'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '470.97'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1771.75'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '785700.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll & taxes, not 25%
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165369\x1C\x1C\x1CIND\x1C\x1CPatton\x1CPamela\x1C\x1CMrs.\x1C\x1C%
+    Ohio Republican Party\x1C211 South Fifth Street\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C1794.17\x1C376.78\x1C1417.39\x1C787494.67\x1C\x1Cpayroll
+    & taxes, not 25%\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165369
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Patton
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Pamela
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mrs.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Ohio Republican Party'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 211 South Fifth Street
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1794.17'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '376.78'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1417.39'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '787494.67'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll & taxes, not 25%
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165370\x1C\x1C\x1CIND\x1C\x1CWalters\x1CCarlton\x1C\x1CMr\x1C\x1C%
+    Ohio Republican Party\x1C211 S. Fifth Street\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C2153.00\x1C452.13\x1C1700.87\x1C789647.67\x1C\x1Cpayroll
+    & taxes, not 25%\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165370
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Walters
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Carlton
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Ohio Republican Party'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 211 S. Fifth Street
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '2153.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '452.13'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1700.87'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '789647.67'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll & taxes, not 25%
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165371\x1C\x1C\x1CIND\x1C\x1CWyrick\x1CWilliam\x1C\x1CMr.\x1C\x1C%
+    Ohio Republican Party\x1C211 S Fifth St\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C1211.06\x1C254.32\x1C956.74\x1C790858.73\x1C\x1Cpayroll
+    & taxes, not 25%\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165371
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Wyrick
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: William
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Ohio Republican Party'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 211 S Fifth St
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1211.06'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '254.32'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '956.74'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '790858.73'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll & taxes, not 25%
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165372\x1C\x1C\x1CIND\x1C\x1CForkin\x1CJoseph\x1C\x1CMr.\x1C\x1C%
+    Ohio Republican Party\x1C211 S. Fifth Street\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C1794.17\x1C376.78\x1C1417.39\x1C792652.90\x1C\x1Cpayroll
+    & taxes, not 25%\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165372
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Forkin
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Joseph
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Ohio Republican Party'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 211 S. Fifth Street
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1794.17'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '376.78'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1417.39'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '792652.90'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll & taxes, not 25%
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165373\x1C\x1C\x1CIND\x1C\x1CGormley\x1CJonathan\x1C\x1CMr\x1C\x1C%
+    Ohio Republican Party\x1C211 S. Fifth Street\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C3364.06\x1C706.45\x1C2657.61\x1C796016.96\x1C\x1Cpayroll
+    & taxes, not 25%\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165373
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Gormley
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Jonathan
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Ohio Republican Party'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 211 S. Fifth Street
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '3364.06'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '706.45'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '2657.61'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '796016.96'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll & taxes, not 25%
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165407\x1C\x1C\x1CORG\x1CAmerican Express Processing\x1C\x1C\x1C\x1C\x1C\x1C%
+    Fifth Third Bank\x1C21 East State Street\x1CColumbus\x1COH\x1C43215\x1CAdministrative\x1C20100630\x1C193.95\x1C40.73\x1C153.22\x1C796210.91\x1C\x1CJune
+    credit card processing fees\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165407
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Express Processing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '% Fifth Third Bank'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 21 East State Street
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbus
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43215'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '193.95'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '40.73'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '153.22'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '796210.91'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: June credit card processing fees
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00162339\x1CH4.165409\x1C\x1C\x1CORG\x1CADP Payroll\x1C\x1C\x1C\x1C\x1C\x1C713
+    Brooksedge Plaza\x1C\x1CWesterville\x1COH\x1C43081\x1CAdministrative\x1C20100630\x1C129.06\x1C27.10\x1C101.96\x1C796339.97\x1C\x1Cpayroll
+    processing fees\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00162339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: H4.165409
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ADP Payroll
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 713 Brooksedge Plaza
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Westerville
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '43081'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20100630'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '129.06'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '27.10'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '101.96'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '796339.97'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll processing fees
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110608
+type: chunk

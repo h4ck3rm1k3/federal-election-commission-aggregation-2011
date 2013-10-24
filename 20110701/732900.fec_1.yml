@@ -1,0 +1,429 @@
+countrows: 3
+filename: 732900.fec
+header: {}
+rows:
+- 2
+- input: "F1A\x1CC00468413\x1CX\x1CHanabusa for Hawaii\x1C\x1CP.O. Box 1416\x1C\x1CHonolulu\x1CHI\x1C96806\x1CX\x1Cinfo@hanabusaforhawaii.com\x1CX\x1Chttp://www.hanabusaforhawaii.com\x1C20110623\x1CYamamoto\x1CGeorge\x1CS\x1C\x1C\x1C20110630\x1CA\x1CH0HI01165\x1CHanabusa\x1CColleen\x1CWakako\x1C\x1C\x1CH\x1CHI\x1C01\x1CDEM\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1COsaki\x1CIris\x1CH\x1C\x1C\x1CEndo
+    and Company LLC\x1C1357 Kapiolani Blvd. #1005\x1CHonolulu\x1CHI\x1C96814\x1CDesignated
+    Agent\x1C8089414811\x1CYamamoto\x1CGeorge\x1CS\x1C\x1C\x1C92-1539 Aliinui Drive,
+    Apt H\x1C\x1CKapolei\x1CHI\x1C96707\x1CTreasurer\x1C8083305769\x1CMurakami\x1CHeather\x1C\x1C\x1C\x1C1111
+    Wilder Ave #188\x1C\x1CHonolulu\x1CHI\x1C96822\x1CAssistant Treasurer\x1C8082248403\x1CFirst
+    Hawaiian Bank\x1CMililani Branch\x1C95-390 Kuahelani Ave\x1CMililani\x1CHI\x1C96789\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468413
+  - name: CHANGE OF COMMITTEE NAME
+    number: '3'
+    value: X
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Hanabusa for Hawaii
+  - name: CHANGE OF ADDRESS
+    number: '5'
+    value: ''
+  - name: STREET 1
+    number: '6'
+    value: P.O. Box 1416
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Honolulu
+  - name: STATE
+    number: '9'
+    value: HI
+  - name: ZIP
+    number: '10'
+    value: '96806'
+  - name: CHANGE OF COMMITTEE EMAIL
+    number: '11'
+    value: X
+  - name: COMMITTEE EMAIL
+    number: '12'
+    value: info@hanabusaforhawaii.com
+  - name: CHANGE OF COMMITTEE WEB URL
+    number: '13'
+    value: X
+  - name: COMMITTEE WEB URL
+    number: '14'
+    value: http://www.hanabusaforhawaii.com
+  - name: EFFECTIVE DATE
+    number: '15'
+    value: '20110623'
+  - name: SIGNATURE LAST NAME
+    number: '16'
+    value: Yamamoto
+  - name: SIGNATURE FIRST NAME
+    number: '17'
+    value: George
+  - name: SIGNATURE MIDDLE NAME
+    number: '18'
+    value: S
+  - name: SIGNATURE PREFIX
+    number: '19'
+    value: ''
+  - name: SIGNATURE SUFFIX
+    number: '20'
+    value: ''
+  - name: DATE SIGNED
+    number: '21'
+    value: '20110630'
+  - name: COMMITTEE TYPE
+    number: 22-5.
+    value: A
+  - name: CANDIDATE ID NUMBER
+    number: 23-5.
+    value: H0HI01165
+  - name: CANDIDATE LAST NAME
+    number: 24-5.
+    value: Hanabusa
+  - name: CANDIDATE FIRST NAME
+    number: 25-5.
+    value: Colleen
+  - name: CANDIDATE MIDDLE NAME
+    number: 26-5.
+    value: Wakako
+  - name: CANDIDATE PREFIX
+    number: 27-5.
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: 28-5.
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 29-5.
+    value: H
+  - name: CANDIDATE STATE
+    number: 30-5.
+    value: HI
+  - name: CANDIDATE DISTRICT
+    number: 31-5.
+    value: '01'
+  - name: PARTY CODE
+    number: 32-5.
+    value: DEM
+  - name: PARTY TYPE
+    number: 33-5.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 34-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 35-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 36-5 (f).
+    value: ''
+  - name: LEADERSHIP PAC
+    number: 37-5 (f).
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 38-6.
+    value: ''
+  - name: AFFILIATED Committee NAME
+    number: 39-6.
+    value: ''
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 40-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 41-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 42-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 43-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 44-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 45-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 46-6.
+    value: ''
+  - name: AFFILIATED STREET 2
+    number: 47-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 48-6.
+    value: ''
+  - name: AFFILIATED STATE
+    number: 49-6.
+    value: ''
+  - name: AFFILIATED ZIP
+    number: 50-6.
+    value: ''
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 51-6.
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: 52-7.
+    value: Osaki
+  - name: CUSTODIAN FIRST NAME
+    number: 53-7.
+    value: Iris
+  - name: CUSTODIAN MIDDLE NAME
+    number: 54-7.
+    value: H
+  - name: CUSTODIAN PREFIX
+    number: 55-7.
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: 56-7.
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: 57-7.
+    value: Endo and Company LLC
+  - name: CUSTODIAN STREET 2
+    number: 58-7.
+    value: '1357 Kapiolani Blvd. #1005'
+  - name: CUSTODIAN CITY
+    number: 59-7.
+    value: Honolulu
+  - name: CUSTODIAN STATE
+    number: 60-7.
+    value: HI
+  - name: CUSTODIAN ZIP
+    number: 61-7.
+    value: '96814'
+  - name: CUSTODIAN TITLE
+    number: 62-7.
+    value: Designated Agent
+  - name: CUSTODIAN TELEPHONE
+    number: 63-7.
+    value: '8089414811'
+  - name: TREASURER LAST NAME
+    number: 64-8.
+    value: Yamamoto
+  - name: TREASURER FIRST NAME
+    number: 65-8.
+    value: George
+  - name: TREASURER MIDDLE NAME
+    number: 66-8.
+    value: S
+  - name: TREASURER PREFIX
+    number: 67-8.
+    value: ''
+  - name: TREASURER SUFFIX
+    number: 68-8.
+    value: ''
+  - name: TREASURER STREET 1
+    number: 69-8.
+    value: 92-1539 Aliinui Drive, Apt H
+  - name: TREASURER STREET 2
+    number: 70-8.
+    value: ''
+  - name: TREASURER CITY
+    number: 71-8.
+    value: Kapolei
+  - name: TREASURER STATE
+    number: 72-8.
+    value: HI
+  - name: TREASURER ZIP
+    number: 73-8.
+    value: '96707'
+  - name: TREASURER TITLE
+    number: 74-8.
+    value: Treasurer
+  - name: TREASURER TELEPHONE
+    number: 75-8.
+    value: '8083305769'
+  - name: AGENT LAST NAME
+    number: 76-8.
+    value: Murakami
+  - name: AGENT FIRST NAME
+    number: 77-8.
+    value: Heather
+  - name: AGENT MIDDLE NAME
+    number: 78-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 79-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 80-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 81-8.
+    value: '1111 Wilder Ave #188'
+  - name: AGENT STREET 2
+    number: 82-8.
+    value: ''
+  - name: AGENT CITY
+    number: 83-8.
+    value: Honolulu
+  - name: AGENT STATE
+    number: 84-8.
+    value: HI
+  - name: AGENT ZIP
+    number: 85-8.
+    value: '96822'
+  - name: AGENT TITLE
+    number: 86-8.
+    value: Assistant Treasurer
+  - name: AGENT TELEPHONE
+    number: 87-8.
+    value: '8082248403'
+  - name: BANK NAME
+    number: 88-9. a)
+    value: First Hawaiian Bank
+  - name: BANK STREET 1
+    number: 89-9. a)
+    value: Mililani Branch
+  - name: BANK STREET 2
+    number: 90-9. a)
+    value: 95-390 Kuahelani Ave
+  - name: BANK CITY
+    number: 91-9. a)
+    value: Mililani
+  - name: BANK STATE
+    number: 92-9. a)
+    value: HI
+  - name: BANK ZIP
+    number: 93-9. a)
+    value: '96789'
+  - name: BANK NAME
+    number: 94-9. b)
+    value: ''
+  - name: BANK STREET 1
+    number: 95-9. b)
+    value: ''
+  - name: BANK STREET 2
+    number: 96-9. b)
+    value: ''
+  - name: BANK CITY
+    number: 97-9. b)
+    value: ''
+  - name: BANK STATE
+    number: 98-9. b)
+    value: ''
+  - name: BANK ZIP
+    number: 99-9. b)
+    value: '
+
+'
+- input: "F1S\x1CC00468413\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1COsaki\x1CIris\x1CH\x1C\x1C\x1CEndo
+    and Company LLC\x1C1357 Kapiolani Blvd #1005\x1CHonolulu\x1CHI\x1C96814\x1CDesignated
+    Agent\x1C8089414811\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468413
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: ''
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: ''
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: ''
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: ''
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: ''
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: ''
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: ''
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: Osaki
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: Iris
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: H
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: Endo and Company LLC
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: '1357 Kapiolani Blvd #1005'
+  - name: AGENT CITY
+    number: 26-8.
+    value: Honolulu
+  - name: AGENT STATE
+    number: 27-8.
+    value: HI
+  - name: AGENT ZIP
+    number: 28-8.
+    value: '96814'
+  - name: AGENT TITLE
+    number: 29-8.
+    value: Designated Agent
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: '8089414811'
+  - name: BANK NAME
+    number: 31-9.
+    value: ''
+  - name: BANK STREET 1
+    number: 32-9.
+    value: ''
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: ''
+  - name: BANK STATE
+    number: 35-9.
+    value: ''
+  - name: BANK ZIP
+    number: 36-9.
+    value: '
+
+'
+sourceurl: !!python/unicode 20110701
+type: chunk

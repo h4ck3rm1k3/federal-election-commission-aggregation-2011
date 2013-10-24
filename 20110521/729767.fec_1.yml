@@ -1,0 +1,336 @@
+countrows: 4
+filename: 729767.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00495861\x1C48\x1CPriorities USA Action\x1C1101 15th Street\x1C2nd
+    Floor\x1CWashington\x1CDC\x1C20005\x1CSpeed\x1CGreg\x1C\x1C\x1C\x1C20110521\n"
+  record: fec.version.v7_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495861
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Priorities USA Action
+  - name: STREET 1
+    number: '5'
+    value: 1101 15th Street
+  - name: STREET 2
+    number: '6'
+    value: 2nd Floor
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Speed
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Greg
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20110521
+
+'
+- input: "SE\x1CC00495861\x1CD339990\x1C\x1C\x1CORG\x1CGSG Communications, LLC\x1C\x1C\x1C\x1C\x1C\x1C895
+    Broadway\x1C5th Floor\x1CNew York\x1CNY\x1C10003\x1CP2012\x1C\x1C20110520\x1C69910.00\x1C96555.00\x1C\x1CMedia
+    Advertising Buy\x1C\x1CC00431171\x1CO\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1CSC\x1C00\x1CSpeed\x1CGreg\x1C\x1C\x1C\x1C20110521\x1C\x1C\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D339990
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: GSG Communications, LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 895 Broadway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 5th Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10003'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110520'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '69910.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '96555.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Media Advertising Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00431171
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003353
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Romney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mitt
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: SC
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Speed
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Greg
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110521'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00495861\x1CD340051\x1C\x1C\x1CORG\x1CGSG Communications, LLC\x1C\x1C\x1C\x1C\x1C\x1C895
+    Broadway\x1C5th Floor\x1CNew York\x1CNY\x1C10003\x1CP2012\x1C\x1C20110520\x1C26645.00\x1C96555.00\x1C\x1CProduction
+    Fees\x1C\x1CC00431171\x1CO\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1CSC\x1C00\x1CSpeed\x1CGreg\x1C\x1C\x1C\x1C20110521\x1C\x1C\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D340051
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: GSG Communications, LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 895 Broadway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 5th Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10003'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110520'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '26645.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '96555.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Production Fees
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00431171
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003353
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Romney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mitt
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: SC
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Speed
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Greg
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110521'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110521
+type: chunk

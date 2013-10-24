@@ -1,0 +1,195 @@
+countrows: 4
+filename: 733019.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH8OH15076\x1CStivers\x1CSteve\x1C\x1CMr.\x1C\x1C\x1C372 W    2nd
+    Avenue\x1C\x1CColumbus\x1COH\x1C432013312\x1CREP\x1CH\x1COH\x1C15\x1C2012\x1CC00441352\x1CStivers
+    For Congress\x1C4679 Winterset Drive\x1C\x1CColumbus\x1COH\x1C432208113\x1CC00491613\x1CThe
+    Ohio Five\x1C228 S Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\x1CStivers\x1CSteve\x1C\x1CMr.\x1C\x1C20110702\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8OH15076
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Stivers
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Steve
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 372 W    2nd Avenue
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Columbus
+  - name: CANDIDATE STATE
+    number: '12'
+    value: OH
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '432013312'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '15'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00441352
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Stivers For Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: 4679 Winterset Drive
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Columbus
+  - name: PCC STATE
+    number: '24'
+    value: OH
+  - name: PCC ZIP
+    number: '25'
+    value: '432208113'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00491613
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: The Ohio Five
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S Washington Street
+  - name: AUTH STREET 2
+    number: '29'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '223145404'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Stivers
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Steve
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Mr.
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110702
+
+'
+- input: "F2S\x1CH8OH15076\x1CC00496083\x1CFreshman Majority Fund\x1C2470 Daniels
+    Bridge Road\x1CSuite 121\x1CAthens\x1CGA\x1C306066188\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8OH15076
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00496083
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Freshman Majority Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: 2470 Daniels Bridge Road
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 121
+  - name: AUTH CITY
+    number: '7'
+    value: Athens
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '306066188
+
+'
+- input: "F2S\x1CH8OH15076\x1CC00493817\x1CTeam 2012\x1C228 S Washington Street\x1CSuite
+    115\x1CAlexandria\x1CVA\x1C223145404\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8OH15076
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493817
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Team 2012
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S Washington Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '223145404
+
+'
+sourceurl: !!python/unicode 20110702
+type: chunk

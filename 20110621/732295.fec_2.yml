@@ -1,0 +1,2539 @@
+countrows: 24
+filename: 732295.fec
+header: {}
+rows:
+- input: "H4\x1CC00019331\x1CD366395\x1CD366323\x1CH4\x1CORG\x1CInternal Revenue Service\x1C\x1C\x1C\x1C\x1C\x1CIRS
+    Service Center\x1C\x1CKansas City\x1CMO\x1C64999\x1CAdministrative\x1C20110513\x1C1367.64\x1C492.35\x1C875.29\x1C703456.62\x1C\x1CFICA
+    Match\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366395
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Internal Revenue Service
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: IRS Service Center
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Kansas City
+  - name: PAYEE STATE
+    number: '16'
+    value: MO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '64999'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1367.64'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '492.35'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '875.29'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: FICA Match
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366375\x1CD366323\x1CH4\x1CIND\x1C\x1CHajdu\x1CJacob\x1C\x1C\x1C\x1C1037
+    Williamson St Apt 207\x1C\x1CMadison\x1CWI\x1C53703\x1CAdministrative\x1C20110513\x1C1970.53\x1C709.39\x1C1261.14\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366375
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Hajdu
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Jacob
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1037 Williamson St Apt 207
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53703'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1970.53'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '709.39'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1261.14'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366342\x1CD366323\x1CH4\x1CIND\x1C\x1CBrick\x1CMargaret\x1CH.\x1C\x1C\x1C1241
+    Spaight St Apt 2\x1C\x1CMadison\x1CWI\x1C537033748\x1CAdministrative\x1C20110513\x1C3303.53\x1C1189.27\x1C2114.26\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366342
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Brick
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Margaret
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: H.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1241 Spaight St Apt 2
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '537033748'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '3303.53'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '1189.27'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '2114.26'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366339\x1CD366323\x1CH4\x1CIND\x1C\x1CBaldauff\x1CMelissa\x1C\x1C\x1C\x1C2981
+    Cahill Main\x1CApt 108\x1CFitchburg\x1CWI\x1C537117156\x1CAdministrative\x1C20110513\x1C1220.53\x1C439.39\x1C781.14\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366339
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Baldauff
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Melissa
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2981 Cahill Main
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apt 108
+  - name: PAYEE CITY
+    number: '15'
+    value: Fitchburg
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '537117156'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1220.53'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '439.39'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '781.14'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366361\x1CD366323\x1CH4\x1CIND\x1C\x1CEsser\x1CMichael\x1CT.\x1C\x1C\x1CW294N7258
+    Tamron Ln\x1C\x1CHartland\x1CWI\x1C530298626\x1CAdministrative\x1C20110513\x1C1250.00\x1C450.00\x1C800.00\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366361
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Esser
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: T.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: W294N7258 Tamron Ln
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hartland
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '530298626'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1250.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '450.00'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '800.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366538\x1CD366323\x1CH4\x1CIND\x1C\x1CTate\x1CMichael\x1CJ.\x1C\x1C\x1C5809
+    N Santa Monica Blvd\x1C\x1CWhitefish Bay\x1CWI\x1C532174617\x1CAdministrative\x1C20110513\x1C4108.34\x1C1479.00\x1C2629.34\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366538
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Tate
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: J.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5809 N Santa Monica Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Whitefish Bay
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '532174617'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '4108.34'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '1479.00'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '2629.34'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366533\x1CD366323\x1CH4\x1CIND\x1C\x1CBerger\x1CSean\x1CC\x1CMr.\x1C\x1C317
+    Norris Ct\x1CApt 3\x1CMadison\x1CWI\x1C537031641\x1CAdministrative\x1C20110513\x1C1283.03\x1C461.89\x1C821.14\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366533
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Berger
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Sean
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: C
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 317 Norris Ct
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apt 3
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '537031641'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1283.03'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '461.89'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '821.14'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366359\x1CD366323\x1CH4\x1CORG\x1CWisconsin Department
+    of Workforce Development\x1C\x1C\x1C\x1C\x1C\x1CUnemployment Insurance\x1C201
+    E Washington Ave\x1CMadison\x1CWI\x1C53703\x1CAdministrative\x1C20110513\x1C181.90\x1C65.48\x1C116.42\x1C703456.62\x1C\x1CWI
+    Unemployment\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366359
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366323
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wisconsin Department of Workforce Development
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: Unemployment Insurance
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 201 E Washington Ave
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53703'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110513'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '181.90'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '65.48'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '116.42'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: WI Unemployment
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366325\x1C\x1C\x1CORG\x1CADP\x1C\x1C\x1C\x1C\x1C\x1C100
+    NW Point Blvd\x1C\x1CElk Grove Village\x1CIL\x1C60007\x1CAdministrative\x1C20110531\x1C20253.94\x1C7291.42\x1C12962.52\x1C703456.62\x1C\x1Cpayroll-
+    see memo\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366325
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ADP
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 100 NW Point Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Elk Grove Village
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60007'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '20253.94'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '7291.42'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '12962.52'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: payroll- see memo
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366345\x1CD366325\x1CH4\x1CIND\x1C\x1CBrink\x1CAmanda\x1CL.\x1C\x1C\x1C711
+    Vernon Ave\x1C\x1CMadison\x1CWI\x1C53714\x1CAdministrative\x1C20110531\x1C1814.50\x1C653.22\x1C1161.28\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366345
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Brink
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Amanda
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: L.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 711 Vernon Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53714'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1814.50'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '653.22'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1161.28'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366364\x1CD366325\x1CH4\x1CIND\x1C\x1CGearhart\x1CAmy\x1C\x1C\x1C\x1C7672
+    Shorewood Dr\x1C\x1CSalem\x1CWI\x1C531689544\x1CAdministrative\x1C20110531\x1C500.00\x1C180.00\x1C320.00\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366364
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Gearhart
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Amy
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7672 Shorewood Dr
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Salem
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '531689544'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '500.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '180.00'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '320.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366347\x1CD366325\x1CH4\x1CIND\x1C\x1CFenili\x1CCassi\x1CM\x1C\x1C\x1C424
+    W Wilson St\x1C\x1CMadison\x1CWI\x1C537033614\x1CAdministrative\x1C20110531\x1C1000.00\x1C360.00\x1C640.00\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366347
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Fenili
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Cassi
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: M
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 424 W Wilson St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '537033614'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1000.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '360.00'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '640.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366371\x1CD366325\x1CH4\x1CIND\x1C\x1CZielinski\x1CGraeme\x1C\x1C\x1C\x1C2993
+    S Delaware Ave\x1C\x1CMilwaukee\x1CWI\x1C532072561\x1CAdministrative\x1C20110531\x1C2053.86\x1C739.39\x1C1314.47\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366371
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Zielinski
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Graeme
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2993 S Delaware Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Milwaukee
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '532072561'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '2053.86'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '739.39'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1314.47'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366398\x1CD366325\x1CH4\x1CORG\x1CInternal Revenue Service\x1C\x1C\x1C\x1C\x1C\x1CIRS
+    Service Center\x1C\x1CKansas City\x1CMO\x1C64999\x1CAdministrative\x1C20110531\x1C1429.75\x1C514.71\x1C915.04\x1C703456.62\x1C\x1CFICA
+    Match\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366398
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Internal Revenue Service
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: IRS Service Center
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Kansas City
+  - name: PAYEE STATE
+    number: '16'
+    value: MO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '64999'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1429.75'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '514.71'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '915.04'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: FICA Match
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366399\x1CD366325\x1CH4\x1CORG\x1CInternal Revenue Service\x1C\x1C\x1C\x1C\x1C\x1CIRS
+    Service Center\x1C\x1CKansas City\x1CMO\x1C64999\x1CAdministrative\x1C20110531\x1C12.00\x1C4.32\x1C7.68\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366399
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Internal Revenue Service
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: IRS Service Center
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Kansas City
+  - name: PAYEE STATE
+    number: '16'
+    value: MO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '64999'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '12.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '4.32'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '7.68'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366376\x1CD366325\x1CH4\x1CIND\x1C\x1CHajdu\x1CJacob\x1C\x1C\x1C\x1C1037
+    Williamson St Apt 207\x1C\x1CMadison\x1CWI\x1C53703\x1CAdministrative\x1C20110531\x1C1970.53\x1C709.39\x1C1261.14\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366376
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Hajdu
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Jacob
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1037 Williamson St Apt 207
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53703'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1970.53'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '709.39'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '1261.14'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366343\x1CD366325\x1CH4\x1CIND\x1C\x1CBrick\x1CMargaret\x1CH.\x1C\x1C\x1C1241
+    Spaight St Apt 2\x1C\x1CMadison\x1CWI\x1C537033748\x1CAdministrative\x1C20110531\x1C3303.53\x1C1189.27\x1C2114.26\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366343
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Brick
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Margaret
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: H.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1241 Spaight St Apt 2
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '537033748'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '3303.53'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '1189.27'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '2114.26'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366340\x1CD366325\x1CH4\x1CIND\x1C\x1CBaldauff\x1CMelissa\x1C\x1C\x1C\x1C2981
+    Cahill Main\x1CApt 108\x1CFitchburg\x1CWI\x1C537117156\x1CAdministrative\x1C20110531\x1C1345.53\x1C484.39\x1C861.14\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366340
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Baldauff
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Melissa
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2981 Cahill Main
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apt 108
+  - name: PAYEE CITY
+    number: '15'
+    value: Fitchburg
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '537117156'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1345.53'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '484.39'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '861.14'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366362\x1CD366325\x1CH4\x1CIND\x1C\x1CEsser\x1CMichael\x1CT.\x1C\x1C\x1CW294N7258
+    Tamron Ln\x1C\x1CHartland\x1CWI\x1C530298626\x1CAdministrative\x1C20110531\x1C1250.00\x1C450.00\x1C800.00\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366362
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Esser
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: T.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: W294N7258 Tamron Ln
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hartland
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '530298626'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1250.00'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '450.00'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '800.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366539\x1CD366325\x1CH4\x1CIND\x1C\x1CTate\x1CMichael\x1CJ.\x1C\x1C\x1C5809
+    N Santa Monica Blvd\x1C\x1CWhitefish Bay\x1CWI\x1C532174617\x1CAdministrative\x1C20110531\x1C4108.34\x1C1479.00\x1C2629.34\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366539
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Tate
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: J.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5809 N Santa Monica Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Whitefish Bay
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '532174617'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '4108.34'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '1479.00'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '2629.34'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366534\x1CD366325\x1CH4\x1CIND\x1C\x1CBerger\x1CSean\x1CC\x1CMr.\x1C\x1C317
+    Norris Ct\x1CApt 3\x1CMadison\x1CWI\x1C537031641\x1CAdministrative\x1C20110531\x1C1283.03\x1C461.89\x1C821.14\x1C703456.62\x1C\x1CSalary\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366534
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Berger
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Sean
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: C
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 317 Norris Ct
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apt 3
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '537031641'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1283.03'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '461.89'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '821.14'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: Salary
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366360\x1CD366325\x1CH4\x1CORG\x1CWisconsin Department
+    of Workforce Development\x1C\x1C\x1C\x1C\x1C\x1CUnemployment Insurance\x1C201
+    E Washington Ave\x1CMadison\x1CWI\x1C53703\x1CAdministrative\x1C20110531\x1C182.87\x1C65.83\x1C117.04\x1C703456.62\x1C\x1CWI
+    Unemployment\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366360
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D366325
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wisconsin Department of Workforce Development
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: Unemployment Insurance
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 201 E Washington Ave
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53703'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110531'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '182.87'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '65.83'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '117.04'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: WI Unemployment
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "H4\x1CC00019331\x1CD366807\x1C\x1C\x1CIND\x1C\x1CBrink\x1CAmanda\x1CL.\x1C\x1C\x1C711
+    Vernon Ave\x1C\x1CMadison\x1CWI\x1C53714\x1CAdministrative\x1C20110517\x1C1402.76\x1C504.99\x1C897.77\x1C703456.62\x1C\x1Creimbursement
+    - see memo\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D366807
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Brink
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Amanda
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: L.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 711 Vernon Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53714'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Administrative
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20110517'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '1402.76'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '504.99'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '897.77'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '703456.62'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '24'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '25'
+    value: reimbursement - see memo
+  - name: CATEGORY CODE
+    number: '26'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 27-
+    value: X
+  - name: Activity is Direct Fundraising
+    number: 28-
+    value: ''
+  - name: Activity is an Exempt Activity
+    number: 29-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 30-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 31-
+    value: ''
+  - name: Activity is Party Public Communications Made by PAC
+    number: 32-
+    value: ''
+  - name: MEMO CODE
+    number: '33'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '34'
+    value: '
+
+'
+- input: "TEXT\x1CC00019331\x1CX0\x1C\x1CF3XN\x1C(1) Any receipts on lines 15 or 17
+    were assessed at the usual and normal charge. (3) Any fundraising expenses on
+    line 21b were for the benefit of the committee and did not support a federal candidate.
+    (4) Receipts on Schedule A supporting line 11c from unregistered committees Democrats
+    of Hemet San Jacinto State, Bradford County Democratic Party, Brown County Democratic
+    Party, Friends of Mason, Shilling for Assembly, Friends of Ken Hall, Friends of
+    Patrick Miles, Friends of Vicky Selkowe have been deemed permissible. These contributions
+    were made by non-Federal candidates that had the required funds from Federally-permissible
+    sources. The funds were verified to have come from permissible sources and no
+    amount exceeded the $1,000 threshold that would require the committees to register
+    with the Commission.  \n"
+  record: fec.version.v7_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00019331
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3XN
+  - name: TEXT4000
+    number: '6'
+    value: "(1) Any receipts on lines 15 or 17 were assessed at the usual and normal
+      charge. (3) Any fundraising expenses on line 21b were for the benefit of the
+      committee and did not support a federal candidate. (4) Receipts on Schedule
+      A supporting line 11c from unregistered committees Democrats of Hemet San Jacinto
+      State, Bradford County Democratic Party, Brown County Democratic Party, Friends
+      of Mason, Shilling for Assembly, Friends of Ken Hall, Friends of Patrick Miles,
+      Friends of Vicky Selkowe have been deemed permissible. These contributions were
+      made by non-Federal candidates that had the required funds from Federally-permissible
+      sources. The funds were verified to have come from permissible sources and no
+      amount exceeded the $1,000 threshold that would require the committees to register
+      with the Commission.  \n"
+sourceurl: !!python/unicode 20110621
+type: chunk

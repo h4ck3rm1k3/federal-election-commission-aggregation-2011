@@ -1,0 +1,151 @@
+countrows: 3
+filename: 729955.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0NY01129\x1CALTSCHULER\x1CRANDOLPH\x1C\x1CMr.\x1C\x1C\x1CPO BOX
+    657\x1C\x1CSTONY BROOK\x1CNY\x1C11790\x1CREP\x1CH\x1CNY\x1C01\x1C2012\x1CC00465245\x1CRANDY
+    ALTSCHULER FOR CONGRESS\x1CPO BOX 657\x1C\x1CSTONY BROOK\x1CNY\x1C11790\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CALTSCHULER\x1CRANDOLPH\x1C\x1CMr.\x1C\x1C20110525\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY01129
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: ALTSCHULER
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: RANDOLPH
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO BOX 657
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: STONY BROOK
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NY
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '11790'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00465245
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: RANDY ALTSCHULER FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: PO BOX 657
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: STONY BROOK
+  - name: PCC STATE
+    number: '24'
+    value: NY
+  - name: PCC ZIP
+    number: '25'
+    value: '11790'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: ALTSCHULER
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: RANDOLPH
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Mr.
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110525
+
+'
+- input: "TEXT\x1CH0NY01129\x1C.TEXT\x1C\x1CF2A\x1CThis is an amended Form 2\n"
+  record: fec.version.v7_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: H0NY01129
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: .TEXT
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F2A
+  - name: TEXT4000
+    number: '6'
+    value: 'This is an amended Form 2
+
+'
+sourceurl: !!python/unicode 20110525
+type: chunk
