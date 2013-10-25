@@ -1,0 +1,128 @@
+countrows: 2
+filename: 752981.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH2NV00035\x1COCEGUERA\x1CJOHN\x1C\x1C\x1C\x1C\x1C900 S FOURTH STREET
+    SUITE 211\x1C\x1CLAS VEGAS\x1CNV\x1C89101\x1CDem\x1CH\x1CNV\x1C00\x1C2012\x1CC00499962\x1COCEGUERA
+    FOR CONGRESS\x1C900 S FOURTH STREET SUITE 211\x1C\x1CLAS VEGAS\x1CNV\x1C89101\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1COCEGUERA\x1CJOHN\x1C\x1C\x1C\x1C20111107\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2NV00035
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: OCEGUERA
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: JOHN
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 900 S FOURTH STREET SUITE 211
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: LAS VEGAS
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NV
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '89101'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: Dem
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NV
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '00'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00499962
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: OCEGUERA FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: 900 S FOURTH STREET SUITE 211
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: LAS VEGAS
+  - name: PCC STATE
+    number: '24'
+    value: NV
+  - name: PCC ZIP
+    number: '25'
+    value: '89101'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: OCEGUERA
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: JOHN
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111107
+
+'
+sourceurl: !!python/unicode 20111117
+type: chunk
