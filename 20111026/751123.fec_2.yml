@@ -1,0 +1,76 @@
+countrows: 3
+filename: 751123.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00473272\x1CTPAYC807\x1CPAYC807\x1CSC/10\x1CLOAN OF PERSONAL FUNDS\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473272
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TPAYC807
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: PAYC807
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SC/10
+  - name: TEXT4000
+    number: '6'
+    value: 'LOAN OF PERSONAL FUNDS
+
+'
+- input: "TEXT\x1CC00473272\x1CTPAYC812\x1CPAYC812\x1CSC/10\x1CLOAN OF PERSONAL FUNDS\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473272
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TPAYC812
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: PAYC812
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SC/10
+  - name: TEXT4000
+    number: '6'
+    value: 'LOAN OF PERSONAL FUNDS
+
+'
+- input: "TEXT\x1CC00473272\x1CTEXT-F3A\x1C\x1CF3A\x1CSch. B credit card merchant
+    fees incorrectly coded\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00473272
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-F3A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3A
+  - name: TEXT4000
+    number: '6'
+    value: 'Sch. B credit card merchant fees incorrectly coded
+
+'
+sourceurl: !!python/unicode 20111026
+type: chunk

@@ -1,0 +1,151 @@
+countrows: 3
+filename: 750848.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00499319\x1C\x1CBrad Witt for Congress\x1CPO Box 2309\x1C\x1CBeaverton\x1COR\x1C97075\x1CH2OR01125\x1CWitt\x1CBrad\x1C\x1C\x1C\x1CH\x1COR\x1C01\x1CNeely\x1CKevin\x1C\x1C\x1C\x1C20111023\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499319
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Brad Witt for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 2309
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Beaverton
+  - name: STATE
+    number: '8'
+    value: OR
+  - name: ZIP
+    number: '9'
+    value: '97075'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2OR01125
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Witt
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Brad
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OR
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Neely
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Kevin
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20111023
+
+'
+- input: "F65\x1CC00499319\x1CCN102111183104Ro\x1CIND\x1C\x1CDouglas\x1CRobert\x1CP\x1C\x1C\x1C3555
+    Deerfield Dr. S\x1C\x1CSalem\x1COR\x1C97302    \x1C\x1C20111021\x1C1000.00\x1CRPD
+    Company\x1CLobbyist\n"
+  record: fec.version.v8_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499319
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: CN102111183104Ro
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Douglas
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: P
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3555 Deerfield Dr. S
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Salem
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '97302    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20111021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RPD Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Lobbyist
+
+'
+sourceurl: !!python/unicode 20111024
+type: chunk

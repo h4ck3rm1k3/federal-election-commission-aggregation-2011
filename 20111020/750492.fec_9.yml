@@ -1,0 +1,33 @@
+countrows: 1
+filename: 750492.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00309567\x1CTEXT'575\x1C\x1CSD10\x1CNone of the obligations or
+    expenditures on report line contain express advocacy as defined under 11 CFR Sect
+    100.22. Negative incurred items are returns or corrections of vendor billing errors.\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309567
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT'575
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SD10
+  - name: TEXT4000
+    number: '6'
+    value: 'None of the obligations or expenditures on report line contain express
+      advocacy as defined under 11 CFR Sect 100.22. Negative incurred items are returns
+      or corrections of vendor billing errors.
+
+'
+sourceurl: !!python/unicode 20111020
+type: chunk

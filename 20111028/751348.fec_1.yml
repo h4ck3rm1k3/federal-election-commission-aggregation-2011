@@ -1,0 +1,196 @@
+countrows: 4
+filename: 751348.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0FL05139\x1CNugent\x1CRichard\x1CB\x1C\x1C\x1C\x1CPO Box 15668\x1C\x1CBrooksville\x1CFL\x1C346040122\x1CREP\x1CH\x1CFL\x1C05\x1C2012\x1CC00482281\x1CFriends
+    of Rich Nugent\x1CPO Box 15668\x1C\x1CBrooksville\x1CFL\x1C346040122\x1CC00499889\x1CFlorida
+    Young Guns Victory Fund (Adams, Nugent, Ross, Southerland, Webster, West)\x1C25
+    E Main Street\x1C\x1CRichmond\x1CVA\x1C232192109\x1CNugent\x1CRichard\x1CB\x1C\x1C\x1C20111028\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0FL05139
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Nugent
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Richard
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: B
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 15668
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Brooksville
+  - name: CANDIDATE STATE
+    number: '12'
+    value: FL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '346040122'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00482281
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Friends of Rich Nugent
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 15668
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Brooksville
+  - name: PCC STATE
+    number: '24'
+    value: FL
+  - name: PCC ZIP
+    number: '25'
+    value: '346040122'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00499889
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Florida Young Guns Victory Fund (Adams, Nugent, Ross, Southerland, Webster,
+      West)
+  - name: AUTH STREET 1
+    number: '28'
+    value: 25 E Main Street
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Richmond
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '232192109'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Nugent
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Richard
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: B
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111028
+
+'
+- input: "F2S\x1CH0FL05139\x1CC00501999\x1CCentral Fl Congressional Fund\x1CPO Box
+    865\x1C\x1CBrooksville\x1CFL\x1C346050865\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0FL05139
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00501999
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Central Fl Congressional Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 865
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Brooksville
+  - name: AUTH STATE
+    number: '8'
+    value: FL
+  - name: AUTH ZIP
+    number: '9'
+    value: '346050865
+
+'
+- input: "F2S\x1CH0FL05139\x1CC00504514\x1CSecurity For America Fund V\x1C4703 Woodway
+    Lane NW\x1C\x1CWashington\x1CDC\x1C200163240\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0FL05139
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00504514
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Security For America Fund V
+  - name: AUTH STREET 1
+    number: '5'
+    value: 4703 Woodway Lane NW
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Washington
+  - name: AUTH STATE
+    number: '8'
+    value: DC
+  - name: AUTH ZIP
+    number: '9'
+    value: '200163240
+
+'
+sourceurl: !!python/unicode 20111028
+type: chunk

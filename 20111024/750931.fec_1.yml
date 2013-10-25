@@ -1,0 +1,129 @@
+countrows: 2
+filename: 750931.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH2CA50026\x1CVargas\x1CJuan C.\x1C\x1C\x1C\x1C\x1C5429 Madison Ave\x1C\x1CSacramento\x1CCA\x1C95841\x1CDEM\x1CH\x1CCA\x1C51\x1C2012\x1CC00497321\x1CVargas
+    for Congress 2012\x1C5429 Madison Ave\x1C\x1CSacramento\x1CCA\x1C95841\x1CC00408161\x1CFriends
+    of Juan Vargas\x1C5429 Madison Avenue\x1C\x1CSacramento\x1CCA\x1C95841\x1CVargas\x1CJuan
+    C.\x1C\x1C\x1C\x1C20111021\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2CA50026
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Vargas
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Juan C.
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 5429 Madison Ave
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Sacramento
+  - name: CANDIDATE STATE
+    number: '12'
+    value: CA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '95841'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '51'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00497321
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Vargas for Congress 2012
+  - name: PCC STREET 1
+    number: '21'
+    value: 5429 Madison Ave
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Sacramento
+  - name: PCC STATE
+    number: '24'
+    value: CA
+  - name: PCC ZIP
+    number: '25'
+    value: '95841'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00408161
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Friends of Juan Vargas
+  - name: AUTH STREET 1
+    number: '28'
+    value: 5429 Madison Avenue
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Sacramento
+  - name: AUTH STATE
+    number: '31'
+    value: CA
+  - name: AUTH ZIP
+    number: '32'
+    value: '95841'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Vargas
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Juan C.
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111021
+
+'
+sourceurl: !!python/unicode 20111024
+type: chunk

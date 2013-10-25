@@ -1,0 +1,161 @@
+countrows: 3
+filename: 752284.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0TX17104\x1CFlores\x1CBill\x1C\x1C\x1C\x1C\x1CPO Box 6207\x1C\x1CBryan\x1CTX\x1C778056207\x1CREP\x1CH\x1CTX\x1C17\x1C2012\x1CC00472241\x1CBILL
+    FLORES FOR CONGRESS\x1CPO Box 6207\x1C\x1CBryan\x1CTX\x1C778056207\x1CC00496562\x1CSecurity
+    For America Fund\x1C4703 Woodway Lane NW\x1C\x1CWashington\x1CDC\x1C200163240\x1CFlores\x1CBill\x1C\x1C\x1C\x1C20111110\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0TX17104
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Flores
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Bill
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 6207
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Bryan
+  - name: CANDIDATE STATE
+    number: '12'
+    value: TX
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '778056207'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '17'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00472241
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: BILL FLORES FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 6207
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Bryan
+  - name: PCC STATE
+    number: '24'
+    value: TX
+  - name: PCC ZIP
+    number: '25'
+    value: '778056207'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00496562
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Security For America Fund
+  - name: AUTH STREET 1
+    number: '28'
+    value: 4703 Woodway Lane NW
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '200163240'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Flores
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Bill
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111110
+
+'
+- input: "F2S\x1CH0TX17104\x1CC00505313\x1CTexas Young Guns Victory Fund\x1C25 E Main
+    Street\x1C\x1CRichmond\x1CVA\x1C232192109\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0TX17104
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00505313
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Texas Young Guns Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: 25 E Main Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Richmond
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '232192109
+
+'
+sourceurl: !!python/unicode 20111110
+type: chunk

@@ -1,0 +1,230 @@
+countrows: 2
+filename: 750941.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462465
+  - name: COMMITTEE NAME
+    number: '3'
+    value: C.V. Starr & Co. Inc. Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 399 Park Avenue
+  - name: STREET 2
+    number: '5'
+    value: 17th Floor
+  - name: CITY
+    number: '6'
+    value: New York
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '10022'
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: N
+  - name: AFFILIATED - DATE FORM F1 FILED
+    number: '10'
+    value: ''
+  - name: AFFILIATED COMMITTEE FEC ID
+    number: '11'
+    value: ''
+  - name: AFFILIATED COMMITTEE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE ID NUMBER
+    number: 13-I
+    value: S0NY00410
+  - name: CANDIDATE LAST NAME
+    number: 14-I
+    value: Gillibrand
+  - name: CANDIDATE FIRST NAME
+    number: 15-I
+    value: Kirsten
+  - name: CANDIDATE MIDDLE NAME
+    number: 16-I
+    value: Elizabeth
+  - name: CANDIDATE PREFIX
+    number: 17-I
+    value: Sen.
+  - name: CANDIDATE SUFFIX
+    number: 18-I
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 19-I
+    value: S
+  - name: CANDIDATE STATE
+    number: 20-I
+    value: NY
+  - name: CANDIDATE DIST
+    number: 21-I
+    value: ''
+  - name: DATE OF CONTRIBUTION
+    number: 22-I
+    value: '20110218'
+  - name: CANDIDATE ID NUMBER
+    number: 23-II
+    value: H2AL06035
+  - name: CANDIDATE LAST NAME
+    number: 24-II
+    value: Bachus
+  - name: CANDIDATE FIRST NAME
+    number: 25-II
+    value: Spencer
+  - name: CANDIDATE MIDDLE NAME
+    number: 26-II
+    value: Thomas
+  - name: CANDIDATE PREFIX
+    number: 27-II
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: 28-II
+    value: III
+  - name: CANDIDATE OFFICE
+    number: 29-II
+    value: H
+  - name: CANDIDATE STATE
+    number: 30-II
+    value: AL
+  - name: CANDIDATE DIST
+    number: 31-II
+    value: '06'
+  - name: DATE OF CONTRIBUTION
+    number: 32-II
+    value: '20110311'
+  - name: CANDIDATE ID NUMBER
+    number: 33-III
+    value: H0NY29054
+  - name: CANDIDATE LAST NAME
+    number: 34-III
+    value: Reed
+  - name: CANDIDATE FIRST NAME
+    number: 35-III
+    value: Thomas
+  - name: CANDIDATE MIDDLE NAME
+    number: 36-III
+    value: W.
+  - name: CANDIDATE PREFIX
+    number: 37-III
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: 38-III
+    value: II.
+  - name: CANDIDATE OFFICE
+    number: 39-III
+    value: H
+  - name: CANDIDATE STATE
+    number: 40-III
+    value: NY
+  - name: CANDIDATE DIST
+    number: 41-III
+    value: '29'
+  - name: DATE OF CONTRIBUTION
+    number: 42-III
+    value: '20110420'
+  - name: CANDIDATE ID NUMBER
+    number: 43-IV
+    value: H6NY19029
+  - name: CANDIDATE LAST NAME
+    number: 44-IV
+    value: Rangel
+  - name: CANDIDATE FIRST NAME
+    number: 45-IV
+    value: Charles
+  - name: CANDIDATE MIDDLE NAME
+    number: 46-IV
+    value: Bernard
+  - name: CANDIDATE PREFIX
+    number: 47-IV
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: 48-IV
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 49-IV
+    value: H
+  - name: CANDIDATE STATE
+    number: 50-IV
+    value: NY
+  - name: CANDIDATE DIST
+    number: 51-IV
+    value: '15'
+  - name: DATE OF CONTRIBUTION
+    number: 52-IV
+    value: '20110504'
+  - name: CANDIDATE ID NUMBER
+    number: 53-V
+    value: H0IL10302
+  - name: CANDIDATE LAST NAME
+    number: 54-V
+    value: Dold
+  - name: CANDIDATE FIRST NAME
+    number: 55-V
+    value: Robert
+  - name: CANDIDATE MIDDLE NAME
+    number: 56-V
+    value: James
+  - name: CANDIDATE PREFIX
+    number: 57-V
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: 58-V
+    value: Jr.
+  - name: CANDIDATE OFFICE
+    number: 59-V
+    value: H
+  - name: CANDIDATE STATE
+    number: 60-V
+    value: IL
+  - name: CANDIDATE DIST
+    number: 61-V
+    value: '10'
+  - name: DATE OF CONTRIBUTION
+    number: 62-V
+    value: '20110615'
+  - name: Of 51st Contributor
+    number: 63-
+    value: '20111024'
+  - name: Of Orig Registration
+    number: 64-
+    value: '20090529'
+  - name: Cmte Met Requirements
+    number: 65-
+    value: '20111024'
+  - name: TREASURER LAST NAME
+    number: '66'
+    value: Smith
+  - name: TREASURER FIRST NAME
+    number: '67'
+    value: Howard
+  - name: TREASURER MIDDLE NAME
+    number: '68'
+    value: I.
+  - name: TREASURER PREFIX
+    number: '69'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '70'
+    value: ''
+  - name: DATE SIGNED
+    number: '71'
+    value: '20111024'
+  - value: '
+
+'
+  expected_count: 71
+  input: "F1MN\x1CC00462465\x1CC.V. Starr & Co. Inc. Political Action Committee\x1C399
+    Park Avenue\x1C17th Floor\x1CNew York\x1CNY\x1C10022\x1CN\x1C\x1C\x1C\x1CS0NY00410\x1CGillibrand\x1CKirsten\x1CElizabeth\x1CSen.\x1C\x1CS\x1CNY\x1C\x1C20110218\x1CH2AL06035\x1CBachus\x1CSpencer\x1CThomas\x1CRep.\x1CIII\x1CH\x1CAL\x1C06\x1C20110311\x1CH0NY29054\x1CReed\x1CThomas\x1CW.\x1CRep.\x1CII.\x1CH\x1CNY\x1C29\x1C20110420\x1CH6NY19029\x1CRangel\x1CCharles\x1CBernard\x1CRep.\x1C\x1CH\x1CNY\x1C15\x1C20110504\x1CH0IL10302\x1CDold\x1CRobert\x1CJames\x1CRep.\x1CJr.\x1CH\x1CIL\x1C10\x1C20110615\x1C20111024\x1C20090529\x1C20111024\x1CSmith\x1CHoward\x1CI.\x1C\x1C\x1C20111024\x1C\n"
+  input_count: 72
+  record: fec.version.v8_0.F1M
+  result: []
+sourceurl: !!python/unicode 20111024
+type: chunk
