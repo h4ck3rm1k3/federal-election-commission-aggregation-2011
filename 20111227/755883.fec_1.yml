@@ -1,0 +1,129 @@
+countrows: 2
+filename: 755883.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH8IL13069\x1CBiggert\x1CJudy\x1C\x1C\x1C\x1C\x1CP.O. Box 637\x1C\x1CHinsdale\x1CIL\x1C60522
+    \  \x1CREP\x1CH\x1CIL\x1C11\x1C2012\x1CC00330241\x1CJudy Biggert for Congress\x1CP.O.
+    Box 637\x1C\x1CHinsdale\x1CIL\x1C60522   \x1CC00462200\x1CPatriot Day Committe\x1C228
+    S. Washington Street, Suite 11\x1C\x1CAlexandria\x1CVA\x1C22314   \x1CBiggert\x1CJudy\x1C\x1C\x1C\x1C20111227\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8IL13069
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Biggert
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Judy
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: P.O. Box 637
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Hinsdale
+  - name: CANDIDATE STATE
+    number: '12'
+    value: IL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '60522   '
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '11'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00330241
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Judy Biggert for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. Box 637
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Hinsdale
+  - name: PCC STATE
+    number: '24'
+    value: IL
+  - name: PCC ZIP
+    number: '25'
+    value: '60522   '
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00462200
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Patriot Day Committe
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S. Washington Street, Suite 11
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314   '
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Biggert
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Judy
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111227
+
+'
+sourceurl: !!python/unicode 20111227
+type: chunk

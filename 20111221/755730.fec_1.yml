@@ -1,0 +1,7619 @@
+countrows: 56
+filename: 755730.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00041160\x1C48\x1C\x1CMichigan Republican Party\x1C520 Seymour
+    Street\x1C\x1CLansing\x1CMI\x1C48933    \x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: Michigan Republican Party
+  - name: STREET 1
+    number: '6'
+    value: 520 Seymour Street
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Lansing
+  - name: STATE
+    number: '9'
+    value: MI
+  - name: ZIP
+    number: '10'
+    value: '48933    '
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Meyers
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Carl
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20111221
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA65935F00E144AAE8F8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Technicom Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 14100 Oakland Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Highland Park
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '482032909'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '370.17'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13430.82'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Postage for Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEA65935F00E144AAE8F8\x1C\x1C\x1CORG\x1CTechnicom Group\x1C\x1C\x1C\x1C\x1C\x1C14100
+    Oakland Ave.\x1C\x1CHighland Park\x1CMI\x1C482032909\x1CG2012\x1C\x1C20111019\x1C370.17\x1C13430.82\x1CPostage
+    for Fundraising Mail\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E89BA1852B2B04F2CB40
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110809'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '5.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9432.38'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE89BA1852B2B04F2CB40\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110809\x1C5.00\x1C9432.38\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EF10F2B0B60134A68930
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110706'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1805.78'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9356.58'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Postage/Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEF10F2B0B60134A68930\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20110706\x1C1805.78\x1C9356.58\x1CPostage/Production
+    Fundraising Mail\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1796EDBE557A4AEC961
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Pinnacle Direct
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 15260 113th Street North
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Stillwater
+  - name: PAYEE STATE
+    number: '16'
+    value: MN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '550829575'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110831'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '670.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '10223.99'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Mail Postage
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE1796EDBE557A4AEC961\x1C\x1C\x1CORG\x1CPinnacle Direct\x1C\x1C\x1C\x1C\x1C\x1C15260
+    113th Street North\x1C\x1CStillwater\x1CMN\x1C550829575\x1CG2012\x1C\x1C20110831\x1C670.66\x1C10223.99\x1CFundraising
+    Mail Postage\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EBDAE9F98057447F99E3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Steve Brown Direct Mail
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 10045 Whittail Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Truckee
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '96161'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110706'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '723.13'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9356.58'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Creative and Production Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEBDAE9F98057447F99E3\x1C\x1C\x1CORG\x1CSteve Brown Direct
+    Mail\x1C\x1C\x1C\x1C\x1C\x1C10045 Whittail Lane\x1C\x1CTruckee\x1CCA\x1C96161\x1CG2012\x1C\x1C20110706\x1C723.13\x1C9356.58\x1CCreative
+    and Production Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E7BD4AC8AFE9B4878873
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Pickford
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Cameron
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1101 W. Twinbrook
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apt. 9
+  - name: PAYEE CITY
+    number: '15'
+    value: Dewitt
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '488208663'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111103'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9009.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Reimbursement
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE7BD4AC8AFE9B4878873\x1C\x1C\x1CIND\x1C\x1CPickford\x1CCameron\x1C\x1C\x1C\x1C1101
+    W. Twinbrook\x1CApt. 9\x1CDewitt\x1CMI\x1C488208663\x1CG2012\x1C\x1C20111103\x1C2.00\x1C9009.87\x1CReimbursement\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4C1EAB10B89B487DB2B
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E7BD4AC8AFE9B4878873
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Capital City Airport
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 4100 Capitol CIty Blvd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lansing
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '48906'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111103'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9009.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Parking
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE4C1EAB10B89B487DB2B\x1CE7BD4AC8AFE9B4878873\x1CSE\x1CORG\x1CCapital
+    City Airport\x1C\x1C\x1C\x1C\x1C\x1C4100 Capitol CIty Blvd.\x1C\x1CLansing\x1CMI\x1C48906\x1CG2012\x1C\x1C20111103\x1C2.00\x1C9009.87\x1CParking\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E60DAD1B3124F42C4A41
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '540.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '540.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H0MI01088
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Benishek
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Daniel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: J
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE60DAD1B3124F42C4A41\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111219\x1C540.00\x1C540.00\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CS\x1CH0MI01088\x1CBenishek\x1CDaniel\x1CJ\x1CMr.\x1C\x1CH\x1CMI\x1C01\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EDEAAB2577F71495A954
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110831'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '34.89'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '10223.99'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEDEAAB2577F71495A954\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110831\x1C34.89\x1C10223.99\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9CE6D4B7BBC746EABF1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '711.81'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '8554.06'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE9CE6D4B7BBC746EABF1\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111019\x1C711.81\x1C8554.06\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E6071A3BBC183455EB22
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Steve Brown Direct Mail
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 10045 Whittail Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Truckee
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '96161'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110831'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '86.06'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '10223.99'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Creative and Production Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE6071A3BBC183455EB22\x1C\x1C\x1CORG\x1CSteve Brown Direct
+    Mail\x1C\x1C\x1C\x1C\x1C\x1C10045 Whittail Lane\x1C\x1CTruckee\x1CCA\x1C96161\x1CG2012\x1C\x1C20110831\x1C86.06\x1C10223.99\x1CCreative
+    and Production Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E567B005C8D074DBC988
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Pinnacle Direct
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 15260 113th Street North
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Stillwater
+  - name: PAYEE STATE
+    number: '16'
+    value: MN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '550829575'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110802'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '56.65'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '4399.09'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Mail Postage
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE567B005C8D074DBC988\x1C\x1C\x1CORG\x1CPinnacle Direct\x1C\x1C\x1C\x1C\x1C\x1C15260
+    113th Street North\x1C\x1CStillwater\x1CMN\x1C550829575\x1CG2012\x1C\x1C20110802\x1C56.65\x1C4399.09\x1CFundraising
+    Mail Postage\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E38A43BC57F654D44961
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111115'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '241.03'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9330.84'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE38A43BC57F654D44961\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111115\x1C241.03\x1C9330.84\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EEBADEC44A16A483D9A3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Comerica CC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 500 Woodward Ave. Box 55000
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Detroit
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '482263416'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111207'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '63.21'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9633.12'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: CC Payment
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEEBADEC44A16A483D9A3\x1C\x1C\x1CORG\x1CComerica CC\x1C\x1C\x1C\x1C\x1C\x1C500
+    Woodward Ave. Box 55000\x1C\x1CDetroit\x1CMI\x1C482263416\x1CG2012\x1C\x1C20111207\x1C63.21\x1C9633.12\x1CCC
+    Payment\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E7220F41CCEA44CE093D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EEBADEC44A16A483D9A3
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: FaceBook
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 156 University Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Palo Alto
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94301'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111207'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '63.21'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9633.12'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Website Advertisement
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE7220F41CCEA44CE093D\x1CEEBADEC44A16A483D9A3\x1CSE\x1CORG\x1CFaceBook\x1C\x1C\x1C\x1C\x1C\x1C156
+    University Ave.\x1C\x1CPalo Alto\x1CCA\x1C94301\x1CG2012\x1C\x1C20111207\x1C63.21\x1C9633.12\x1CWebsite
+    Advertisement\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB5C285E952114EC1937
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110906'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '617.13'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '5814.28'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Funding
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEB5C285E952114EC1937\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110906\x1C617.13\x1C5814.28\x1CTelemarketing
+    Funding\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E308A32745E434818A22
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Pinnacle Direct
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 15260 113th Street North
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Stillwater
+  - name: PAYEE STATE
+    number: '16'
+    value: MN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '550829575'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110802'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '56.65'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9427.38'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Mail Postage
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE308A32745E434818A22\x1C\x1C\x1CORG\x1CPinnacle Direct\x1C\x1C\x1C\x1C\x1C\x1C15260
+    113th Street North\x1C\x1CStillwater\x1CMN\x1C550829575\x1CG2012\x1C\x1C20110802\x1C56.65\x1C9427.38\x1CFundraising
+    Mail Postage\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E6EAB82C89E7B42D18E4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1080.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '15148.18'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE6EAB82C89E7B42D18E4\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111219\x1C1080.00\x1C15148.18\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ECC8226BA794F4AE0BA6
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111129'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '101.46'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '14022.14'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CECC8226BA794F4AE0BA6\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111129\x1C101.46\x1C14022.14\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E6BD8114069CA43AF877
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Pickford
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Cameron
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1101 W. Twinbrook
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apt. 9
+  - name: PAYEE CITY
+    number: '15'
+    value: Dewitt
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '488208663'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111103'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2.45'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9009.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Mileage Reimbursement
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE6BD8114069CA43AF877\x1C\x1C\x1CIND\x1C\x1CPickford\x1CCameron\x1C\x1C\x1C\x1C1101
+    W. Twinbrook\x1CApt. 9\x1CDewitt\x1CMI\x1C488208663\x1CG2012\x1C\x1C20111103\x1C2.45\x1C9009.87\x1CMileage
+    Reimbursement\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EEA2E77DDE2834CBE906
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Comerica CC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 500 Woodward Ave. Box 55000
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Detroit
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '482263416'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111115'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '39.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9330.84'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: CC Payment
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEEA2E77DDE2834CBE906\x1C\x1C\x1CORG\x1CComerica CC\x1C\x1C\x1C\x1C\x1C\x1C500
+    Woodward Ave. Box 55000\x1C\x1CDetroit\x1CMI\x1C482263416\x1CG2012\x1C\x1C20111115\x1C39.97\x1C9330.84\x1CCC
+    Payment\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB0FF5F78DBF0466B9EC
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: EEA2E77DDE2834CBE906
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: FaceBook
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 156 University Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Palo Alto
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94301'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111115'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '39.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9330.84'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Website Adverstisement
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEB0FF5F78DBF0466B9EC\x1CEEA2E77DDE2834CBE906\x1CSE\x1CORG\x1CFaceBook\x1C\x1C\x1C\x1C\x1C\x1C156
+    University Ave.\x1C\x1CPalo Alto\x1CCA\x1C94301\x1CG2012\x1C\x1C20111115\x1C39.97\x1C9330.84\x1CWebsite
+    Adverstisement\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4BF77B4C82DA461F8B4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110726'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '14.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '4342.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE4BF77B4C82DA461F8B4\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110726\x1C14.15\x1C4342.44\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAE1EEC4D1702452AA57
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110726'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '14.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9370.73'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEAE1EEC4D1702452AA57\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110726\x1C14.15\x1C9370.73\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EE738484E186F43BB8F2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110809'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '5.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '4404.09'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEE738484E186F43BB8F2\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110809\x1C5.00\x1C4404.09\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8EB059926BCB49179DE
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110831'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '36.34'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '5197.15'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE8EB059926BCB49179DE\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110831\x1C36.34\x1C5197.15\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED01A2A6B4A63406A98E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '711.81'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13430.82'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CED01A2A6B4A63406A98E\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111019\x1C711.81\x1C13430.82\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E62445A2248504DAFB66
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111207'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '34.60'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9633.12'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE62445A2248504DAFB66\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111207\x1C34.60\x1C9633.12\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2CE7AE50CE764CA78EA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110706'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '106.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9356.58'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE2CE7AE50CE764CA78EA\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110706\x1C106.50\x1C9356.58\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E025BE559EAD844E994B
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '540.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '10219.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE025BE559EAD844E994B\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111219\x1C540.00\x1C10219.16\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EED940E19A0BC4717B6E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110906'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1234.25'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '11458.24'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEED940E19A0BC4717B6E\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110906\x1C1234.25\x1C11458.24\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E454BD30B7EDC47BA8C8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110909'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '569.53'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '12027.77'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Postage/Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE454BD30B7EDC47BA8C8\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20110909\x1C569.53\x1C12027.77\x1CPostage/Production
+    Fundraising Mail\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EF3E757B88842477186F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '540.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '540.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H4MI07103
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Walberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Tim
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '07'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEF3E757B88842477186F\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111219\x1C540.00\x1C540.00\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CS\x1CH4MI07103\x1CWalberg\x1CTim\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C07\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EF3AC4AA9839C45A38FC
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '540.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '540.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H0MI03126
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Amash
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Justin
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEF3AC4AA9839C45A38FC\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111219\x1C540.00\x1C540.00\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CS\x1CH0MI03126\x1CAmash\x1CJustin\x1C\x1CMr.\x1C\x1CH\x1CMI\x1C03\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EE82E88177E25492ABD3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110928'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '472.20'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6856.01'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEE82E88177E25492ABD3\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20110928\x1C472.20\x1C6856.01\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E83B412B0487A406A8FE
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Steve Brown Direct Mail
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 10045 Whittail Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Truckee
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '96161'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '321.07'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13430.82'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Creative and Production Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE83B412B0487A406A8FE\x1C\x1C\x1CORG\x1CSteve Brown Direct
+    Mail\x1C\x1C\x1C\x1C\x1C\x1C10045 Whittail Lane\x1C\x1CTruckee\x1CCA\x1C96161\x1CG2012\x1C\x1C20111019\x1C321.07\x1C13430.82\x1CCreative
+    and Production Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EFD679FDD08B14E368DA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Steve Brown Direct Mail
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 10045 Whittail Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Truckee
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '96161'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '321.07'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '8554.06'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Creative and Production Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEFD679FDD08B14E368DA\x1C\x1C\x1CORG\x1CSteve Brown Direct
+    Mail\x1C\x1C\x1C\x1C\x1C\x1C10045 Whittail Lane\x1C\x1CTruckee\x1CCA\x1C96161\x1CG2012\x1C\x1C20111019\x1C321.07\x1C8554.06\x1CCreative
+    and Production Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0A6D2084606A4490AAF
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111214'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '46.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9679.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE0A6D2084606A4490AAF\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111214\x1C46.04\x1C9679.16\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E221F49935E5D49DE9CF
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Pickford
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Cameron
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1101 W. Twinbrook
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Apt. 9
+  - name: PAYEE CITY
+    number: '15'
+    value: Dewitt
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '488208663'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111103'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '38.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13920.68'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Mileage Reimbursement
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE221F49935E5D49DE9CF\x1C\x1C\x1CIND\x1C\x1CPickford\x1CCameron\x1C\x1C\x1C\x1C1101
+    W. Twinbrook\x1CApt. 9\x1CDewitt\x1CMI\x1C488208663\x1CG2012\x1C\x1C20111103\x1C38.50\x1C13920.68\x1CMileage
+    Reimbursement\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9C69C9121EC8446683E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111103'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '387.76'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9009.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE9C69C9121EC8446683E\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111103\x1C387.76\x1C9009.87\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2C20AA83636241AB968
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111214'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '46.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '14068.18'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE2C20AA83636241AB968\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111214\x1C46.04\x1C14068.18\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E41B77CB527B9445190A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '540.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '540.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H0MI02094
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Huizenga
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: William
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE41B77CB527B9445190A\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20111219\x1C540.00\x1C540.00\x1CProduction
+    Fundraising Mail\x1C\x1C\x1CS\x1CH0MI02094\x1CHuizenga\x1CWilliam\x1CP\x1CRep.\x1C\x1CH\x1CMI\x1C02\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E6FF736EBF5C3496EA93
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Pinnacle Direct
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 15260 113th Street North
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Stillwater
+  - name: PAYEE STATE
+    number: '16'
+    value: MN
+  - name: PAYEE ZIP
+    number: '17'
+    value: '550829575'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110831'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '670.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '5197.15'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Mail Postage
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE6FF736EBF5C3496EA93\x1C\x1C\x1CORG\x1CPinnacle Direct\x1C\x1C\x1C\x1C\x1C\x1C15260
+    113th Street North\x1C\x1CStillwater\x1CMN\x1C550829575\x1CG2012\x1C\x1C20110831\x1C670.66\x1C5197.15\x1CFundraising
+    Mail Postage\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E3E6F4215DD884F92896
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111129'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '101.46'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9472.10'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE3E6F4215DD884F92896\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111129\x1C101.46\x1C9472.10\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E3A3AE95166AF4D88BEA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Technicom Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 14100 Oakland Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Highland Park
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '482032909'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '370.17'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '8554.06'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Postage for Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE3A3AE95166AF4D88BEA\x1C\x1C\x1CORG\x1CTechnicom Group\x1C\x1C\x1C\x1C\x1C\x1C14100
+    Oakland Ave.\x1C\x1CHighland Park\x1CMI\x1C482032909\x1CG2012\x1C\x1C20111019\x1C370.17\x1C8554.06\x1CPostage
+    for Fundraising Mail\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E79636F9CE15C44DE8AA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111026'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '63.60'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '8617.66'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE79636F9CE15C44DE8AA\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111026\x1C63.60\x1C8617.66\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0C6A7303455E4316B71
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Comerica CC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 500 Woodward Ave. Box 55000
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Detroit
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '482263416'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110713'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '36.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '4328.29'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: CC Payment
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE0C6A7303455E4316B71\x1C\x1C\x1CORG\x1CComerica CC\x1C\x1C\x1C\x1C\x1C\x1C500
+    Woodward Ave. Box 55000\x1C\x1CDetroit\x1CMI\x1C482263416\x1CG2012\x1C\x1C20110713\x1C36.50\x1C4328.29\x1CCC
+    Payment\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E825C2D13C41F4105848
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: E0C6A7303455E4316B71
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: SE
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Vivid Planet Software
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2211 North First Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: San Jose
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '95131'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110713'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '36.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '4328.29'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Website Rental
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE825C2D13C41F4105848\x1CE0C6A7303455E4316B71\x1CSE\x1CORG\x1CVivid
+    Planet Software\x1C\x1C\x1C\x1C\x1C\x1C2211 North First Street\x1C\x1CSan Jose\x1CCA\x1C95131\x1CG2012\x1C\x1C20110713\x1C36.50\x1C4328.29\x1CWebsite
+    Rental\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EEBA8F82414F44D9E9FF
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111121'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '39.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9370.64'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEEBA8F82414F44D9E9FF\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111121\x1C39.80\x1C9370.64\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8FCAFA27C3534B90BFF
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Southwest Publishing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2600 NW Topeka Boulevard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Topeka
+  - name: PAYEE STATE
+    number: '16'
+    value: KS
+  - name: PAYEE ZIP
+    number: '17'
+    value: '666171160'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110909'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '569.53'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6383.81'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Postage/Production Fundraising Mail
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE8FCAFA27C3534B90BFF\x1C\x1C\x1CORG\x1CSouthwest Publishing\x1C\x1C\x1C\x1C\x1C\x1C2600
+    NW Topeka Boulevard\x1C\x1CTopeka\x1CKS\x1C666171160\x1CG2012\x1C\x1C20110909\x1C569.53\x1C6383.81\x1CPostage/Production
+    Fundraising Mail\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EFBA2B41614B7411F84E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111026'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '63.60'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13494.42'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CEFBA2B41614B7411F84E\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111026\x1C63.60\x1C13494.42\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E323B591623C34B589D0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Steve Brown Direct Mail
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 10045 Whittail Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Truckee
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '96161'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110831'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '86.06'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '5197.15'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Creative and Production Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE323B591623C34B589D0\x1C\x1C\x1CORG\x1CSteve Brown Direct
+    Mail\x1C\x1C\x1C\x1C\x1C\x1C10045 Whittail Lane\x1C\x1CTruckee\x1CCA\x1C96161\x1CG2012\x1C\x1C20110831\x1C86.06\x1C5197.15\x1CCreative
+    and Production Fundraising\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E6C77F9BB16D44B52A8F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111012'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '295.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '7151.01'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Services
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8MI00281
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Stabenow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Debbie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE6C77F9BB16D44B52A8F\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111012\x1C295.00\x1C7151.01\x1CTelemarketing
+    Services\x1C\x1C\x1CO\x1CS8MI00281\x1CStabenow\x1CDebbie\x1C\x1CSen.\x1C\x1CS\x1CMI\x1C\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4C58D1B4A385419DAA9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Fundraising
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2625 Momentum Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606895326'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111103'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '387.76'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13920.68'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Telemarketing Fundraising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Pres. Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Meyers
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Carl
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20111221'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00041160\x1CE4C58D1B4A385419DAA9\x1C\x1C\x1CORG\x1CStrategic Fundraising\x1C\x1C\x1C\x1C\x1C\x1C2625
+    Momentum Place\x1C\x1CChicago\x1CIL\x1C606895326\x1CG2012\x1C\x1C20111103\x1C387.76\x1C13920.68\x1CTelemarketing
+    Fundraising\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CPres. Barack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CMeyers\x1CCarl\x1C\x1C\x1C\x1C20111221\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20111221
+type: chunk
