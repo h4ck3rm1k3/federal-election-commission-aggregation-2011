@@ -1,0 +1,162 @@
+countrows: 3
+filename: 743343.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH8CA44034\x1CBono Mack\x1CMary\x1C\x1C\x1C\x1C\x1CPO Box 3370\x1C\x1CPalm
+    Springs\x1CCA\x1C922633370\x1CREP\x1CH\x1CCA\x1C36\x1C2012\x1CC00332890\x1CMary
+    Bono Mack Committee\x1CPO Box 3370\x1C\x1CPalm Springs\x1CCA\x1C922633370\x1CC00499186\x1CMacks'
+    Joint Commitee\x1CPO Box 65075\x1C\x1CWashington\x1CDC\x1C20035\x1CBono Mack\x1CMary\x1C\x1C\x1C\x1C20110829\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8CA44034
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Bono Mack
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Mary
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 3370
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Palm Springs
+  - name: CANDIDATE STATE
+    number: '12'
+    value: CA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '922633370'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '36'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00332890
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Mary Bono Mack Committee
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 3370
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Palm Springs
+  - name: PCC STATE
+    number: '24'
+    value: CA
+  - name: PCC ZIP
+    number: '25'
+    value: '922633370'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00499186
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Macks' Joint Commitee
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO Box 65075
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20035'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Bono Mack
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Mary
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110829
+
+'
+- input: "F2S\x1CH8CA44034\x1CC00493387\x1CMary Bono Mack Victory Fund\x1C228 South
+    Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8CA44034
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493387
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Mary Bono Mack Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 South Washington Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '223145404
+
+'
+sourceurl: !!python/unicode 20110829
+type: chunk

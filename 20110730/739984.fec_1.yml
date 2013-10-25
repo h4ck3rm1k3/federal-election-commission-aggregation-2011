@@ -1,0 +1,392 @@
+countrows: 4
+filename: 739984.fec
+header: {}
+rows:
+- 2
+- input: "F3LA\x1CC00257956\x1CBOB GOODLATTE FOR CONGRESS COMMITTEE\x1CX\x1CP.O. Box
+    292\x1C\x1CRoanoke\x1CVA\x1C24002\x1C\x1C06\x1C\x1C\x1C\x1C\x1C20110101\x1C20110630\x1CX\x1C\x1C41500.00\x1C41500.00\x1CPrickitt\x1CKenneth\x1C\x1C\x1C\x1C20110730\n"
+  record: fec.version.v7_0.F3L
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3LA
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00257956
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BOB GOODLATTE FOR CONGRESS COMMITTEE
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: X
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 292
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Roanoke
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '24002'
+  - name: ELECTION STATE
+    number: '10'
+    value: ''
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: '06'
+  - name: REPORT CODE
+    number: '12'
+    value: ''
+  - name: DATE OF ELECTION
+    number: '13'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '14'
+    value: ''
+  - name: SEMI-ANNUAL PERIOD - Sect 5(c) or (d)
+    number: '15'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '16'
+    value: '20110101'
+  - name: COVERAGE THROUGH DATE
+    number: '17'
+    value: '20110630'
+  - name: SEMI-ANNUAL JAN-JUN - Sect 6(b)
+    number: '18'
+    value: X
+  - name: SEMI-ANNUAL JUL-DEC - Sect 6(b)
+    number: '19'
+    value: ''
+  - name: QTR/MON/POST BUNDLED CONTRIBUTIONS
+    number: '20'
+    value: '41500.00'
+  - name: SEMI-ANNUAL BUNDLED CONTRIBS
+    number: '21'
+    value: '41500.00'
+  - name: TREASURER LAST NAME
+    number: '22'
+    value: Prickitt
+  - name: TREASURER FIRST NAME
+    number: '23'
+    value: Kenneth
+  - name: TREASURER MIDDLE NAME
+    number: '24'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '25'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '26'
+    value: ''
+  - name: DATE SIGNED
+    number: '27'
+    value: '20110730
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA3L
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00257956
+  - name: TRANSACTION ID
+    number: '3'
+    value: A88FA67B3E4AB4E3BAF2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Frazee
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Elizabeth
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 6313 Evermay Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Mc Lean
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '221012309'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: ''
+  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+    number: '21'
+    value: '25000.00'
+  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+    number: '22'
+    value: '25000.00'
+  - name: CONTRIBUTION PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '25'
+    value: TurnLogic Strateties LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '27'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '36'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '37'
+    value: ''
+  - name: CONDUIT NAME
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '39'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '40'
+    value: ''
+  - name: CONDUIT CITY
+    number: '41'
+    value: ''
+  - name: CONDUIT STATE
+    number: '42'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '43'
+    value: ''
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '46'
+    value: ''
+  - value: '
+
+'
+  expected_count: 46
+  input: "SA3L\x1CC00257956\x1CA88FA67B3E4AB4E3BAF2\x1C\x1C\x1CIND\x1C\x1CFrazee\x1CElizabeth\x1CW.\x1C\x1C\x1C6313
+    Evermay Drive\x1C\x1CMc Lean\x1CVA\x1C221012309\x1C\x1C\x1C\x1C25000.00\x1C25000.00\x1C\x1C\x1CTurnLogic
+    Strateties LLP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  input_count: 47
+  record: fec.version.v7_0.SA
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA3L
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00257956
+  - name: TRANSACTION ID
+    number: '3'
+    value: AB867E87F75B74832B3D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: O'Rourke
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: T.
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 11028 Stanmore Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Potomac
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '208541525'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: ''
+  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+    number: '21'
+    value: '16500.00'
+  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+    number: '22'
+    value: '16500.00'
+  - name: CONTRIBUTION PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '25'
+    value: Law Offices of John T. O'Rourke
+  - name: CONTRIBUTOR OCCUPATION
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '27'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '36'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '37'
+    value: ''
+  - name: CONDUIT NAME
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '39'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '40'
+    value: ''
+  - name: CONDUIT CITY
+    number: '41'
+    value: ''
+  - name: CONDUIT STATE
+    number: '42'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '43'
+    value: ''
+  - name: MEMO CODE
+    number: '44'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '45'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '46'
+    value: ''
+  - value: '
+
+'
+  expected_count: 46
+  input: "SA3L\x1CC00257956\x1CAB867E87F75B74832B3D\x1C\x1C\x1CIND\x1C\x1CO'Rourke\x1CJohn\x1CT.\x1C\x1C\x1C11028
+    Stanmore Dr\x1C\x1CPotomac\x1CMD\x1C208541525\x1C\x1C\x1C\x1C16500.00\x1C16500.00\x1C\x1C\x1CLaw
+    Offices of John T. O'Rourke\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  input_count: 47
+  record: fec.version.v7_0.SA
+  result: []
+sourceurl: !!python/unicode 20110730
+type: chunk

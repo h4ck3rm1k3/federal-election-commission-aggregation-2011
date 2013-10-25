@@ -1,0 +1,197 @@
+countrows: 4
+filename: 739939.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH0FL02110\x1CSOUTHERLAND\x1CWILLIAM STEVE \x1C\x1C\x1CII\x1C\x1CPO
+    BOX 1692\x1C\x1CLYNN HAVEN\x1CFL\x1C32444\x1CREP\x1CH\x1CFL\x1C02\x1C2012\x1CC00468959\x1CSOUTHERLAND
+    FOR CONGRESS\x1CPO BOX 1692\x1C\x1CLYNN HAVEN\x1CFL\x1C32444\x1CC00493783\x1CFRESHMAN
+    AGRICULTURAL REPUBLICAN MEMBERS TRUST AKA FARM TRUST\x1C7315 WISCONSIN AVE SUITE
+    310 EAST\x1C\x1CBETHESDA\x1CMD\x1C20814\x1CSOUTHERLAND\x1CWILLIAM STEVE \x1C\x1C\x1CII\x1C20110729\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0FL02110
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: SOUTHERLAND
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: 'WILLIAM STEVE '
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: II
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO BOX 1692
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: LYNN HAVEN
+  - name: CANDIDATE STATE
+    number: '12'
+    value: FL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '32444'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00468959
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: SOUTHERLAND FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: PO BOX 1692
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: LYNN HAVEN
+  - name: PCC STATE
+    number: '24'
+    value: FL
+  - name: PCC ZIP
+    number: '25'
+    value: '32444'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00493783
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: FRESHMAN AGRICULTURAL REPUBLICAN MEMBERS TRUST AKA FARM TRUST
+  - name: AUTH STREET 1
+    number: '28'
+    value: 7315 WISCONSIN AVE SUITE 310 EAST
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: BETHESDA
+  - name: AUTH STATE
+    number: '31'
+    value: MD
+  - name: AUTH ZIP
+    number: '32'
+    value: '20814'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: SOUTHERLAND
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: 'WILLIAM STEVE '
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: II
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110729
+
+'
+- input: "F2S\x1CH0FL02110\x1CC00491332\x1CAMERICA'S NEW MAJORITY\x1C228 S WASHINGTON
+    ST\x1CSUITE 115\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0FL02110
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00491332
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: AMERICA'S NEW MAJORITY
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST
+  - name: AUTH STREET 2
+    number: '6'
+    value: SUITE 115
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+- input: "F2S\x1CH0FL02110\x1C\x1CFlorida Young Guns Victory Fund (Adams, Nugent,
+    Ross, Southerland, Webster, West)\x1C25 East Main Street\x1C\x1CRichmond\x1CVA\x1C23219\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0FL02110
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Florida Young Guns Victory Fund (Adams, Nugent, Ross, Southerland, Webster,
+      West)
+  - name: AUTH STREET 1
+    number: '5'
+    value: 25 East Main Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Richmond
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '23219
+
+'
+sourceurl: !!python/unicode 20110729
+type: chunk

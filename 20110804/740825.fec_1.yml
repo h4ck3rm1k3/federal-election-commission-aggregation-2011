@@ -1,0 +1,130 @@
+countrows: 2
+filename: 740825.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH0AR04079\x1CRANKIN\x1CBETH ANNE\x1C\x1C\x1C\x1C\x1C361 COLUMBIA
+    ROAD 449\x1C\x1CMAGNOLIA\x1CAR\x1C71753\x1CREP\x1CH\x1CAR\x1C04\x1C2012\x1CC00478636\x1CBeth
+    Anne Rankin for Congress\x1CP O Box 2160\x1C\x1CMagnolia\x1CAR\x1C71754\x1CC00478636\x1CBeth
+    Anne Rankin for Congress\x1CP O Box 2160\x1C\x1CMagnolia\x1CAR\x1C71754\x1CRANKIN\x1CBETH
+    ANNE\x1C\x1C\x1C\x1C20110804\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0AR04079
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: RANKIN
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: BETH ANNE
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 361 COLUMBIA ROAD 449
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: MAGNOLIA
+  - name: CANDIDATE STATE
+    number: '12'
+    value: AR
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '71753'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AR
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00478636
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Beth Anne Rankin for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: P O Box 2160
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Magnolia
+  - name: PCC STATE
+    number: '24'
+    value: AR
+  - name: PCC ZIP
+    number: '25'
+    value: '71754'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00478636
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Beth Anne Rankin for Congress
+  - name: AUTH STREET 1
+    number: '28'
+    value: P O Box 2160
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Magnolia
+  - name: AUTH STATE
+    number: '31'
+    value: AR
+  - name: AUTH ZIP
+    number: '32'
+    value: '71754'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: RANKIN
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: BETH ANNE
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110804
+
+'
+sourceurl: !!python/unicode 20110804
+type: chunk

@@ -1,0 +1,894 @@
+countrows: 8
+filename: 741522.fec
+header: {}
+rows:
+- 2
+- input: "F24\x1CC00495028\x1C48\x1CHouse Majority PAC\x1C700 13th Street, NW\x1CSuite
+    600\x1CWashington\x1CDC\x1C20005\x1CAbbey\x1CCandace\x1CBryan\x1C\x1C\x1C20110812\n"
+  record: fec.version.v7_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495028
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: House Majority PAC
+  - name: STREET 1
+    number: '5'
+    value: 700 13th Street, NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 600
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Abbey
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Candace
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: Bryan
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20110812
+
+'
+- input: "SE\x1CC00495028\x1CD562276\x1C\x1C\x1CORG\x1CWaterfront Strategies\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Wisconsin Avenue, NW\x1CSuite 800\x1CWashington\x1CDC\x1C20007\x1CP2012\x1C\x1C20110812\x1C34602.80\x1C58779.45\x1C\x1CTelevision
+    Advertising\x1C\x1CC00468116\x1CO\x1Ch0ar02107\x1CGriffin\x1CJohn\x1CT.\x1C\x1C\x1CH\x1CAR\x1C02\x1CAbbey\x1CCandace\x1CBryan\x1C\x1C\x1C20110812\x1C\x1C\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495028
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D562276
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Waterfront Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Wisconsin Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 800
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110812'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '34602.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '58779.45'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00468116
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: h0ar02107
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Griffin
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: T.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: AR
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Abbey
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Candace
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Bryan
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110812'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00495028\x1CD562277\x1C\x1C\x1CORG\x1CWaterfront Strategies\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Wisconsin Avenue, NW\x1CSuite 800\x1CWashington\x1CDC\x1C20007\x1CP2012\x1C\x1C20110812\x1C10876.55\x1C33157.50\x1C\x1CTelevision
+    Advertising\x1C\x1CC00470757\x1CO\x1CH6CO03139\x1CTipton\x1CScott\x1CR.\x1C\x1C\x1CH\x1CCO\x1C03\x1CAbbey\x1CCandace\x1CBryan\x1C\x1C\x1C20110812\x1C\x1C\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495028
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D562277
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Waterfront Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Wisconsin Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 800
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110812'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '10876.55'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '33157.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00470757
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6CO03139
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Tipton
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Scott
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: R.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Abbey
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Candace
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Bryan
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110812'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00495028\x1CD562279\x1C\x1C\x1CORG\x1CWaterfront Strategies\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Wisconsin Avenue, NW\x1CSuite 800\x1CWashington\x1CDC\x1C20007\x1CP2012\x1C\x1C20110812\x1C23134.40\x1C71310.51\x1C\x1CTelevision
+    Advertising\x1C\x1CC00475632\x1CO\x1CH0MN08115\x1CCravaack\x1CRaymond\x1CJ.\x1C\x1C\x1CH\x1CMN\x1C08\x1CAbbey\x1CCandace\x1CBryan\x1C\x1C\x1C20110812\x1C\x1C\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495028
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D562279
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Waterfront Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Wisconsin Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 800
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110812'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '23134.40'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '71310.51'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television Advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00475632
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MN08115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Cravaack
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Raymond
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Abbey
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Candace
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Bryan
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110812'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00495028\x1CD562281\x1C\x1C\x1CORG\x1CWaterfront Strategies\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Wisconsin Avenue, NW\x1CSuite 800\x1CWashington\x1CDC\x1C20007\x1CP2012\x1C\x1C20110812\x1C3333.34\x1C58779.45\x1C\x1CMedia
+    Production Costs\x1C\x1CC00468116\x1CO\x1Ch0ar02107\x1CGriffin\x1CJohn\x1CT.\x1C\x1C\x1CH\x1CAR\x1C02\x1CAbbey\x1CCandace\x1CBryan\x1C\x1C\x1C20110812\x1C\x1CEstimated
+    Amount\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495028
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D562281
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Waterfront Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Wisconsin Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 800
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110812'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3333.34'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '58779.45'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Media Production Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00468116
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: h0ar02107
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Griffin
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: T.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: AR
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Abbey
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Candace
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Bryan
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110812'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: 'Estimated Amount
+
+'
+- input: "SE\x1CC00495028\x1CD562282\x1C\x1C\x1CORG\x1CWaterfront Strategies\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Wisconsin Avenue, NW\x1CSuite 800\x1CWashington\x1CDC\x1C20007\x1CP2012\x1C\x1C20110812\x1C10000.00\x1C33157.50\x1C\x1CMedia
+    Production Costs\x1C\x1CC00470757\x1CO\x1CH6CO03139\x1CTipton\x1CScott\x1CR.\x1C\x1C\x1CH\x1CCO\x1C03\x1CAbbey\x1CCandace\x1CBryan\x1C\x1C\x1C20110812\x1C\x1CEstimated
+    Amount\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495028
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D562282
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Waterfront Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Wisconsin Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 800
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110812'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '10000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '33157.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Media Production Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00470757
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6CO03139
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Tipton
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Scott
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: R.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Abbey
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Candace
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Bryan
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110812'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: 'Estimated Amount
+
+'
+- input: "SE\x1CC00495028\x1CD562314\x1C\x1C\x1CORG\x1CMurphy Vogel Askew Reill\x1C\x1C\x1C\x1C\x1C\x1C901
+    N. Washington Street\x1CSuite 400\x1CAlexandria\x1CVA\x1C22314\x1CP2012\x1C\x1C20110812\x1C800.00\x1C71310.51\x1C\x1CShipping\x1C\x1CC00475632\x1CO\x1CH0MN08115\x1CCravaack\x1CRaymond\x1CJ.\x1C\x1C\x1CH\x1CMN\x1C08\x1CAbbey\x1CCandace\x1CBryan\x1C\x1C\x1C20110812\x1C\x1CEstimated
+    Amount\n"
+  record: fec.version.v7_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00495028
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D562314
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Murphy Vogel Askew Reill
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 901 N. Washington Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 400
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20110812'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '800.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '71310.51'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Shipping
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00475632
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0MN08115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Cravaack
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Raymond
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: J.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Abbey
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Candace
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Bryan
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20110812'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: 'Estimated Amount
+
+'
+sourceurl: !!python/unicode 20110812
+type: chunk

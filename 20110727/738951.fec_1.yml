@@ -1,0 +1,161 @@
+countrows: 3
+filename: 738951.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH2TX26150\x1CCosta\x1CDianne\x1CSalvagno\x1C\x1C\x1CX\x1C6101 Long
+    Prairie Road\x1CSuite 744-375\x1CFlower Mound\x1CTX\x1C75028\x1CREP\x1CH\x1CTX\x1C25\x1C2012\x1CC00494906\x1CDIANNE
+    COSTA FOR US CONGRESS\x1C6101 Long Prairie Road\x1CSuite 744-375\x1CFlower Mound\x1CTX\x1C75028\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CCosta\x1CDianne\x1CSalvagno\x1C\x1C\x1C20110727\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2TX26150
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Costa
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Dianne
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Salvagno
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: X
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 6101 Long Prairie Road
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: Suite 744-375
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Flower Mound
+  - name: CANDIDATE STATE
+    number: '12'
+    value: TX
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '75028'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '25'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00494906
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: DIANNE COSTA FOR US CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: 6101 Long Prairie Road
+  - name: PCC STREET 2
+    number: '22'
+    value: Suite 744-375
+  - name: PCC CITY
+    number: '23'
+    value: Flower Mound
+  - name: PCC STATE
+    number: '24'
+    value: TX
+  - name: PCC ZIP
+    number: '25'
+    value: '75028'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Costa
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Dianne
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: Salvagno
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110727
+
+'
+- input: "F2S\x1CH2TX26150\x1CC00494906\x1CDIANNE COSTA FOR US CONGRESS\x1C6101 Long
+    Prairie Road\x1CSuite 744-375\x1CFlower Mound\x1CTX\x1C75028\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2TX26150
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00494906
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: DIANNE COSTA FOR US CONGRESS
+  - name: AUTH STREET 1
+    number: '5'
+    value: 6101 Long Prairie Road
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 744-375
+  - name: AUTH CITY
+    number: '7'
+    value: Flower Mound
+  - name: AUTH STATE
+    number: '8'
+    value: TX
+  - name: AUTH ZIP
+    number: '9'
+    value: '75028
+
+'
+sourceurl: !!python/unicode 20110727
+type: chunk

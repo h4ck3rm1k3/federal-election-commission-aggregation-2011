@@ -1,0 +1,153 @@
+countrows: 3
+filename: 743309.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499244
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TURNER FOR CONGRESS 2011, INC
+  - name: STREET 1
+    number: '4'
+    value: 159-49 CROSS BAY BOULEVARD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: HOWARD BEACH
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11414'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0NY09072
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: TURNER
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ROBERT L
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Turner
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kevin
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110829'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00499244\x1CTURNER FOR CONGRESS 2011, INC\x1C159-49 CROSS BAY BOULEVARD\x1C\x1CHOWARD
+    BEACH\x1CNY\x1C11414\x1CH0NY09072\x1CTURNER\x1CROBERT L\x1C\x1C\x1C\x1CH\x1CNY\x1C09\x1CTurner\x1CKevin\x1C\x1C\x1C\x1C20110829\x1C\n"
+  input_count: 24
+  record: fec.version.v7_0.F6
+  result: []
+- input: "F65\x1CC00499244\x1CF6.4142\x1CIND\x1C\x1CAgus\x1CRaanan\x1C\x1C\x1C\x1C200
+    West Street\x1C\x1CNew York\x1CNY\x1C10282\x1C\x1C20110828\x1C2000.00\x1CGoldman
+    Sachs\x1CFinance\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499244
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4142
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Agus
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Raanan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 200 West Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10282'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110828'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Goldman Sachs
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Finance
+
+'
+sourceurl: !!python/unicode 20110829
+type: chunk

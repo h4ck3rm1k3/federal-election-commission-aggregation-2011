@@ -1,0 +1,890 @@
+countrows: 7
+filename: 741008.fec
+header: {}
+rows:
+- 2
+- input: "F1N\x1CC00250407\x1C\x1CSouthern Company - Southern Nuclear Operating Company,
+    Inc. PAC\x1C\x1C42 Inverness Center\x1C\x1CBirmingham\x1CAL\x1C35242\x1C\x1Crcannon@southernco.com\x1C\x1C\x1C20110808\x1CCannon\x1CRobert\x1CM.\x1C\x1C\x1C20110808\x1CE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CC\x1CX\x1C\x1C\x1C\x1CSouthen
+    Nuclear Operating Company\x1C\x1C\x1C\x1C\x1C\x1C\x1C42 Inverness Center PArkway\x1C\x1CBirmingham\x1CAL\x1C35242\x1CORG\x1CCannon\x1CRobert\x1CM.\x1C\x1C\x1CP.
+    O. Box 1295\x1CBin B028\x1CBirmingham\x1CAL\x1C35201\x1CStaff Accountant\x1C2059925963\x1CCannon\x1CRobert\x1CM.\x1C\x1C\x1CP.
+    O. Box 1295\x1CBin B028\x1CBirmingham\x1CAL\x1C35201\x1CStaff Accountant\x1C2059925963\x1CHunter\x1CThaddeus\x1CLafronze\x1C\x1C\x1C40
+    Inverness Center Parkway\x1C\x1CBirmingham\x1CAL\x1C35242\x1CAssistant Treasurer\x1C2059925965\x1CRegions
+    Bank\x1C1900 5th Ave. N.\x1C\x1CBirmingham\x1CAL\x1C35203\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250407
+  - name: CHANGE OF COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Southern Company - Southern Nuclear Operating Company, Inc. PAC
+  - name: CHANGE OF ADDRESS
+    number: '5'
+    value: ''
+  - name: STREET 1
+    number: '6'
+    value: 42 Inverness Center
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Birmingham
+  - name: STATE
+    number: '9'
+    value: AL
+  - name: ZIP
+    number: '10'
+    value: '35242'
+  - name: CHANGE OF COMMITTEE EMAIL
+    number: '11'
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '12'
+    value: rcannon@southernco.com
+  - name: CHANGE OF COMMITTEE WEB URL
+    number: '13'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '14'
+    value: ''
+  - name: EFFECTIVE DATE
+    number: '15'
+    value: '20110808'
+  - name: SIGNATURE LAST NAME
+    number: '16'
+    value: Cannon
+  - name: SIGNATURE FIRST NAME
+    number: '17'
+    value: Robert
+  - name: SIGNATURE MIDDLE NAME
+    number: '18'
+    value: M.
+  - name: SIGNATURE PREFIX
+    number: '19'
+    value: ''
+  - name: SIGNATURE SUFFIX
+    number: '20'
+    value: ''
+  - name: DATE SIGNED
+    number: '21'
+    value: '20110808'
+  - name: COMMITTEE TYPE
+    number: 22-5.
+    value: E
+  - name: CANDIDATE ID NUMBER
+    number: 23-5.
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: 24-5.
+    value: ''
+  - name: CANDIDATE FIRST NAME
+    number: 25-5.
+    value: ''
+  - name: CANDIDATE MIDDLE NAME
+    number: 26-5.
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: 27-5.
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: 28-5.
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 29-5.
+    value: ''
+  - name: CANDIDATE STATE
+    number: 30-5.
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: 31-5.
+    value: ''
+  - name: PARTY CODE
+    number: 32-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 33-5.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 34-5 (e).
+    value: C
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 35-5 (e).
+    value: X
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 36-5 (f).
+    value: ''
+  - name: LEADERSHIP PAC
+    number: 37-5 (f).
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 38-6.
+    value: ''
+  - name: AFFILIATED Committee NAME
+    number: 39-6.
+    value: Southen Nuclear Operating Company
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 40-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 41-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 42-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 43-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 44-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 45-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 46-6.
+    value: 42 Inverness Center PArkway
+  - name: AFFILIATED STREET 2
+    number: 47-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 48-6.
+    value: Birmingham
+  - name: AFFILIATED STATE
+    number: 49-6.
+    value: AL
+  - name: AFFILIATED ZIP
+    number: 50-6.
+    value: '35242'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 51-6.
+    value: ORG
+  - name: CUSTODIAN LAST NAME
+    number: 52-7.
+    value: Cannon
+  - name: CUSTODIAN FIRST NAME
+    number: 53-7.
+    value: Robert
+  - name: CUSTODIAN MIDDLE NAME
+    number: 54-7.
+    value: M.
+  - name: CUSTODIAN PREFIX
+    number: 55-7.
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: 56-7.
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: 57-7.
+    value: P. O. Box 1295
+  - name: CUSTODIAN STREET 2
+    number: 58-7.
+    value: Bin B028
+  - name: CUSTODIAN CITY
+    number: 59-7.
+    value: Birmingham
+  - name: CUSTODIAN STATE
+    number: 60-7.
+    value: AL
+  - name: CUSTODIAN ZIP
+    number: 61-7.
+    value: '35201'
+  - name: CUSTODIAN TITLE
+    number: 62-7.
+    value: Staff Accountant
+  - name: CUSTODIAN TELEPHONE
+    number: 63-7.
+    value: '2059925963'
+  - name: TREASURER LAST NAME
+    number: 64-8.
+    value: Cannon
+  - name: TREASURER FIRST NAME
+    number: 65-8.
+    value: Robert
+  - name: TREASURER MIDDLE NAME
+    number: 66-8.
+    value: M.
+  - name: TREASURER PREFIX
+    number: 67-8.
+    value: ''
+  - name: TREASURER SUFFIX
+    number: 68-8.
+    value: ''
+  - name: TREASURER STREET 1
+    number: 69-8.
+    value: P. O. Box 1295
+  - name: TREASURER STREET 2
+    number: 70-8.
+    value: Bin B028
+  - name: TREASURER CITY
+    number: 71-8.
+    value: Birmingham
+  - name: TREASURER STATE
+    number: 72-8.
+    value: AL
+  - name: TREASURER ZIP
+    number: 73-8.
+    value: '35201'
+  - name: TREASURER TITLE
+    number: 74-8.
+    value: Staff Accountant
+  - name: TREASURER TELEPHONE
+    number: 75-8.
+    value: '2059925963'
+  - name: AGENT LAST NAME
+    number: 76-8.
+    value: Hunter
+  - name: AGENT FIRST NAME
+    number: 77-8.
+    value: Thaddeus
+  - name: AGENT MIDDLE NAME
+    number: 78-8.
+    value: Lafronze
+  - name: AGENT PREFIX
+    number: 79-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 80-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 81-8.
+    value: 40 Inverness Center Parkway
+  - name: AGENT STREET 2
+    number: 82-8.
+    value: ''
+  - name: AGENT CITY
+    number: 83-8.
+    value: Birmingham
+  - name: AGENT STATE
+    number: 84-8.
+    value: AL
+  - name: AGENT ZIP
+    number: 85-8.
+    value: '35242'
+  - name: AGENT TITLE
+    number: 86-8.
+    value: Assistant Treasurer
+  - name: AGENT TELEPHONE
+    number: 87-8.
+    value: '2059925965'
+  - name: BANK NAME
+    number: 88-9. a)
+    value: Regions Bank
+  - name: BANK STREET 1
+    number: 89-9. a)
+    value: 1900 5th Ave. N.
+  - name: BANK STREET 2
+    number: 90-9. a)
+    value: ''
+  - name: BANK CITY
+    number: 91-9. a)
+    value: Birmingham
+  - name: BANK STATE
+    number: 92-9. a)
+    value: AL
+  - name: BANK ZIP
+    number: 93-9. a)
+    value: '35203'
+  - name: BANK NAME
+    number: 94-9. b)
+    value: ''
+  - name: BANK STREET 1
+    number: 95-9. b)
+    value: ''
+  - name: BANK STREET 2
+    number: 96-9. b)
+    value: ''
+  - name: BANK CITY
+    number: 97-9. b)
+    value: ''
+  - name: BANK STATE
+    number: 98-9. b)
+    value: ''
+  - name: BANK ZIP
+    number: 99-9. b)
+    value: '
+
+'
+- input: "F1S\x1CC00250407\x1C\x1C\x1CC00144774\x1CSOUTHERN COMPANY EMPLOYEES PAC\x1C\x1C\x1C\x1C\x1C\x1C\x1C241
+    RALPH MCGILL BOULEVARD NE\x1CBIN 10111\x1CATLANTA\x1CGA\x1C30308\x1CAFF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250407
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: C00144774
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: SOUTHERN COMPANY EMPLOYEES PAC
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: 241 RALPH MCGILL BOULEVARD NE
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: BIN 10111
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: ATLANTA
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: GA
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: '30308'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: AFF
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: ''
+  - name: BANK STREET 1
+    number: 32-9.
+    value: ''
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: ''
+  - name: BANK STATE
+    number: 35-9.
+    value: ''
+  - name: BANK ZIP
+    number: 36-9.
+    value: '
+
+'
+- input: "F1S\x1CC00250407\x1C\x1C\x1CC00144147\x1CMISSISSIPPI POWER COMPANY FEDERAL
+    PAC A/K/A/ MS PWR CO. EMPLOYEES' COMM. FOR RESP FED GOV\x1C\x1C\x1C\x1C\x1C\x1C\x1C2992
+    WEST BEACH BLVD\x1C\x1CGULFPORT\x1CMS\x1C39502\x1CAFF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250407
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: C00144147
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: MISSISSIPPI POWER COMPANY FEDERAL PAC A/K/A/ MS PWR CO. EMPLOYEES' COMM.
+      FOR RESP FED GOV
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: 2992 WEST BEACH BLVD
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: GULFPORT
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: MS
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: '39502'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: AFF
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: ''
+  - name: BANK STREET 1
+    number: 32-9.
+    value: ''
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: ''
+  - name: BANK STATE
+    number: 35-9.
+    value: ''
+  - name: BANK ZIP
+    number: 36-9.
+    value: '
+
+'
+- input: "F1S\x1CC00250407\x1C\x1C\x1CC00077305\x1CALABAMA POWER CO EMPLOYEES FEDERAL
+    POLITICAL ACTION CMTE (APC EMPLOYEES FEDERAL PAC)\x1C\x1C\x1C\x1C\x1C\x1C\x1C600
+    NORTH 18TH STREET\x1CPO BOX 2641\x1CBIRMINGHAM\x1CAL\x1C35291\x1CAFF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250407
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: C00077305
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: ALABAMA POWER CO EMPLOYEES FEDERAL POLITICAL ACTION CMTE (APC EMPLOYEES
+      FEDERAL PAC)
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: 600 NORTH 18TH STREET
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: PO BOX 2641
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: BIRMINGHAM
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: AL
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: '35291'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: AFF
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: ''
+  - name: BANK STREET 1
+    number: 32-9.
+    value: ''
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: ''
+  - name: BANK STATE
+    number: 35-9.
+    value: ''
+  - name: BANK ZIP
+    number: 36-9.
+    value: '
+
+'
+- input: "F1S\x1CC00250407\x1C\x1C\x1CC00120519\x1CRESPONSIBLE GOVERNMENT COMMITTEE
+    OF GULF EMPLOYEES INC\x1C\x1C\x1C\x1C\x1C\x1C\x1C140 HOLLYWOOD BOULEVARD SW\x1CPO
+    BOX 1151\x1CFORT WALTON BEACH\x1CFL\x1C32548\x1CAFF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250407
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: C00120519
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: RESPONSIBLE GOVERNMENT COMMITTEE OF GULF EMPLOYEES INC
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: 140 HOLLYWOOD BOULEVARD SW
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: PO BOX 1151
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: FORT WALTON BEACH
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: FL
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: '32548'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: AFF
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: ''
+  - name: BANK STREET 1
+    number: 32-9.
+    value: ''
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: ''
+  - name: BANK STATE
+    number: 35-9.
+    value: ''
+  - name: BANK ZIP
+    number: 36-9.
+    value: '
+
+'
+- input: "F1S\x1CC00250407\x1C\x1C\x1CC00119776\x1CGEORGIA POWER COMPANY FEDERAL PAC
+    INC\x1C\x1C\x1C\x1C\x1C\x1C\x1C241 RALPH MCGILL BOULEVARD NE\x1C\x1CATLANTA\x1CGA\x1C30308\x1CAFF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v7_0.F1S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1S
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250407
+  - name: JOINT FUND PARTICIPANT Committee NAME
+    number: 3-5.
+    value: ''
+  - name: JOINT FUND PARTICIPANT Committee FEC-ID
+    number: 4-5.
+    value: ''
+  - name: AFFILIATED Committee ID NUM
+    number: 5-6.
+    value: C00119776
+  - name: AFFILIATED Committee NAME
+    number: 6-6.
+    value: GEORGIA POWER COMPANY FEDERAL PAC INC
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 7-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 8-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 9-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 10-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 11-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 12-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 13-6.
+    value: 241 RALPH MCGILL BOULEVARD NE
+  - name: AFFILIATED STREET 2
+    number: 14-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 15-6.
+    value: ATLANTA
+  - name: AFFILIATED STATE
+    number: 16-6.
+    value: GA
+  - name: AFFILIATED ZIP
+    number: 17-6.
+    value: '30308'
+  - name: AFFILIATED RELATIONSHIP CODE
+    number: 18-6.
+    value: AFF
+  - name: AGENT LAST NAME
+    number: 19-8.
+    value: ''
+  - name: AGENT FIRST NAME
+    number: 20-8.
+    value: ''
+  - name: AGENT MIDDLE NAME
+    number: 21-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 22-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 23-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 24-8.
+    value: ''
+  - name: AGENT STREET 2
+    number: 25-8.
+    value: ''
+  - name: AGENT CITY
+    number: 26-8.
+    value: ''
+  - name: AGENT STATE
+    number: 27-8.
+    value: ''
+  - name: AGENT ZIP
+    number: 28-8.
+    value: ''
+  - name: AGENT TITLE
+    number: 29-8.
+    value: ''
+  - name: AGENT TELEPHONE
+    number: 30-8.
+    value: ''
+  - name: BANK NAME
+    number: 31-9.
+    value: ''
+  - name: BANK STREET 1
+    number: 32-9.
+    value: ''
+  - name: BANK STREET 2
+    number: 33-9.
+    value: ''
+  - name: BANK CITY
+    number: 34-9.
+    value: ''
+  - name: BANK STATE
+    number: 35-9.
+    value: ''
+  - name: BANK ZIP
+    number: 36-9.
+    value: '
+
+'
+sourceurl: !!python/unicode 20110808
+type: chunk
