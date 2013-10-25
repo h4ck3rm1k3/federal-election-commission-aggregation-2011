@@ -1,0 +1,951 @@
+countrows: 10
+filename: 746720.fec
+header: {}
+rows:
+- 2
+- input: "F5N\x1CC90011883\x1CORG\x1CAMERICANS FOR LIMITED GOVERNMENT\x1C\x1C\x1C\x1C\x1C\x1C\x1C9900
+    MAIN STREET SUITE 303\x1C\x1CFAIRFAX\x1CVA\x1C22031\x1CN\x1C\x1C\x1C\x1C24\x1C\x1C\x1C0.00\x1C0.00\x1CWILSON\x1CWILLIAM\x1C\x1C\x1C\x1C20111004\n"
+  record: fec.version.v8_0.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: AMERICANS FOR LIMITED GOVERNMENT
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 9900 MAIN STREET SUITE 303
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: FAIRFAX
+  - name: STATE
+    number: '14'
+    value: VA
+  - name: ZIP
+    number: '15'
+    value: '22031'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: N
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '24'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: ''
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '0.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '0.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: WILSON
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: WILLIAM
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20111004
+
+'
+- input: "F57\x1CC90011883\x1CF57.4227\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C26703.46\x1C26703.46\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH8AZ01104\x1CKIRKPATRICK\x1CANN\x1C\x1C\x1C\x1CH\x1CAZ\x1C01\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4227
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '26703.46'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '26703.46'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8AZ01104
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: KIRKPATRICK
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: ANN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '01
+
+'
+- input: "F57\x1CC90011883\x1CF57.4228\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C29272.78\x1C29272.78\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH6AZ05067\x1CMITCHELL\x1CHARRY E.\x1C\x1C\x1C\x1CH\x1CAZ\x1C05\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4228
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '29272.78'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '29272.78'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H6AZ05067
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: MITCHELL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: HARRY E.
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '05
+
+'
+- input: "F57\x1CC90011883\x1CF57.4229\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C850.00\x1C850.00\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH8IL14067\x1CFOSTER\x1CG. WILLIAM (BILL)\x1C\x1C\x1C\x1CH\x1CIL\x1C14\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4229
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '850.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '850.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8IL14067
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: FOSTER
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: G. WILLIAM (BILL)
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '14
+
+'
+- input: "F57\x1CC90011883\x1CF57.4230\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C16557.94\x1C16557.94\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH0MA04036\x1CFRANK\x1CBARNEY\x1C\x1C\x1C\x1CH\x1CMA\x1C04\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4230
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '16557.94'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '16557.94'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0MA04036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: FRANK
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARNEY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: MA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '04
+
+'
+- input: "F57\x1CC90011883\x1CF57.4231\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C26268.29\x1C26268.29\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH8MI09068\x1CPETERS\x1CGARY\x1C\x1C\x1C\x1CH\x1CMI\x1C09\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4231
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '26268.29'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '26268.29'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8MI09068
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: PETERS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: GARY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '09
+
+'
+- input: "F57\x1CC90011883\x1CF57.4232\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C26266.09\x1C26266.09\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH6NC02080\x1CETHERIDGE\x1CBOB\x1C\x1C\x1C\x1CH\x1CNC\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4232
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '26266.09'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '26266.09'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H6NC02080
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: ETHERIDGE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BOB
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NC
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90011883\x1CF57.4233\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C32511.15\x1C32511.15\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH8VA11062\x1CCONNOLLY\x1CGERRY\x1C\x1C\x1C\x1CH\x1CVA\x1C11\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4233
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '32511.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '32511.15'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8VA11062
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: CONNOLLY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: GERRY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '11
+
+'
+- input: "F57\x1CC90011883\x1CF57.4234\x1CORG\x1CDirect Response LLC\x1C\x1C\x1C\x1C\x1C\x1C23640
+    E Beardsley Rd Suite 100\x1C\x1CPhoenix\x1CAZ\x1C85024\x1CG2010\x1C\x1C20101021\x1C14562.88\x1C14562.88\x1CVOTER
+    CONTACT MAIL\x1C004\x1C\x1CO\x1CH6WV04057\x1CRAHALL\x1CNICK JOE II\x1C\x1C\x1C\x1CH\x1CWV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90011883
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.4234
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Direct Response LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 23640 E Beardsley Rd Suite 100
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Phoenix
+  - name: PAYEE STATE
+    number: '14'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '85024'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20101021'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '14562.88'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '14562.88'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: VOTER CONTACT MAIL
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H6WV04057
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: RAHALL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: NICK JOE II
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: WV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+sourceurl: !!python/unicode 20111004
+type: chunk

@@ -1,0 +1,128 @@
+countrows: 2
+filename: 743717.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0CA19173\x1CDENHAM\x1CJEFF\x1C\x1C\x1C\x1C\x1C941 EAST MONTE VISTA\x1C\x1CTURLOCK\x1CCA\x1C95381\x1CREP\x1CH\x1CCA\x1C10\x1C2012\x1CC00473272\x1CDENHAM
+    FOR CONGRESS\x1C2150 RIVER PLAZA DR., #150\x1C\x1CSACRAMENTO\x1CCA\x1C95833\x1CC00491332\x1CAMERICA'S
+    NEW MAJORITY\x1C228 S. WASHINGTON STREET #115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\x1CDENHAM\x1CJEFF\x1C\x1C\x1C\x1C20110831\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0CA19173
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: DENHAM
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: JEFF
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 941 EAST MONTE VISTA
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: TURLOCK
+  - name: CANDIDATE STATE
+    number: '12'
+    value: CA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '95381'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00473272
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: DENHAM FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: '2150 RIVER PLAZA DR., #150'
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: SACRAMENTO
+  - name: PCC STATE
+    number: '24'
+    value: CA
+  - name: PCC ZIP
+    number: '25'
+    value: '95833'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00491332
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: AMERICA'S NEW MAJORITY
+  - name: AUTH STREET 1
+    number: '28'
+    value: '228 S. WASHINGTON STREET #115'
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: DENHAM
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: JEFF
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110831
+
+'
+sourceurl: !!python/unicode 20110831
+type: chunk

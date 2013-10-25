@@ -1,0 +1,128 @@
+countrows: 2
+filename: 746080.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH8CA37137\x1CRichardson\x1CLaura\x1C\x1C\x1C\x1C\x1C110 Pine Ave.,
+    #1010\x1C\x1CLong Beach\x1CCA\x1C90802\x1CDEM\x1CH\x1CCA\x1C44\x1C2012\x1CC00434571\x1CRichardson
+    for Congress\x1C110 Pine Ave., #1010\x1C\x1CLong Beach\x1CCA\x1C90802\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CCrummitt\x1CGary\x1C\x1C\x1C\x1C20110916\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8CA37137
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Richardson
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Laura
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: '110 Pine Ave., #1010'
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Long Beach
+  - name: CANDIDATE STATE
+    number: '12'
+    value: CA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '90802'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '44'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00434571
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Richardson for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: '110 Pine Ave., #1010'
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Long Beach
+  - name: PCC STATE
+    number: '24'
+    value: CA
+  - name: PCC ZIP
+    number: '25'
+    value: '90802'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Crummitt
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Gary
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110916
+
+'
+sourceurl: !!python/unicode 20110922
+type: chunk

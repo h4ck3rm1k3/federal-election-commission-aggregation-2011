@@ -1,0 +1,161 @@
+countrows: 3
+filename: 745686.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0PA12132\x1CCRITZ\x1CMARK\x1C\x1C\x1C\x1C\x1C201 FREDERICK ST\x1C\x1CJOHNSTOWN\x1CPA\x1C15902\x1CDEM\x1CH\x1CPA\x1C12\x1C2012\x1CC00476861\x1CMARK
+    CRITZ FOR CONGRESS COMMITTEE\x1C647 MAIN STREET\x1CSUITE 110\x1CJOHNSTOWN\x1CPA\x1C15901\x1CC00488692\x1CCRITZ-DAHLKEMPER
+    VICTORY FUND\x1C1050 17TH STREET NW SUITE 590\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1CCRITZ\x1CMARK\x1C\x1C\x1C\x1C20110920\n"
+  record: fec.version.v7_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0PA12132
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: CRITZ
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: MARK
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 201 FREDERICK ST
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: JOHNSTOWN
+  - name: CANDIDATE STATE
+    number: '12'
+    value: PA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '15902'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '12'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00476861
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: MARK CRITZ FOR CONGRESS COMMITTEE
+  - name: PCC STREET 1
+    number: '21'
+    value: 647 MAIN STREET
+  - name: PCC STREET 2
+    number: '22'
+    value: SUITE 110
+  - name: PCC CITY
+    number: '23'
+    value: JOHNSTOWN
+  - name: PCC STATE
+    number: '24'
+    value: PA
+  - name: PCC ZIP
+    number: '25'
+    value: '15901'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00488692
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: CRITZ-DAHLKEMPER VICTORY FUND
+  - name: AUTH STREET 1
+    number: '28'
+    value: 1050 17TH STREET NW SUITE 590
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: WASHINGTON
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20036'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: CRITZ
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: MARK
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20110920
+
+'
+- input: "F2S\x1CH0PA12132\x1CC00501825\x1CJARED POLIS VICTORY FUND 2012\x1CPO BOX
+    1174\x1C\x1CSPRINGFIELD\x1CVA\x1C22151\n"
+  record: fec.version.v7_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0PA12132
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00501825
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: JARED POLIS VICTORY FUND 2012
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO BOX 1174
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: SPRINGFIELD
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22151
+
+'
+sourceurl: !!python/unicode 20110920
+type: chunk

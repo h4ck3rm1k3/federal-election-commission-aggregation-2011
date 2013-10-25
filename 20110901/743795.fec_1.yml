@@ -1,0 +1,286 @@
+countrows: 5
+filename: 743795.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Amodei for Nevada
+  - name: STREET 1
+    number: '4'
+    value: 503 N Division St
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Carson City
+  - name: STATE
+    number: '7'
+    value: NV
+  - name: ZIP
+    number: '8'
+    value: '89703'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: S0NV00237
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Amodei
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Mark
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Eugene
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NV
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Neilon
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Nicola
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110901'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00496760\x1CAmodei for Nevada\x1C503 N Division St\x1C\x1CCarson
+    City\x1CNV\x1C89703\x1CS0NV00237\x1CAmodei\x1CMark\x1CEugene\x1C\x1C\x1CH\x1CNV\x1C02\x1CNeilon\x1CNicola\x1C\x1C\x1C\x1C20110901\x1C\n"
+  input_count: 24
+  record: fec.version.v7_0.F6
+  result: []
+- input: "F65\x1CC00496760\x1CF6.6628\x1CCOM\x1CAMERICAN ASSOCIATION OF CLINICAL UROLOGISTS
+    - AMERICAN UROLOGICAL ASSOCIATION PAC (UROPAC)\x1C\x1C\x1C\x1C\x1C\x1C1100 E.
+    WOODFIELD ROAD, SUITE 520\x1C\x1CSCHAUMBURG\x1CIL\x1C60173\x1CC00273003\x1C20110901\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6628
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN ASSOCIATION OF CLINICAL UROLOGISTS - AMERICAN UROLOGICAL ASSOCIATION
+      PAC (UROPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1100 E. WOODFIELD ROAD, SUITE 520
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SCHAUMBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60173'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00273003
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00496760\x1CF6.6629\x1CCOM\x1CLANDRY FOR LOUISIANA\x1C\x1C\x1C\x1C\x1C\x1CPO
+    BOX 13816\x1C\x1CNEW IBERIA\x1CLA\x1C70562\x1CC00472712\x1C20110901\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6629
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: LANDRY FOR LOUISIANA
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 13816
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NEW IBERIA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70562'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00472712
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00496760\x1CF6.6627\x1CCOM\x1CSEQUA CORP/CHROMALLOY GAS TURBINE
+    LLC PAC (SEQUA/CHROMALLOY PAC)\x1C\x1C\x1C\x1C\x1C\x1C300 BLAISDELL ROAD\x1C\x1CORANGEBURG\x1CNY\x1C10962\x1CC00235911\x1C20110831\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6627
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SEQUA CORP/CHROMALLOY GAS TURBINE LLC PAC (SEQUA/CHROMALLOY PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 300 BLAISDELL ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ORANGEBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10962'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00235911
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110831'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110901
+type: chunk

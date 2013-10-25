@@ -1,0 +1,755 @@
+countrows: 12
+filename: 743850.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Amodei for Nevada
+  - name: STREET 1
+    number: '4'
+    value: 503 N Division St
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Carson City
+  - name: STATE
+    number: '7'
+    value: NV
+  - name: ZIP
+    number: '8'
+    value: '89703'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: S0NV00237
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Amodei
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Mark
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Eugene
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NV
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Neilon
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Nicola
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110902'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00496760\x1CAmodei for Nevada\x1C503 N Division St\x1C\x1CCarson
+    City\x1CNV\x1C89703\x1CS0NV00237\x1CAmodei\x1CMark\x1CEugene\x1C\x1C\x1CH\x1CNV\x1C02\x1CNeilon\x1CNicola\x1C\x1C\x1C\x1C20110902\x1C\n"
+  input_count: 24
+  record: fec.version.v7_0.F6
+  result: []
+- input: "F65\x1CC00496760\x1CF6.6667\x1CIND\x1C\x1CBluth\x1CCharles\x1C\x1C\x1C\x1C9550
+    Gateway\x1C\x1CReno\x1CNV\x1C89521\x1C\x1C20110902\x1C2500.00\x1CMedical Equipment\x1CPresident\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6667
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bluth
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charles
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9550 Gateway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89521'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Medical Equipment
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'President
+
+'
+- input: "F65\x1CC00496760\x1CF6.6666\x1CIND\x1C\x1CBluth\x1CCindy\x1C\x1C\x1C\x1C9550
+    Gateway\x1C\x1CReno\x1CNV\x1C89521\x1C\x1C20110901\x1C2500.00\x1CMedical Equipment\x1CBusiness
+    Owner\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6666
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bluth
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cindy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9550 Gateway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89521'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Medical Equipment
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Business Owner
+
+'
+- input: "F65\x1CC00496760\x1CF6.6671\x1CIND\x1C\x1CFarahi\x1CDavid\x1C\x1C\x1C\x1C840
+    S Center St\x1C\x1CReno\x1CNV\x1C89501\x1C\x1C20110902\x1C1000.00\x1CAtlantis
+    Casino Resort\x1CFinance\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6671
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Farahi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 840 S Center St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89501'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Atlantis Casino Resort
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Finance
+
+'
+- input: "F65\x1CC00496760\x1CF6.6672\x1CIND\x1C\x1CFarahi\x1CJohn\x1C\x1C\x1C\x1C3800
+    S. Virginia St.\x1C\x1CReno\x1CNV\x1C89502\x1C\x1C20110902\x1C1000.00\x1CAtlantis
+    Casino Resort\x1CGeneral Manager\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6672
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Farahi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3800 S. Virginia St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89502'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Atlantis Casino Resort
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'General Manager
+
+'
+- input: "F65\x1CC00496760\x1CF6.6670\x1CIND\x1C\x1CRussell\x1CMichael\x1C\x1C\x1C\x1C2725
+    Robb Dr\x1C\x1CReno\x1CNV\x1C89523\x1C\x1C20110901\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6670
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Russell
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2725 Robb Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89523'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00496760\x1CF6.6668\x1CIND\x1C\x1CSturm\x1CRoland\x1C\x1C\x1C\x1C6680
+    Rebecca Rd\x1C\x1CLas Vegas\x1CNV\x1C89131\x1C\x1C20110902\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6668
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sturm
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Roland
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6680 Rebecca Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Las Vegas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89131'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00496760\x1CF6.6669\x1CIND\x1C\x1CWillcut\x1CCraig\x1C\x1C\x1C\x1C613
+    Hawk Hill Ct\x1C\x1Creno\x1CNV\x1C89511\x1C\x1C20110901\x1C1000.00\x1CUnited Construction
+    Co\x1CPresident\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6669
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Willcut
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Craig
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 613 Hawk Hill Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: reno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89511'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: United Construction Co
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'President
+
+'
+- input: "F65\x1CC00496760\x1CF6.6664\x1CPAC\x1CALTRIA GROUP, INC. POLITICAL ACTION
+    COMMITTEE (ALTRIAPAC)\x1C\x1C\x1C\x1C\x1C\x1C101 CONSTITUTION AVE NW\x1CSUITE
+    400W\x1CWASHINGTON\x1CDC\x1C20001\x1CC00089136\x1C20110902\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6664
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ALTRIA GROUP, INC. POLITICAL ACTION COMMITTEE (ALTRIAPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 CONSTITUTION AVE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 400W
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00089136
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00496760\x1CF6.6665\x1CPAC\x1CBUILD POLITICAL ACTION COMMITTEE OF
+    THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)\x1C\x1C\x1C\x1C\x1C\x1C1201
+    15TH STREET, NW\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1CC00000901\x1C20110902\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6665
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS
+      (BUILDPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 15TH STREET, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00000901
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00496760\x1CF6.6673\x1CPAC\x1CINDEPENDENT INSURANCE AGENTS & BROKERS
+    OF AMERICA, INC. POLITICAL ACTION COMMITTEE (INSURP\x1C\x1C\x1C\x1C\x1C\x1C412
+    FIRST STREET, SE, SUITE 300\x1C\x1CWASHINGTON\x1CDC\x1C20003\x1CC00022343\x1C20110902\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6673
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INDEPENDENT INSURANCE AGENTS & BROKERS OF AMERICA, INC. POLITICAL ACTION
+      COMMITTEE (INSURP
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 412 FIRST STREET, SE, SUITE 300
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20003'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00022343
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110902
+type: chunk

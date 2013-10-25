@@ -1,0 +1,128 @@
+countrows: 2
+filename: 747322.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH2AZ07070\x1CGrijalva\x1CRaul\x1CM\x1C\x1C\x1C\x1CPO Box 1242\x1C\x1CTucson\x1CAZ\x1C85702\x1CDEM\x1CH\x1CAZ\x1C07\x1C2012\x1CC00374058\x1CA
+    Whole Lot of People for Grijalva Congressional Committee\x1CPO Box 1242\x1C\x1CTucson\x1CAZ\x1C85702\x1CC00501825\x1CJared
+    Polis Victory fund 2012\x1CPO Box 1174\x1C\x1CSpringfield\x1CVA\x1C22151\x1CGrijalva\x1CRaul\x1CM\x1C\x1C\x1C20111011\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2AZ07070
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Grijalva
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Raul
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: M
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 1242
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Tucson
+  - name: CANDIDATE STATE
+    number: '12'
+    value: AZ
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '85702'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00374058
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: A Whole Lot of People for Grijalva Congressional Committee
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 1242
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Tucson
+  - name: PCC STATE
+    number: '24'
+    value: AZ
+  - name: PCC ZIP
+    number: '25'
+    value: '85702'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00501825
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Jared Polis Victory fund 2012
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO Box 1174
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Springfield
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22151'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Grijalva
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Raul
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: M
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111011
+
+'
+sourceurl: !!python/unicode 20111011
+type: chunk

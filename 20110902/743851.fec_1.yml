@@ -1,0 +1,347 @@
+countrows: 6
+filename: 743851.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00496125\x1CFriends of Kate Marshall\x1CPO Box 2897\x1C\x1CReno\x1CNV\x1C89505\x1CH2NV02247\x1CMarshall\x1CKate\x1C\x1C\x1C\x1CH\x1CNV\x1C02\x1CWicker\x1CWalter\x1CChris\x1C\x1C\x1C20110902\n"
+  record: fec.version.v7_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496125
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Kate Marshall
+  - name: STREET 1
+    number: '4'
+    value: PO Box 2897
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Reno
+  - name: STATE
+    number: '7'
+    value: NV
+  - name: ZIP
+    number: '8'
+    value: '89505'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NV02247
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Marshall
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Kate
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NV
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Wicker
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Walter
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: Chris
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110902
+
+'
+- input: "F65\x1CC00496125\x1CC5692678\x1CIND\x1C\x1CGale\x1CJane\x1C\x1CMrs.\x1C\x1C6722
+    N Rainbow Blvd\x1C\x1CLas Vegas\x1CNV\x1C891313100\x1C\x1C20110901\x1C1000.00\x1CNiche
+    Media\x1CEditor\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5692678
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gale
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jane
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6722 N Rainbow Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Las Vegas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '891313100'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Niche Media
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Editor
+
+'
+- input: "F65\x1CC00496125\x1CC5693239\x1CPAC\x1CGOAL PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 30344\x1C\x1CBethesda\x1CMD\x1C208240344\x1C\x1C20110901\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5693239
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: GOAL PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 30344
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208240344'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00496125\x1CC5692843\x1CIND\x1C\x1CJacoby\x1CPeter\x1C\x1CMr.\x1C\x1C6203
+    Stoneham Ln\x1C\x1CMcLean\x1CVA\x1C221012342\x1C\x1C20110901\x1C1000.00\x1CAT&T\x1CLawyer\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5692843
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jacoby
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Peter
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6203 Stoneham Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: McLean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '221012342'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AT&T
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Lawyer
+
+'
+- input: "F65\x1CC00496125\x1CC5692846\x1CIND\x1C\x1CSchroder\x1CGerri\x1CT\x1CHon.\x1C\x1C537
+    Vantage Ave\x1C\x1CHenderson\x1CNV\x1C890029655\x1C\x1C20110901\x1C1000.00\x1CCity
+    of Henderson\x1CCouncilwoman\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5692846
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Schroder
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gerri
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: T
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Hon.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 537 Vantage Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Henderson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '890029655'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110901'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: City of Henderson
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Councilwoman
+
+'
+sourceurl: !!python/unicode 20110902
+type: chunk

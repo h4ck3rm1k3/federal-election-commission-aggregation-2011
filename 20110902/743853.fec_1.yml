@@ -1,0 +1,220 @@
+countrows: 4
+filename: 743853.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Amodei for Nevada
+  - name: STREET 1
+    number: '4'
+    value: 503 N Division St
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Carson City
+  - name: STATE
+    number: '7'
+    value: NV
+  - name: ZIP
+    number: '8'
+    value: '89703'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: S0NV00237
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Amodei
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Mark
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Eugene
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NV
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Neilon
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Nicola
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110902'
+  - value: '
+
+'
+  expected_count: 23
+  input: "F6\x1CC00496760\x1CAmodei for Nevada\x1C503 N Division St\x1C\x1CCarson
+    City\x1CNV\x1C89703\x1CS0NV00237\x1CAmodei\x1CMark\x1CEugene\x1C\x1C\x1CH\x1CNV\x1C02\x1CNeilon\x1CNicola\x1C\x1C\x1C\x1C20110902\x1C\n"
+  input_count: 24
+  record: fec.version.v7_0.F6
+  result: []
+- input: "F65\x1CC00496760\x1CF6.6692\x1CIND\x1C\x1CGregory\x1CHolly\x1C\x1C\x1C\x1CPO
+    Box 2688\x1C\x1CElko\x1CNV\x1C89601\x1C\x1C20110902\x1C2000.00\x1CPratt Drive
+    LLC\x1CBusiness Owner\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6692
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gregory
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Holly
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2688
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Elko
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pratt Drive LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Business Owner
+
+'
+- input: "F65\x1CC00496760\x1CF6.6693\x1CIND\x1C\x1CGregory\x1CJames\x1C\x1C\x1C\x1CPO
+    Box 2688\x1C\x1CElko\x1CNV\x1C89601\x1C\x1C20110902\x1C2000.00\x1CPratt Drive
+    LLC\x1CBusiness Owner\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496760
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6693
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gregory
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2688
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Elko
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110902'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pratt Drive LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Business Owner
+
+'
+sourceurl: !!python/unicode 20110902
+type: chunk

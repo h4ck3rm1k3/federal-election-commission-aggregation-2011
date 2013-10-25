@@ -1,0 +1,214 @@
+countrows: 4
+filename: 747058.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F7N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70003223
+  - name: ORGANIZATION NAME
+    number: '3'
+    value: Los Angeles County Federation of Labor, AFL-CIO
+  - name: ORGANIZATION STREET 1
+    number: '4'
+    value: 2130 James M. Wood Blvd.
+  - name: ORGANIZATION STREET 2
+    number: '5'
+    value: ''
+  - name: ORGANIZATION CITY
+    number: '6'
+    value: Los Angeles
+  - name: ORGANIZATION STATE
+    number: '7'
+    value: CA
+  - name: ORGANIZATION ZIP
+    number: '8'
+    value: '90006'
+  - name: ORGANIZATION TYPE
+    number: '9'
+    value: L
+  - name: REPORT CODE
+    number: '10'
+    value: Q3
+  - name: DATE OF ELECTION
+    number: '11'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '12'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '13'
+    value: '20110701'
+  - name: COVERAGE THROUGH DATE
+    number: '14'
+    value: '20110930'
+  - name: TOTAL COSTS
+    number: '15'
+    value: '14901.35'
+  - name: PERSON DESIGNATED TO SIGN LAST NAME
+    number: '16'
+    value: Durazo
+  - name: PERSON DESIGNATED TO SIGN FIRST NAME
+    number: '17'
+    value: Maria Elena
+  - name: PERSON DESIGNATED TO SIGN MIDDLE NAME
+    number: '18'
+    value: ''
+  - name: PERSON DESIGNATED TO SIGN PREFIX
+    number: '19'
+    value: ''
+  - name: PERSON DESIGNATED TO SIGN SUFFIX
+    number: '20'
+    value: ''
+  - name: PERSON DESIGNATED TO SIGN TITLE
+    number: '21'
+    value: Treasurer
+  - name: DATE SIGNED
+    number: '22'
+    value: '20111007'
+  - value: '
+
+'
+  expected_count: 22
+  input: "F7N\x1CC70003223\x1CLos Angeles County Federation of Labor, AFL-CIO\x1C2130
+    James M. Wood Blvd.\x1C\x1CLos Angeles\x1CCA\x1C90006\x1CL\x1CQ3\x1C\x1C\x1C20110701\x1C20110930\x1C14901.35\x1CDurazo\x1CMaria
+    Elena\x1C\x1C\x1C\x1CTreasurer\x1C20111007\x1C\n"
+  input_count: 23
+  record: fec.version.v8_0.F7
+  result: []
+- input: "F76\x1CC70003223\x1CF76.4100\x1CDM\x1C\x1CM\x1C20110701\x1C7635.10\x1CR2011\x1CRunoff\x1CS\x1CH8CA36097\x1CHahn\x1CJanice\x1C\x1C\x1C\x1CH\x1CCA\x1C36\n"
+  record: fec.version.v8_0.F76
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70003223
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F76.4100
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20110701'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '7635.10'
+  - name: ELECTION CODE
+    number: '9'
+    value: R2011
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: Runoff
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8CA36097
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Hahn
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Janice
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '36
+
+'
+- input: "F76\x1CC70003223\x1CF76.4101\x1CTP\x1C\x1CM\x1C20110701\x1C7266.25\x1CR2011\x1CRunoff\x1CS\x1CH8CA36097\x1CHahn\x1CJanice\x1C\x1C\x1C\x1CH\x1CCA\x1C36\n"
+  record: fec.version.v8_0.F76
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70003223
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F76.4101
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: TP
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20110701'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '7266.25'
+  - name: ELECTION CODE
+    number: '9'
+    value: R2011
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: Runoff
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8CA36097
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Hahn
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Janice
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '36
+
+'
+sourceurl: !!python/unicode 20111008
+type: chunk

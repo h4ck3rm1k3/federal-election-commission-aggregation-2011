@@ -1,0 +1,547 @@
+countrows: 9
+filename: 744021.fec
+header: {}
+rows:
+- 2
+- input: "F6\x1CC00499103\x1CDavid Weprin for Congress\x1C72-50 Austin Street\x1CSecond
+    Floor\x1CForest Hills\x1CNY\x1C11375\x1CH2NY09086\x1CWeprin\x1CDavid\x1CI.\x1C\x1C\x1CH\x1CNY\x1C09\x1CWeprin\x1CBarry\x1CA.\x1C\x1C\x1C20110907\n"
+  record: fec.version.v7_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: COMMITTEE NAME
+    number: '3'
+    value: David Weprin for Congress
+  - name: STREET 1
+    number: '4'
+    value: 72-50 Austin Street
+  - name: STREET 2
+    number: '5'
+    value: Second Floor
+  - name: CITY
+    number: '6'
+    value: Forest Hills
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11375'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NY09086
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Weprin
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: I.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Weprin
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Barry
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: A.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20110907
+
+'
+- input: "F65\x1CC00499103\x1CC7269205\x1CPAC\x1CAMERICAN FEDERATION OF GOVT. EMPL.
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C80 F STREET, NW\x1C\x1CWASHINGTON\x1CDC\x1C20001\x1CC00009936\x1C20110906\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C7269205
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN FEDERATION OF GOVT. EMPL. POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 80 F STREET, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00009936
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110906'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00499103\x1CC7269216\x1CCCM\x1CENGEL FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1C462
+    CALIFORNIA ROAD\x1C\x1CBRONXVILLE\x1CNY\x1C10708\x1CC00236513\x1C20110906\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C7269216
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ENGEL FOR CONGRESS
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 462 CALIFORNIA ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BRONXVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10708'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00236513
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110906'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00499103\x1CC7269200\x1CCOM\x1CFriends of Mike Gianaris\x1C\x1C\x1C\x1C\x1C\x1C21-77
+    31 St, Suite 107\x1C\x1CAstoria\x1CNY\x1C11105\x1C\x1C20110906\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C7269200
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Friends of Mike Gianaris
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 21-77 31 St, Suite 107
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Astoria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '11105'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110906'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00499103\x1CC7268211\x1CIND\x1C\x1CKalichman\x1CMorris\x1C\x1C\x1C\x1C110
+    Colleen Rd\x1C\x1CTroy\x1CNY\x1C121806176\x1C\x1C20110906\x1C1000.00\x1CSelf\x1CReal
+    Estate\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C7268211
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kalichman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Morris
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 110 Colleen Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Troy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '121806176'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110906'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Real Estate
+
+'
+- input: "F65\x1CC00499103\x1CC7269188\x1CPAC\x1CPROGRESSIVE CHOICES PAC\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 58\x1C\x1CEVANSTON\x1CIL\x1C60204\x1CC00381806\x1C20110906\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C7269188
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PROGRESSIVE CHOICES PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 58
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: EVANSTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60204'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00381806
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110906'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00499103\x1CC7269186\x1CPAC\x1CSEIU COPE (SERVICE EMPLOYEES INTERNATIONAL
+    UNION COMMITTEE ON POLITICAL EDUCATION)\x1C\x1C\x1C\x1C\x1C\x1C1800 MASSACHUSETTS
+    AVE NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1CC00004036\x1C20110906\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C7269186
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL
+      EDUCATION)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1800 MASSACHUSETTS AVE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00004036
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110906'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00499103\x1CC7269183\x1CPAC\x1CTRANSPORT WORKERS UNION POLITICAL
+    CONTRIBUTIONS COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C501 THIRD ST. NW 9TH FLOOR\x1C\x1CWASHINGTON\x1CDC\x1C20001\x1CC00008268\x1C20110906\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v7_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C7269183
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: TRANSPORT WORKERS UNION POLITICAL CONTRIBUTIONS COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 501 THIRD ST. NW 9TH FLOOR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00008268
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20110906'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20110907
+type: chunk

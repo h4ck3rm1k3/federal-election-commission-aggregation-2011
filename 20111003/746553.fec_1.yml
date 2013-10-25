@@ -1,0 +1,128 @@
+countrows: 2
+filename: 746553.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0NC13015\x1CRandall\x1CWilliam\x1CAlfred\x1CMr.\x1CII\x1C\x1C242
+    Sugar Maple Avenue\x1C\x1CWake Forest\x1CNC\x1C27587\x1CREP\x1CH\x1CNC\x1C13\x1C2012\x1CC00465096\x1CRandall
+    for Congress Committee\x1CP.O. Box 97905\x1C\x1CRaleigh\x1CNC\x1C276247905\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CRandall\x1CWilliam\x1CAlfred\x1CMr.\x1CII\x1C20111003\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NC13015
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Randall
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: William
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Alfred
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: II
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 242 Sugar Maple Avenue
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Wake Forest
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NC
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '27587'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '13'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00465096
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Randall for Congress Committee
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. Box 97905
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Raleigh
+  - name: PCC STATE
+    number: '24'
+    value: NC
+  - name: PCC ZIP
+    number: '25'
+    value: '276247905'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Randall
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: William
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: Alfred
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Mr.
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: II
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111003
+
+'
+sourceurl: !!python/unicode 20111003
+type: chunk
