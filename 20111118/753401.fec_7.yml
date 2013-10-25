@@ -1,0 +1,404 @@
+countrows: 3
+filename: 753401.fec
+header: {}
+rows:
+- input: "SB26\x1CC00011114\x1CSB26.227682\x1C\x1C\x1CORG\x1CAMALGAMATED BANK LOANS\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 5660\x1C\x1CHicksville\x1CNY\x1C118025660\x1C\x1C\x1C20111012\x1C104166.00\x1C\x1CLoan
+    payment 10/12/11\x1C009\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_0.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB26
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00011114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB26.227682
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: AMALGAMATED BANK LOANS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 5660
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hicksville
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '118025660'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111012'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '104166.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Loan payment 10/12/11
+  - name: CATEGORY CODE
+    number: '24'
+    value: 009
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB28A\x1CC00011114\x1CSB28A.224971\x1C\x1C\x1CIND\x1C\x1CPALMQUIST\x1CWILLIAM\x1CR.\x1C\x1C\x1C733
+    -37th Avenue\x1C\x1CSeattle\x1CWA\x1C981225222\x1C\x1C\x1C20111028\x1C550.70\x1C\x1CRefund/Erroneous
+    deduction\x1C010\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_0.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB28A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00011114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB28A.224971
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: PALMQUIST
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: WILLIAM
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 733 -37th Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Seattle
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '981225222'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20111028'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '550.70'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Refund/Erroneous deduction
+  - name: CATEGORY CODE
+    number: '24'
+    value: '010'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SC/10\x1CC00011114\x1CSC/10.182783\x1C13\x1CORG\x1CAMALGAMATED BANK\x1C\x1C\x1C\x1C\x1C\x1C275
+    7th Avenue\x1C\x1CNew York\x1CNY\x1C10001\x1C\x1C\x1C500000.00\x1C291660.00\x1C208340.00\x1C20101022\x1C12/31/2011\x1C0.0425\x1CY\x1CN\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_0.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00011114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.182783
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: '13'
+  - name: ENTITY TYPE
+    number: '5'
+    value: ORG
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: AMALGAMATED BANK
+  - name: LENDER LAST NAME
+    number: '7'
+    value: ''
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: ''
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 275 7th Avenue
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: New York
+  - name: LENDER STATE
+    number: '15'
+    value: NY
+  - name: LENDER ZIP
+    number: '16'
+    value: '10001'
+  - name: ELECTION CODE
+    number: '17'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '500000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '291660.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '208340.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20101022'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 12/31/2011
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0425'
+  - name: Secured?
+    number: 25-
+    value: Y
+  - name: Personal Funds
+    number: 26-
+    value: N
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+sourceurl: !!python/unicode 20111118
+type: chunk
