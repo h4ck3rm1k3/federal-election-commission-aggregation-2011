@@ -1,0 +1,931 @@
+countrows: 13
+filename: 748773.fec
+header: {}
+rows:
+- input: "SC/10\x1CC00433136\x1CL689\x1C13A\x1CIND\x1C\x1CTsongas\x1CNicola\x1C\x1C\x1CPERS
+    FUNDS\x1C52 Lawrence Dr\x1C\x1CLowell\x1CMA\x1C018543644\x1CG2010\x1C\x1C10000.00\x1C0.00\x1C10000.00\x1C20101102\x1Cupon
+    demand\x1C.0000\x1CN\x1CY\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_0.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: L689
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: IND
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Tsongas
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Nicola
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: PERS FUNDS
+  - name: LENDER STREET 1
+    number: '12'
+    value: 52 Lawrence Dr
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: Lowell
+  - name: LENDER STATE
+    number: '15'
+    value: MA
+  - name: LENDER ZIP
+    number: '16'
+    value: 018543644
+  - name: ELECTION CODE
+    number: '17'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '10000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '10000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20101102'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: upon demand
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC/10\x1CC00433136\x1CL692\x1C13A\x1CIND\x1C\x1CTsongas\x1CNicola\x1C\x1C\x1CPERS
+    FUNDS\x1C52 Lawrence Dr\x1C\x1CLowell\x1CMA\x1C018543644\x1CG2010\x1C\x1C17000.00\x1C0.00\x1C17000.00\x1C20101210\x1Cupon
+    demand\x1Cnone\x1CN\x1CY\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_0.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: L692
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: IND
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Tsongas
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Nicola
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: PERS FUNDS
+  - name: LENDER STREET 1
+    number: '12'
+    value: 52 Lawrence Dr
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: Lowell
+  - name: LENDER STATE
+    number: '15'
+    value: MA
+  - name: LENDER ZIP
+    number: '16'
+    value: 018543644
+  - name: ELECTION CODE
+    number: '17'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '17000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '17000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20101210'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: upon demand
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: none
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SD10\x1CC00433136\x1CD326982\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cmail letters and evnvelopes\x1C7069.10\x1C0.00\x1C7069.10\x1C0.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D326982
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: mail letters and evnvelopes
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '7069.10'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '7069.10'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+- input: "SD10\x1CC00433136\x1CD332623\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cmailing\x1C4900.56\x1C0.00\x1C4900.56\x1C0.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D332623
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: mailing
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '4900.56'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '4900.56'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+- input: "SD10\x1CC00433136\x1CD347592\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cletterhead\x1C1123.56\x1C0.00\x1C100.00\x1C1023.56\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D347592
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: letterhead
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '1123.56'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '100.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1023.56
+
+'
+- input: "SD10\x1CC00433136\x1CD347594\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cletterhead\x1C1206.63\x1C0.00\x1C0.00\x1C1206.63\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D347594
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: letterhead
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '1206.63'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1206.63
+
+'
+- input: "SD10\x1CC00433136\x1CD347595\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cmailing invites\x1C3973.94\x1C0.00\x1C0.00\x1C3973.94\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D347595
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: mailing invites
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '3973.94'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '3973.94
+
+'
+- input: "SD10\x1CC00433136\x1CD356830\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cmail envelopes\x1C0.00\x1C3291.68\x1C0.00\x1C3291.68\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D356830
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: mail envelopes
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '3291.68'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '3291.68
+
+'
+- input: "SD10\x1CC00433136\x1CD356831\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cletterhead/envelopes\x1C0.00\x1C5719.89\x1C0.00\x1C5719.89\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D356831
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: letterhead/envelopes
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '5719.89'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '5719.89
+
+'
+- input: "SD10\x1CC00433136\x1CD356832\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cenvelopes/cards\x1C0.00\x1C3112.37\x1C0.00\x1C3112.37\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D356832
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: envelopes/cards
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '3112.37'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '3112.37
+
+'
+- input: "SD10\x1CC00433136\x1CD356833\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Ccards\x1C0.00\x1C552.30\x1C0.00\x1C552.30\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D356833
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: cards
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '552.30'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '552.30
+
+'
+- input: "SD10\x1CC00433136\x1CD356835\x1CORG\x1CGrossman Marketing Group\x1C\x1C\x1C\x1C\x1C\x1C30
+    Cobble Hill Rd\x1C\x1CSomerville\x1CMA\x1C021434412\x1Cletterhead/envelopes\x1C0.00\x1C5673.35\x1C0.00\x1C5673.35\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: D356835
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Grossman Marketing Group
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 30 Cobble Hill Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Somerville
+  - name: CREDITOR STATE
+    number: '14'
+    value: MA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '021434412'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: letterhead/envelopes
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '5673.35'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '5673.35
+
+'
+- input: "TEXT\x1CC00433136\x1CX1\x1CC7388917\x1CSA14\x1CCOBRA payment\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433136
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: C7388917
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA14
+  - name: TEXT4000
+    number: '6'
+    value: 'COBRA payment
+
+'
+sourceurl: !!python/unicode 20111015
+type: chunk

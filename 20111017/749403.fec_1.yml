@@ -1,0 +1,129 @@
+countrows: 2
+filename: 749403.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CP20002523\x1CRoemer\x1CCharles\x1CE. ''Buddy''\x1C\x1CIII\x1CX\x1C66
+    Hanover Street, 200C\x1C\x1CManchester\x1CNH\x1C03101\x1CREP\x1CP\x1C\x1C\x1C2012\x1CC00493692\x1CBuddy
+    Roemer for President, Inc.\x1C66 Hanover Street, 200C\x1C\x1CManchester\x1CNH\x1C03101\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CRoemer\x1CCharles\x1CE.
+    ''Buddy''\x1C\x1CIII\x1C20111017\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: P20002523
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Roemer
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Charles
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: E. ''Buddy''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: III
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: X
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 66 Hanover Street, 200C
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Manchester
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NH
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '03101'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: P
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00493692
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Buddy Roemer for President, Inc.
+  - name: PCC STREET 1
+    number: '21'
+    value: 66 Hanover Street, 200C
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Manchester
+  - name: PCC STATE
+    number: '24'
+    value: NH
+  - name: PCC ZIP
+    number: '25'
+    value: '03101'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Roemer
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Charles
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: E. ''Buddy''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: III
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111017
+
+'
+sourceurl: !!python/unicode 20111017
+type: chunk

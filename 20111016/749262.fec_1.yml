@@ -1,0 +1,93 @@
+countrows: 2
+filename: 749262.fec
+header: {}
+rows:
+- 2
+- input: "F3LN\x1CC00196774\x1CThe Markey Committee\x1C\x1CP. O. Box 526\x1C\x1CMedford\x1CMA\x1C02155\x1CMA\x1C07\x1CQ3\x1C\x1C\x1C\x1C20110701\x1C20110930\x1C\x1C\x1C0.00\x1C\x1CCarbone\x1CMarie\x1CC.\x1CMs.\x1C\x1C20111015\n"
+  record: fec.version.v8_0.F3L
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3LN
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00196774
+  - name: COMMITTEE NAME
+    number: '3'
+    value: The Markey Committee
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: P. O. Box 526
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Medford
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02155'
+  - name: ELECTION STATE
+    number: '10'
+    value: MA
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: '07'
+  - name: REPORT CODE
+    number: '12'
+    value: Q3
+  - name: DATE OF ELECTION
+    number: '13'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '14'
+    value: ''
+  - name: SEMI-ANNUAL PERIOD - Sect 5(c) or (d)
+    number: '15'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '16'
+    value: '20110701'
+  - name: COVERAGE THROUGH DATE
+    number: '17'
+    value: '20110930'
+  - name: SEMI-ANNUAL JAN-JUN - Sect 6(b)
+    number: '18'
+    value: ''
+  - name: SEMI-ANNUAL JUL-DEC - Sect 6(b)
+    number: '19'
+    value: ''
+  - name: QTR/MON/POST BUNDLED CONTRIBUTIONS
+    number: '20'
+    value: '0.00'
+  - name: SEMI-ANNUAL BUNDLED CONTRIBS
+    number: '21'
+    value: ''
+  - name: TREASURER LAST NAME
+    number: '22'
+    value: Carbone
+  - name: TREASURER FIRST NAME
+    number: '23'
+    value: Marie
+  - name: TREASURER MIDDLE NAME
+    number: '24'
+    value: C.
+  - name: TREASURER PREFIX
+    number: '25'
+    value: Ms.
+  - name: TREASURER SUFFIX
+    number: '26'
+    value: ''
+  - name: DATE SIGNED
+    number: '27'
+    value: '20111015
+
+'
+sourceurl: !!python/unicode 20111016
+type: chunk

@@ -1,0 +1,192 @@
+countrows: 4
+filename: 748836.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH8MI09068\x1CPETERS\x1CGARY\x1C\x1C\x1C\x1CX\x1CP.O. BOX 21535\x1C\x1CDETROIT\x1CMI\x1C48221\x1CDEM\x1CH\x1CMI\x1C14\x1C2012\x1CC00437889\x1CPETERS
+    FOR CONGRESS\x1CP.O. BOX 21535\x1C\x1CDETROIT\x1CMI\x1C48221\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CPETERS\x1CGARY\x1C\x1C\x1C\x1C20111014\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8MI09068
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: PETERS
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: GARY
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: X
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: P.O. BOX 21535
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: DETROIT
+  - name: CANDIDATE STATE
+    number: '12'
+    value: MI
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '48221'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '14'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00437889
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: PETERS FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. BOX 21535
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: DETROIT
+  - name: PCC STATE
+    number: '24'
+    value: MI
+  - name: PCC ZIP
+    number: '25'
+    value: '48221'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: PETERS
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: GARY
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111014
+
+'
+- input: "F2S\x1CH8MI09068\x1CC00461913\x1CJARED POLIS VICTORY FUND\x1CPO BOX 1174\x1C\x1CSPRINGFIELD\x1CVA\x1C22151\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8MI09068
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00461913
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: JARED POLIS VICTORY FUND
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO BOX 1174
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: SPRINGFIELD
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22151
+
+'
+- input: "F2S\x1CH8MI09068\x1CC00501825\x1CJARED POLIS VICTORY FUND 2012\x1CPO BOX
+    1174\x1C\x1CSPRINGFIELD\x1CVA\x1C22151\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8MI09068
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00501825
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: JARED POLIS VICTORY FUND 2012
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO BOX 1174
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: SPRINGFIELD
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22151
+
+'
+sourceurl: !!python/unicode 20111015
+type: chunk

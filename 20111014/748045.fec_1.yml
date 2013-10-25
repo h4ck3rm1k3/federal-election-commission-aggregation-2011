@@ -1,0 +1,162 @@
+countrows: 3
+filename: 748045.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0TX27061\x1CFarenthold\x1CRandolph\x1CBlake\x1C\x1C\x1C\x1C5601
+    Ocean Drive\x1C\x1CCorpus Christi\x1CTX\x1C78412\x1CREP\x1CH\x1CTX\x1C27\x1C2012\x1CC00473736\x1CElect
+    Blake Farenthold Committee\x1CP.O. Box 3369\x1C\x1CCorpus Christi\x1CTX\x1C78463\x1CC00493577\x1CGreat
+    Eight Committee\x1C228 S. Washington St., Ste. 115\x1C\x1CAlexandria\x1CVA\x1C22314\x1CFarenthold\x1CRandolph\x1CBlake\x1C\x1C\x1C20111014\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0TX27061
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Farenthold
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Randolph
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Blake
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 5601 Ocean Drive
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Corpus Christi
+  - name: CANDIDATE STATE
+    number: '12'
+    value: TX
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '78412'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '27'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00473736
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Elect Blake Farenthold Committee
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. Box 3369
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Corpus Christi
+  - name: PCC STATE
+    number: '24'
+    value: TX
+  - name: PCC ZIP
+    number: '25'
+    value: '78463'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00493577
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Great Eight Committee
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S. Washington St., Ste. 115
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Farenthold
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Randolph
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: Blake
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20111014
+
+'
+- input: "F2S\x1CH0TX27061\x1CC00502765\x1CCANSECO-FARENTHOLD VICTORY COMMITTEE\x1C825
+    5TH ST NE UNIT C\x1C\x1CWASHINGTON\x1CDC\x1C20002\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0TX27061
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00502765
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: CANSECO-FARENTHOLD VICTORY COMMITTEE
+  - name: AUTH STREET 1
+    number: '5'
+    value: 825 5TH ST NE UNIT C
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: WASHINGTON
+  - name: AUTH STATE
+    number: '8'
+    value: DC
+  - name: AUTH ZIP
+    number: '9'
+    value: '20002
+
+'
+sourceurl: !!python/unicode 20111014
+type: chunk
